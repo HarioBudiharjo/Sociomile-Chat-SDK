@@ -1,0 +1,6 @@
+framework module SociomileChatSDK {
+  umbrella header "SociomileChatSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

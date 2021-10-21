@@ -1,0 +1,16 @@
+PODS:
+  - SociomileChatSDK (1.0.0)
+
+DEPENDENCIES:
+  - SociomileChatSDK (from `./`)
+
+EXTERNAL SOURCES:
+  SociomileChatSDK:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  SociomileChatSDK: 3fea3efed90a8cd197f7c5830945d4d1d0448334
+
+PODFILE CHECKSUM: 9d583d07e8b50b95447ea2b79e9d081949e919de
+
+COCOAPODS: 1.10.0

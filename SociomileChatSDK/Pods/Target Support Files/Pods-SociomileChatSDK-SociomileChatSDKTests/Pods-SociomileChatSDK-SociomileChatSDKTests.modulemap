@@ -1,0 +1,6 @@
+framework module Pods_SociomileChatSDK_SociomileChatSDKTests {
+  umbrella header "Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

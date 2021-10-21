@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A94FD58F21EF460160DE92BAED3BD5 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE46BDA260CA8A8FE8E2CC29DA14D9FD /* Chat.storyboard */; };
+		05F5CBC93EE349EEC27DDD05DA9AE903 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5248FD5FBCB53A3D962BD346F48045 /* Media.xcassets */; };
+		13F80693059C0C41E6A84A50F05AB381 /* Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A46AAFC523C9CA0406D151C158150 /* Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m */; };
+		22C7FA13A1DC7CA835B2BA75B0BDAF3F /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F6EEBA182E7F2555D8E12BF7A43DA /* ExitViewController.swift */; };
+		26AC6AC2D487484D1C4D885466EF111C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE94A38BBA3817F55034E831BC8EB5C /* FormViewController.swift */; };
+		3840AA8486A108F136010953BD166E6F /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3C9C3EC86318901F814294D244E086 /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43ACCA655A2570F6A901851E547A33BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5ACD96237C5636D4621FB77EBE444528 /* SociomileChatSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542BF5BC3763912F25EC3720FBB20C6A /* SociomileChatSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C87CD0F004D4C7219CB354CAA804FBA /* Pods-SociomileChatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4AA2EDEB5E35EC2734E66F3182CA37 /* Pods-SociomileChatSDK-dummy.m */; };
+		5D91D6EB93C45230D47FA80A146DBFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		608E3A3425E058A4C26C31079D43CADD /* ImageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36C8C79ABD41D6B9E6B99203C3858635 /* ImageChatCell.xib */; };
+		81DB69BC3106D97205BFF9493F5CAD12 /* Pods-SociomileChatSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CED1CCCA027A008FBC29A56E32DFFC7 /* Pods-SociomileChatSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E98DE93698656EF39E66513564383ED /* Pods-SociomileChatSDKApps-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB16D53C89225FB8DC791FA8AD9F97A9 /* Pods-SociomileChatSDKApps-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		990E226F41055089F241CE1E372572E8 /* MessageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83BFE824A60DCBE5A44395A010BB0956 /* MessageChatCell.xib */; };
+		A5094D22C93BC8F177559E99872180E0 /* Pods-SociomileChatSDKApps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F0EA8A23BF134EDBE0722DC804F5B /* Pods-SociomileChatSDKApps-dummy.m */; };
+		BF72E49EFD0AFF6D6EC470B8224CC839 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38261480EBE1B94C6BB2565EA7259255 /* ChatViewController.swift */; };
+		D2AEE8CDBF0181DEAE4C08E852BBEB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB79465726B9B134575A75D69091D868 /* MessageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290CA8078DB662C32854E42114757FE4 /* MessageChatCell.swift */; };
+		DF35128C5CF890AF43A654258EE1A290 /* SociomileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB8812D77C1993AE6444D1B9BD2376 /* SociomileRouter.swift */; };
+		EAC748E447E5DD7AF217122A2232AD3E /* ImageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF358798798ED6E1F6C4813179F1766 /* ImageChatCell.swift */; };
+		F8E9B2F9F457DCD8E66751F07AF5CA97 /* SociomileChatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C504509FC28EF2D1D5065A4025E3D8E1 /* SociomileChatSDK-dummy.m */; };
+		F998F581A4F5F200E9468199AF1E110B /* SociomileChatSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEC931B84BF453B1FA22A23E495FD0C9 /* SociomileChatSDK.bundle */; };
+		FBBBB9F8AC236F42E4C0034E00CE25A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181228A0B7462C9B6BF01717DAA2092E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A042896AB58C201F6A768BA9AA3663;
+			remoteInfo = "SociomileChatSDK-SociomileChatSDK";
+		};
+		4B1B80F25B05FC6B6A5B7FCD0ACABF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B7E94E5CCA43B1A40B1A42236367B9;
+			remoteInfo = SociomileChatSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0067D6D4CC6CCACA90CEA3C23D419FD4 /* Pods-SociomileChatSDK-SociomileChatSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-Info.plist"; sourceTree = "<group>"; };
+		047C9444492ACCA006BCD9C95177200B /* Pods-SociomileChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDK.release.xcconfig"; sourceTree = "<group>"; };
+		098AF0EA789BE85124A1B932587A426F /* SociomileChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SociomileChatSDK.release.xcconfig; sourceTree = "<group>"; };
+		1B4F0EA8A23BF134EDBE0722DC804F5B /* Pods-SociomileChatSDKApps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SociomileChatSDKApps-dummy.m"; sourceTree = "<group>"; };
+		253EEA5BB57913C8A7C57AC0B8112E43 /* Pods-SociomileChatSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SociomileChatSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		254CA7AF6F9C1F809F388C6463175343 /* Pods-SociomileChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		290CA8078DB662C32854E42114757FE4 /* MessageChatCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageChatCell.swift; sourceTree = "<group>"; };
+		36C8C79ABD41D6B9E6B99203C3858635 /* ImageChatCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ImageChatCell.xib; sourceTree = "<group>"; };
+		38261480EBE1B94C6BB2565EA7259255 /* ChatViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		387C7F5084DD2F3190A2E5887CE19157 /* Pods-SociomileChatSDKApps-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDKApps-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FFD4DCAE8680D920FDAAC890E2A1903 /* Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A3C9C3EC86318901F814294D244E086 /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h"; sourceTree = "<group>"; };
+		52B43C441F84423C296EF9C5035BBBA4 /* Pods-SociomileChatSDKApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDKApps.debug.xcconfig"; sourceTree = "<group>"; };
+		542BF5BC3763912F25EC3720FBB20C6A /* SociomileChatSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SociomileChatSDK-umbrella.h"; sourceTree = "<group>"; };
+		5977DAA9BD353B9757A3F081615217D7 /* Pods-SociomileChatSDKApps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SociomileChatSDKApps-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CF358798798ED6E1F6C4813179F1766 /* ImageChatCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageChatCell.swift; sourceTree = "<group>"; };
+		6E2F6FD3262A0214E2F84C1E39C03EF4 /* Pods-SociomileChatSDKApps-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDKApps-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B4AA2EDEB5E35EC2734E66F3182CA37 /* Pods-SociomileChatSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SociomileChatSDK-dummy.m"; sourceTree = "<group>"; };
+		7D5248FD5FBCB53A3D962BD346F48045 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = SociomileChatSDK/Assets/Media.xcassets; sourceTree = "<group>"; };
+		808F9384436C3218AC71C315ECEEFB7E /* Pods-SociomileChatSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		83BFE824A60DCBE5A44395A010BB0956 /* MessageChatCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MessageChatCell.xib; sourceTree = "<group>"; };
+		83D640FCAC2FED03E2FB4E59BBBCA1E0 /* SociomileChatSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SociomileChatSDK-prefix.pch"; sourceTree = "<group>"; };
+		8425872EBCB833FBABDAB76A12062F99 /* Pods-SociomileChatSDKApps.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SociomileChatSDKApps.modulemap"; sourceTree = "<group>"; };
+		852713AC54E0BD4D1B0E073060C5161A /* Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86D72893B51293DD29BDA147C99C37DA /* ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
+		91204872B4A270628441EA57B6981C18 /* SociomileChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SociomileChatSDK.framework; path = SociomileChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97511E5C378C38C2BEAA21E29D035BB7 /* Pods-SociomileChatSDKApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDKApps.release.xcconfig"; sourceTree = "<group>"; };
+		9A1C6DAE716412EB281FFCDC743BFA89 /* Pods-SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
+		9B5A46AAFC523C9CA0406D151C158150 /* Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m"; sourceTree = "<group>"; };
+		9CED1CCCA027A008FBC29A56E32DFFC7 /* Pods-SociomileChatSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SociomileChatSDK-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D95539147050D1DEAE39B8B07855FAE /* Pods-SociomileChatSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SociomileChatSDK.modulemap"; sourceTree = "<group>"; };
+		A66F6EEBA182E7F2555D8E12BF7A43DA /* ExitViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
+		B4BC6AF469508FA024B0B66FDF151CCB /* Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBE94A38BBA3817F55034E831BC8EB5C /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		C04E137F6191FD83371A7E70F9CDE9B0 /* SociomileChatSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SociomileChatSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C504509FC28EF2D1D5065A4025E3D8E1 /* SociomileChatSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SociomileChatSDK-dummy.m"; sourceTree = "<group>"; };
+		CAAE3202663C964E6A43E0BA5FF37386 /* SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
+		D237D7E1DA21BE959C20A9864E39B999 /* Pods-SociomileChatSDKApps-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SociomileChatSDKApps-frameworks.sh"; sourceTree = "<group>"; };
+		D2CB8812D77C1993AE6444D1B9BD2376 /* SociomileRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SociomileRouter.swift; sourceTree = "<group>"; };
+		D520D3BA072690AA0770D3D4E9E4755B /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SociomileChatSDK_SociomileChatSDKTests.framework; path = "Pods-SociomileChatSDK-SociomileChatSDKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E266C02197800BC5AD7BDBE23E66B8D6 /* Pods-SociomileChatSDK-SociomileChatSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SociomileChatSDK-SociomileChatSDKTests.modulemap"; sourceTree = "<group>"; };
+		E4367D650B4C3714353D240F3B9FAE04 /* Pods_SociomileChatSDKApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SociomileChatSDKApps.framework; path = "Pods-SociomileChatSDKApps.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B0731D7AD819D871F5AF376840E072 /* Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE31F1DA61E0F6F094BF649E6A856037 /* SociomileChatSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SociomileChatSDK.modulemap; sourceTree = "<group>"; };
+		EEC931B84BF453B1FA22A23E495FD0C9 /* SociomileChatSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SociomileChatSDK.bundle; path = "SociomileChatSDK-SociomileChatSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFF0A0F1AEB6EE03B995FC40AD1B7BC /* SociomileChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SociomileChatSDK.debug.xcconfig; sourceTree = "<group>"; };
+		FA438B9B60BBC2CEF3EB7B2CEC007774 /* Pods_SociomileChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SociomileChatSDK.framework; path = "Pods-SociomileChatSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB16D53C89225FB8DC791FA8AD9F97A9 /* Pods-SociomileChatSDKApps-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SociomileChatSDKApps-umbrella.h"; sourceTree = "<group>"; };
+		FE46BDA260CA8A8FE8E2CC29DA14D9FD /* Chat.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Chat.storyboard; path = SociomileChatSDK/Assets/Chat.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38ACDD3B92A08B9B40E84DE615F69F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DE1B08774A38E409AEEF92DA9DA07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D91D6EB93C45230D47FA80A146DBFC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A2CAF75AB30F1806A953504757CE09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ACCA655A2570F6A901851E547A33BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA120B4A0FB2A9BC65000A3F0A96627B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AEE8CDBF0181DEAE4C08E852BBEB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38FDCC02577000B43B4B307DBF0EE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBBB9F8AC236F42E4C0034E00CE25A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111D1EA45CC8AC691A386E80D7F0FA3E /* Pods-SociomileChatSDKApps */ = {
+			isa = PBXGroup;
+			children = (
+				8425872EBCB833FBABDAB76A12062F99 /* Pods-SociomileChatSDKApps.modulemap */,
+				5977DAA9BD353B9757A3F081615217D7 /* Pods-SociomileChatSDKApps-acknowledgements.markdown */,
+				387C7F5084DD2F3190A2E5887CE19157 /* Pods-SociomileChatSDKApps-acknowledgements.plist */,
+				1B4F0EA8A23BF134EDBE0722DC804F5B /* Pods-SociomileChatSDKApps-dummy.m */,
+				D237D7E1DA21BE959C20A9864E39B999 /* Pods-SociomileChatSDKApps-frameworks.sh */,
+				6E2F6FD3262A0214E2F84C1E39C03EF4 /* Pods-SociomileChatSDKApps-Info.plist */,
+				FB16D53C89225FB8DC791FA8AD9F97A9 /* Pods-SociomileChatSDKApps-umbrella.h */,
+				52B43C441F84423C296EF9C5035BBBA4 /* Pods-SociomileChatSDKApps.debug.xcconfig */,
+				97511E5C378C38C2BEAA21E29D035BB7 /* Pods-SociomileChatSDKApps.release.xcconfig */,
+			);
+			name = "Pods-SociomileChatSDKApps";
+			path = "Target Support Files/Pods-SociomileChatSDKApps";
+			sourceTree = "<group>";
+		};
+		133F6C99AB8DBDC85556EBB804484AAF /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				BBE94A38BBA3817F55034E831BC8EB5C /* FormViewController.swift */,
+			);
+			name = Form;
+			path = SociomileChatSDK/Modules/Form;
+			sourceTree = "<group>";
+		};
+		1DDE44E0694A492C0DB419654F9F092A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA438B9B60BBC2CEF3EB7B2CEC007774 /* Pods_SociomileChatSDK.framework */,
+				D520D3BA072690AA0770D3D4E9E4755B /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework */,
+				E4367D650B4C3714353D240F3B9FAE04 /* Pods_SociomileChatSDKApps.framework */,
+				EEC931B84BF453B1FA22A23E495FD0C9 /* SociomileChatSDK.bundle */,
+				91204872B4A270628441EA57B6981C18 /* SociomileChatSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2474601A5FE2CEEBA42F5E4635353091 /* Exit */ = {
+			isa = PBXGroup;
+			children = (
+				A66F6EEBA182E7F2555D8E12BF7A43DA /* ExitViewController.swift */,
+			);
+			name = Exit;
+			path = SociomileChatSDK/Modules/Exit;
+			sourceTree = "<group>";
+		};
+		30A4A7A4CC452169758ECDA55E46C353 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C04E137F6191FD83371A7E70F9CDE9B0 /* SociomileChatSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30C327308FBDAB7CABB7274E24D8912D /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				38261480EBE1B94C6BB2565EA7259255 /* ChatViewController.swift */,
+				B022D69287216972DD73F51694888D37 /* Cell */,
+			);
+			name = Chat;
+			path = SociomileChatSDK/Modules/Chat;
+			sourceTree = "<group>";
+		};
+		30D74F711EA31F7E31E75F0138D1FC33 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				36C8C79ABD41D6B9E6B99203C3858635 /* ImageChatCell.xib */,
+				83BFE824A60DCBE5A44395A010BB0956 /* MessageChatCell.xib */,
+			);
+			name = Cell;
+			path = SociomileChatSDK/Assets/Cell;
+			sourceTree = "<group>";
+		};
+		32AA0199520F46AB1F1DC7F7AFDD13A0 /* Pods-SociomileChatSDK-SociomileChatSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				E266C02197800BC5AD7BDBE23E66B8D6 /* Pods-SociomileChatSDK-SociomileChatSDKTests.modulemap */,
+				852713AC54E0BD4D1B0E073060C5161A /* Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.markdown */,
+				3FFD4DCAE8680D920FDAAC890E2A1903 /* Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.plist */,
+				9B5A46AAFC523C9CA0406D151C158150 /* Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m */,
+				0067D6D4CC6CCACA90CEA3C23D419FD4 /* Pods-SociomileChatSDK-SociomileChatSDKTests-Info.plist */,
+				4A3C9C3EC86318901F814294D244E086 /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h */,
+				E5B0731D7AD819D871F5AF376840E072 /* Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig */,
+				B4BC6AF469508FA024B0B66FDF151CCB /* Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig */,
+			);
+			name = "Pods-SociomileChatSDK-SociomileChatSDKTests";
+			path = "Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests";
+			sourceTree = "<group>";
+		};
+		4AB63959C1F0AF66021AD7C83ACFD6E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				576F29237543D3B37AD1A0D182BE4347 /* SociomileChatSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		576F29237543D3B37AD1A0D182BE4347 /* SociomileChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FE46BDA260CA8A8FE8E2CC29DA14D9FD /* Chat.storyboard */,
+				7D5248FD5FBCB53A3D962BD346F48045 /* Media.xcassets */,
+				30D74F711EA31F7E31E75F0138D1FC33 /* Cell */,
+				30C327308FBDAB7CABB7274E24D8912D /* Chat */,
+				2474601A5FE2CEEBA42F5E4635353091 /* Exit */,
+				133F6C99AB8DBDC85556EBB804484AAF /* Form */,
+				30A4A7A4CC452169758ECDA55E46C353 /* Pod */,
+				CBB66CA6247EDE0ACFB280B065D4A2C7 /* Router */,
+				89A3D249D87D38DBFD0D8AE26571AB10 /* Support Files */,
+			);
+			name = SociomileChatSDK;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89A3D249D87D38DBFD0D8AE26571AB10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D72893B51293DD29BDA147C99C37DA /* ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist */,
+				EE31F1DA61E0F6F094BF649E6A856037 /* SociomileChatSDK.modulemap */,
+				C504509FC28EF2D1D5065A4025E3D8E1 /* SociomileChatSDK-dummy.m */,
+				CAAE3202663C964E6A43E0BA5FF37386 /* SociomileChatSDK-Info.plist */,
+				83D640FCAC2FED03E2FB4E59BBBCA1E0 /* SociomileChatSDK-prefix.pch */,
+				542BF5BC3763912F25EC3720FBB20C6A /* SociomileChatSDK-umbrella.h */,
+				EEFF0A0F1AEB6EE03B995FC40AD1B7BC /* SociomileChatSDK.debug.xcconfig */,
+				098AF0EA789BE85124A1B932587A426F /* SociomileChatSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/SociomileChatSDK";
+			sourceTree = "<group>";
+		};
+		9EB3BFE8A5970D06E62E5E5E0150AC4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF1BACEF318D8865AC4A476D1BCD17 /* Pods-SociomileChatSDK */,
+				32AA0199520F46AB1F1DC7F7AFDD13A0 /* Pods-SociomileChatSDK-SociomileChatSDKTests */,
+				111D1EA45CC8AC691A386E80D7F0FA3E /* Pods-SociomileChatSDKApps */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B022D69287216972DD73F51694888D37 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6CF358798798ED6E1F6C4813179F1766 /* ImageChatCell.swift */,
+				290CA8078DB662C32854E42114757FE4 /* MessageChatCell.swift */,
+			);
+			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CBB66CA6247EDE0ACFB280B065D4A2C7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D2CB8812D77C1993AE6444D1B9BD2376 /* SociomileRouter.swift */,
+			);
+			name = Router;
+			path = SociomileChatSDK/Modules/Router;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4AB63959C1F0AF66021AD7C83ACFD6E6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1DDE44E0694A492C0DB419654F9F092A /* Products */,
+				9EB3BFE8A5970D06E62E5E5E0150AC4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4FF1BACEF318D8865AC4A476D1BCD17 /* Pods-SociomileChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9D95539147050D1DEAE39B8B07855FAE /* Pods-SociomileChatSDK.modulemap */,
+				253EEA5BB57913C8A7C57AC0B8112E43 /* Pods-SociomileChatSDK-acknowledgements.markdown */,
+				808F9384436C3218AC71C315ECEEFB7E /* Pods-SociomileChatSDK-acknowledgements.plist */,
+				7B4AA2EDEB5E35EC2734E66F3182CA37 /* Pods-SociomileChatSDK-dummy.m */,
+				9A1C6DAE716412EB281FFCDC743BFA89 /* Pods-SociomileChatSDK-Info.plist */,
+				9CED1CCCA027A008FBC29A56E32DFFC7 /* Pods-SociomileChatSDK-umbrella.h */,
+				254CA7AF6F9C1F809F388C6463175343 /* Pods-SociomileChatSDK.debug.xcconfig */,
+				047C9444492ACCA006BCD9C95177200B /* Pods-SociomileChatSDK.release.xcconfig */,
+			);
+			name = "Pods-SociomileChatSDK";
+			path = "Target Support Files/Pods-SociomileChatSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02E8AE36FAE80CB0672E726D36FBEEB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3840AA8486A108F136010953BD166E6F /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50BD96EBF568633781837BF28C2FF92F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DB69BC3106D97205BFF9493F5CAD12 /* Pods-SociomileChatSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6B478C5D2F34AFF931C8472E2B7DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E98DE93698656EF39E66513564383ED /* Pods-SociomileChatSDKApps-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB7855A4403DC4027C05DD3D969CCDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACD96237C5636D4621FB77EBE444528 /* SociomileChatSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1208FE489227A5E75356F320B1463791 /* Pods-SociomileChatSDK-SociomileChatSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE786D2B5E84546F0FDDA54C16DAFABD /* Build configuration list for PBXNativeTarget "Pods-SociomileChatSDK-SociomileChatSDKTests" */;
+			buildPhases = (
+				02E8AE36FAE80CB0672E726D36FBEEB0 /* Headers */,
+				A94803D3909557A1F89A2F600DFA4C6F /* Sources */,
+				81DE1B08774A38E409AEEF92DA9DA07D /* Frameworks */,
+				13E56AB8B36C755CEA8314B007D01CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SociomileChatSDK-SociomileChatSDKTests";
+			productName = "Pods-SociomileChatSDK-SociomileChatSDKTests";
+			productReference = D520D3BA072690AA0770D3D4E9E4755B /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		264D1BA2EAFB769C64B3D330A4F33E41 /* Pods-SociomileChatSDKApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC504925EEB53EC78F5C0CF996FCE84F /* Build configuration list for PBXNativeTarget "Pods-SociomileChatSDKApps" */;
+			buildPhases = (
+				58A6B478C5D2F34AFF931C8472E2B7DF /* Headers */,
+				B2528FE088EEFB1F3B4F8C8225CA33C4 /* Sources */,
+				D5A2CAF75AB30F1806A953504757CE09 /* Frameworks */,
+				062CCB7BD7E2CE0F5153DB0E17249B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045800B130A40E3013A8E4156ACCA784 /* PBXTargetDependency */,
+			);
+			name = "Pods-SociomileChatSDKApps";
+			productName = "Pods-SociomileChatSDKApps";
+			productReference = E4367D650B4C3714353D240F3B9FAE04 /* Pods_SociomileChatSDKApps.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37B7E94E5CCA43B1A40B1A42236367B9 /* SociomileChatSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7E6556415FB1B0129123E9CA099C32 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */;
+			buildPhases = (
+				CCB7855A4403DC4027C05DD3D969CCDA /* Headers */,
+				C578F1122E9F6A12904FD718DADFA995 /* Sources */,
+				DA120B4A0FB2A9BC65000A3F0A96627B /* Frameworks */,
+				D6CE2CFA00BE6692D4B38E84A2C37510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680D0D5C4A43FABDB3A18EDA743647EA /* PBXTargetDependency */,
+			);
+			name = SociomileChatSDK;
+			productName = SociomileChatSDK;
+			productReference = 91204872B4A270628441EA57B6981C18 /* SociomileChatSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42A042896AB58C201F6A768BA9AA3663 /* SociomileChatSDK-SociomileChatSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBF9A8B99A73427EAB1C90FD34BD25C /* Build configuration list for PBXNativeTarget "SociomileChatSDK-SociomileChatSDK" */;
+			buildPhases = (
+				D3C7241C86666F57AB4C96119087D138 /* Sources */,
+				38ACDD3B92A08B9B40E84DE615F69F85 /* Frameworks */,
+				7A115CECEEDD1A8D9948CAC9D17E9DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SociomileChatSDK-SociomileChatSDK";
+			productName = "SociomileChatSDK-SociomileChatSDK";
+			productReference = EEC931B84BF453B1FA22A23E495FD0C9 /* SociomileChatSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7FE0EC42D4F0BA5D27D30F21E2E80B93 /* Pods-SociomileChatSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6364CB46A9C91FA4DE2648C80DB5EED /* Build configuration list for PBXNativeTarget "Pods-SociomileChatSDK" */;
+			buildPhases = (
+				50BD96EBF568633781837BF28C2FF92F /* Headers */,
+				CAA918D6EE72BC800A8E00806D1835DC /* Sources */,
+				F38FDCC02577000B43B4B307DBF0EE14 /* Frameworks */,
+				ECDFE4206E9CB5413B7208E57DA05B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SociomileChatSDK";
+			productName = "Pods-SociomileChatSDK";
+			productReference = FA438B9B60BBC2CEF3EB7B2CEC007774 /* Pods_SociomileChatSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1DDE44E0694A492C0DB419654F9F092A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE0EC42D4F0BA5D27D30F21E2E80B93 /* Pods-SociomileChatSDK */,
+				1208FE489227A5E75356F320B1463791 /* Pods-SociomileChatSDK-SociomileChatSDKTests */,
+				264D1BA2EAFB769C64B3D330A4F33E41 /* Pods-SociomileChatSDKApps */,
+				37B7E94E5CCA43B1A40B1A42236367B9 /* SociomileChatSDK */,
+				42A042896AB58C201F6A768BA9AA3663 /* SociomileChatSDK-SociomileChatSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062CCB7BD7E2CE0F5153DB0E17249B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E56AB8B36C755CEA8314B007D01CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A115CECEEDD1A8D9948CAC9D17E9DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A94FD58F21EF460160DE92BAED3BD5 /* Chat.storyboard in Resources */,
+				608E3A3425E058A4C26C31079D43CADD /* ImageChatCell.xib in Resources */,
+				05F5CBC93EE349EEC27DDD05DA9AE903 /* Media.xcassets in Resources */,
+				990E226F41055089F241CE1E372572E8 /* MessageChatCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CE2CFA00BE6692D4B38E84A2C37510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F998F581A4F5F200E9468199AF1E110B /* SociomileChatSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDFE4206E9CB5413B7208E57DA05B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94803D3909557A1F89A2F600DFA4C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F80693059C0C41E6A84A50F05AB381 /* Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2528FE088EEFB1F3B4F8C8225CA33C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5094D22C93BC8F177559E99872180E0 /* Pods-SociomileChatSDKApps-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C578F1122E9F6A12904FD718DADFA995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF72E49EFD0AFF6D6EC470B8224CC839 /* ChatViewController.swift in Sources */,
+				22C7FA13A1DC7CA835B2BA75B0BDAF3F /* ExitViewController.swift in Sources */,
+				26AC6AC2D487484D1C4D885466EF111C /* FormViewController.swift in Sources */,
+				EAC748E447E5DD7AF217122A2232AD3E /* ImageChatCell.swift in Sources */,
+				DB79465726B9B134575A75D69091D868 /* MessageChatCell.swift in Sources */,
+				F8E9B2F9F457DCD8E66751F07AF5CA97 /* SociomileChatSDK-dummy.m in Sources */,
+				DF35128C5CF890AF43A654258EE1A290 /* SociomileRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA918D6EE72BC800A8E00806D1835DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C87CD0F004D4C7219CB354CAA804FBA /* Pods-SociomileChatSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C7241C86666F57AB4C96119087D138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045800B130A40E3013A8E4156ACCA784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SociomileChatSDK;
+			target = 37B7E94E5CCA43B1A40B1A42236367B9 /* SociomileChatSDK */;
+			targetProxy = 4B1B80F25B05FC6B6A5B7FCD0ACABF56 /* PBXContainerItemProxy */;
+		};
+		680D0D5C4A43FABDB3A18EDA743647EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SociomileChatSDK-SociomileChatSDK";
+			target = 42A042896AB58C201F6A768BA9AA3663 /* SociomileChatSDK-SociomileChatSDK */;
+			targetProxy = 181228A0B7462C9B6BF01717DAA2092E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		050CCF377CE136542AE5A5F883367DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BC6AF469508FA024B0B66FDF151CCB /* Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CDF7A4E4E7C510F44F839A9BEF80B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047C9444492ACCA006BCD9C95177200B /* Pods-SociomileChatSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SociomileChatSDK/Pods-SociomileChatSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SociomileChatSDK/Pods-SociomileChatSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D8082440A70F7830FFD757ED1E6EB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098AF0EA789BE85124A1B932587A426F /* SociomileChatSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SociomileChatSDK/SociomileChatSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK.modulemap";
+				PRODUCT_MODULE_NAME = SociomileChatSDK;
+				PRODUCT_NAME = SociomileChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6286F9306D6DEA9596C77A5712CE4C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098AF0EA789BE85124A1B932587A426F /* SociomileChatSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SociomileChatSDK";
+				IBSC_MODULE = SociomileChatSDK;
+				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_NAME = SociomileChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6F5D6269EA712886B21A7A4691C3077C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B43C441F84423C296EF9C5035BBBA4 /* Pods-SociomileChatSDKApps.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72A1C9FBB4D3F0E86416FA364A052D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97511E5C378C38C2BEAA21E29D035BB7 /* Pods-SociomileChatSDKApps.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87244D2698AAEE561FD09E560BD93089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B0731D7AD819D871F5AF376840E072 /* Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A7A9588D5DCC8C253657643F0A7F176F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254CA7AF6F9C1F809F388C6463175343 /* Pods-SociomileChatSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SociomileChatSDK/Pods-SociomileChatSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SociomileChatSDK/Pods-SociomileChatSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7895E9DA9831D6483B217761F27773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFF0A0F1AEB6EE03B995FC40AD1B7BC /* SociomileChatSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SociomileChatSDK";
+				IBSC_MODULE = SociomileChatSDK;
+				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_NAME = SociomileChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F1B3175E93DAB59BF9C0E68E8BD59B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFF0A0F1AEB6EE03B995FC40AD1B7BC /* SociomileChatSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SociomileChatSDK/SociomileChatSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK.modulemap";
+				PRODUCT_MODULE_NAME = SociomileChatSDK;
+				PRODUCT_NAME = SociomileChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EBF9A8B99A73427EAB1C90FD34BD25C /* Build configuration list for PBXNativeTarget "SociomileChatSDK-SociomileChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7895E9DA9831D6483B217761F27773E /* Debug */,
+				6286F9306D6DEA9596C77A5712CE4C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC504925EEB53EC78F5C0CF996FCE84F /* Build configuration list for PBXNativeTarget "Pods-SociomileChatSDKApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5D6269EA712886B21A7A4691C3077C /* Debug */,
+				72A1C9FBB4D3F0E86416FA364A052D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6364CB46A9C91FA4DE2648C80DB5EED /* Build configuration list for PBXNativeTarget "Pods-SociomileChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A9588D5DCC8C253657643F0A7F176F /* Debug */,
+				3CDF7A4E4E7C510F44F839A9BEF80B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7E6556415FB1B0129123E9CA099C32 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B3175E93DAB59BF9C0E68E8BD59B0F /* Debug */,
+				5D8082440A70F7830FFD757ED1E6EB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE786D2B5E84546F0FDDA54C16DAFABD /* Build configuration list for PBXNativeTarget "Pods-SociomileChatSDK-SociomileChatSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87244D2698AAEE561FD09E560BD93089 /* Debug */,
+				050CCF377CE136542AE5A5F883367DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000EAEAF2721CE940015A6C7 /* SociomileChatSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 000EAEAE2721CE940015A6C7 /* SociomileChatSDK.docc */; };
+		000EAEB52721CE940015A6C7 /* SociomileChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000EAEAA2721CE940015A6C7 /* SociomileChatSDK.framework */; };
+		000EAEBA2721CE940015A6C7 /* SociomileChatSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAEB92721CE940015A6C7 /* SociomileChatSDKTests.swift */; };
+		000EAEBB2721CE940015A6C7 /* SociomileChatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 000EAEAD2721CE940015A6C7 /* SociomileChatSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000EAECB2721CEC90015A6C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAECA2721CEC90015A6C7 /* AppDelegate.swift */; };
+		000EAECD2721CEC90015A6C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAECC2721CEC90015A6C7 /* SceneDelegate.swift */; };
+		000EAECF2721CEC90015A6C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAECE2721CEC90015A6C7 /* ViewController.swift */; };
+		000EAED22721CEC90015A6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000EAED02721CEC90015A6C7 /* Main.storyboard */; };
+		000EAED52721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 000EAED32721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodeld */; };
+		000EAED72721CECA0015A6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000EAED62721CECA0015A6C7 /* Assets.xcassets */; };
+		000EAEDA2721CECA0015A6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000EAED82721CECA0015A6C7 /* LaunchScreen.storyboard */; };
+		000EAEE52721CECB0015A6C7 /* SociomileChatSDKAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAEE42721CECB0015A6C7 /* SociomileChatSDKAppsTests.swift */; };
+		000EAEEF2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAEEE2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.swift */; };
+		000EAEF12721CECB0015A6C7 /* SociomileChatSDKAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAEF02721CECB0015A6C7 /* SociomileChatSDKAppsUITestsLaunchTests.swift */; };
+		000EAEFF2721CF370015A6C7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000EAEFD2721CF370015A6C7 /* Media.xcassets */; };
+		000EAF002721CF370015A6C7 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000EAEFE2721CF370015A6C7 /* Chat.storyboard */; };
+		000EAF0A2721D0870015A6C7 /* ImageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF082721D0870015A6C7 /* ImageChatCell.swift */; };
+		000EAF0B2721D0870015A6C7 /* ImageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000EAF092721D0870015A6C7 /* ImageChatCell.xib */; };
+		000EAF0E2721D09F0015A6C7 /* MessageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF0C2721D09F0015A6C7 /* MessageChatCell.swift */; };
+		000EAF0F2721D09F0015A6C7 /* MessageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000EAF0D2721D09F0015A6C7 /* MessageChatCell.xib */; };
+		000EAF112721D0BD0015A6C7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF102721D0BD0015A6C7 /* ChatViewController.swift */; };
+		000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF122721D0CB0015A6C7 /* ExitViewController.swift */; };
+		000EAF152721D0D90015A6C7 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF142721D0D90015A6C7 /* FormViewController.swift */; };
+		000EAF182721D1E10015A6C7 /* SociomileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF172721D1E10015A6C7 /* SociomileRouter.swift */; };
+		C765155DC56CA00E40176525 /* Pods_SociomileChatSDKApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8D4FD89DA09B048CE81E4 /* Pods_SociomileChatSDKApps.framework */; };
+		F296A67555618AFADF9EDE42 /* Pods_SociomileChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3AC29F34B084D05966CDC0 /* Pods_SociomileChatSDK.framework */; };
+		FD98D823130D25BEF2207791 /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83345B19FA8B466073E5F62E /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000EAEB62721CE940015A6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000EAEA12721CE940015A6C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000EAEA92721CE940015A6C7;
+			remoteInfo = SociomileChatSDK;
+		};
+		000EAEE12721CECB0015A6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000EAEA12721CE940015A6C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000EAEC72721CEC90015A6C7;
+			remoteInfo = SociomileChatSDKApps;
+		};
+		000EAEEB2721CECB0015A6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000EAEA12721CE940015A6C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000EAEC72721CEC90015A6C7;
+			remoteInfo = SociomileChatSDKApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000EAEAA2721CE940015A6C7 /* SociomileChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SociomileChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		000EAEAD2721CE940015A6C7 /* SociomileChatSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SociomileChatSDK.h; sourceTree = "<group>"; };
+		000EAEAE2721CE940015A6C7 /* SociomileChatSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SociomileChatSDK.docc; sourceTree = "<group>"; };
+		000EAEB42721CE940015A6C7 /* SociomileChatSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SociomileChatSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000EAEB92721CE940015A6C7 /* SociomileChatSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileChatSDKTests.swift; sourceTree = "<group>"; };
+		000EAEC82721CEC90015A6C7 /* SociomileChatSDKApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SociomileChatSDKApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000EAECA2721CEC90015A6C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000EAECC2721CEC90015A6C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		000EAECE2721CEC90015A6C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		000EAED12721CEC90015A6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		000EAED42721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SociomileChatSDKApps.xcdatamodel; sourceTree = "<group>"; };
+		000EAED62721CECA0015A6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000EAED92721CECA0015A6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		000EAEDB2721CECA0015A6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000EAEE02721CECB0015A6C7 /* SociomileChatSDKAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SociomileChatSDKAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000EAEE42721CECB0015A6C7 /* SociomileChatSDKAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileChatSDKAppsTests.swift; sourceTree = "<group>"; };
+		000EAEEA2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SociomileChatSDKAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000EAEEE2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileChatSDKAppsUITests.swift; sourceTree = "<group>"; };
+		000EAEF02721CECB0015A6C7 /* SociomileChatSDKAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileChatSDKAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		000EAEFD2721CF370015A6C7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		000EAEFE2721CF370015A6C7 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		000EAF082721D0870015A6C7 /* ImageChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChatCell.swift; sourceTree = "<group>"; };
+		000EAF092721D0870015A6C7 /* ImageChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageChatCell.xib; sourceTree = "<group>"; };
+		000EAF0C2721D09F0015A6C7 /* MessageChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageChatCell.swift; sourceTree = "<group>"; };
+		000EAF0D2721D09F0015A6C7 /* MessageChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageChatCell.xib; sourceTree = "<group>"; };
+		000EAF102721D0BD0015A6C7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		000EAF122721D0CB0015A6C7 /* ExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
+		000EAF142721D0D90015A6C7 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		000EAF172721D1E10015A6C7 /* SociomileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileRouter.swift; sourceTree = "<group>"; };
+		60E2054FB6B7E403AD1CE401 /* Pods-SociomileChatSDKApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileChatSDKApps.debug.xcconfig"; path = "Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps.debug.xcconfig"; sourceTree = "<group>"; };
+		63C8D4FD89DA09B048CE81E4 /* Pods_SociomileChatSDKApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociomileChatSDKApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		670F3DB011A4665D485430AB /* Pods-SociomileChatSDKApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileChatSDKApps.release.xcconfig"; path = "Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps.release.xcconfig"; sourceTree = "<group>"; };
+		7ABF4A34D05B81D17BA2FF53 /* Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83345B19FA8B466073E5F62E /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociomileChatSDK_SociomileChatSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90ED03A6B928DDC88255B05 /* Pods-SociomileChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileChatSDK.debug.xcconfig"; path = "Target Support Files/Pods-SociomileChatSDK/Pods-SociomileChatSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		A91DC25C7257B0A98BCB0C30 /* Pods-SociomileChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileChatSDK.release.xcconfig"; path = "Target Support Files/Pods-SociomileChatSDK/Pods-SociomileChatSDK.release.xcconfig"; sourceTree = "<group>"; };
+		BA3AC29F34B084D05966CDC0 /* Pods_SociomileChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociomileChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EB8A7F41BBF74617C7D84D /* Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig"; path = "Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000EAEA72721CE940015A6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F296A67555618AFADF9EDE42 /* Pods_SociomileChatSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEB12721CE940015A6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAEB52721CE940015A6C7 /* SociomileChatSDK.framework in Frameworks */,
+				FD98D823130D25BEF2207791 /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEC52721CEC90015A6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765155DC56CA00E40176525 /* Pods_SociomileChatSDKApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEDD2721CECB0015A6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEE72721CECB0015A6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000EAEA02721CE940015A6C7 = {
+			isa = PBXGroup;
+			children = (
+				000EAEAC2721CE940015A6C7 /* SociomileChatSDK */,
+				000EAEB82721CE940015A6C7 /* SociomileChatSDKTests */,
+				000EAEC92721CEC90015A6C7 /* SociomileChatSDKApps */,
+				000EAEE32721CECB0015A6C7 /* SociomileChatSDKAppsTests */,
+				000EAEED2721CECB0015A6C7 /* SociomileChatSDKAppsUITests */,
+				000EAEAB2721CE940015A6C7 /* Products */,
+				9AC98E8873B9F4FA3AE5F926 /* Pods */,
+				543C623242F3C2A0D45F00F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		000EAEAB2721CE940015A6C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000EAEAA2721CE940015A6C7 /* SociomileChatSDK.framework */,
+				000EAEB42721CE940015A6C7 /* SociomileChatSDKTests.xctest */,
+				000EAEC82721CEC90015A6C7 /* SociomileChatSDKApps.app */,
+				000EAEE02721CECB0015A6C7 /* SociomileChatSDKAppsTests.xctest */,
+				000EAEEA2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000EAEAC2721CE940015A6C7 /* SociomileChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				000EAEFC2721CF040015A6C7 /* Modules */,
+				000EAEFB2721CEF80015A6C7 /* Assets */,
+				000EAEAD2721CE940015A6C7 /* SociomileChatSDK.h */,
+				000EAEAE2721CE940015A6C7 /* SociomileChatSDK.docc */,
+			);
+			path = SociomileChatSDK;
+			sourceTree = "<group>";
+		};
+		000EAEB82721CE940015A6C7 /* SociomileChatSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				000EAEB92721CE940015A6C7 /* SociomileChatSDKTests.swift */,
+			);
+			path = SociomileChatSDKTests;
+			sourceTree = "<group>";
+		};
+		000EAEC92721CEC90015A6C7 /* SociomileChatSDKApps */ = {
+			isa = PBXGroup;
+			children = (
+				000EAECA2721CEC90015A6C7 /* AppDelegate.swift */,
+				000EAECC2721CEC90015A6C7 /* SceneDelegate.swift */,
+				000EAECE2721CEC90015A6C7 /* ViewController.swift */,
+				000EAED02721CEC90015A6C7 /* Main.storyboard */,
+				000EAED62721CECA0015A6C7 /* Assets.xcassets */,
+				000EAED82721CECA0015A6C7 /* LaunchScreen.storyboard */,
+				000EAEDB2721CECA0015A6C7 /* Info.plist */,
+				000EAED32721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodeld */,
+			);
+			path = SociomileChatSDKApps;
+			sourceTree = "<group>";
+		};
+		000EAEE32721CECB0015A6C7 /* SociomileChatSDKAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				000EAEE42721CECB0015A6C7 /* SociomileChatSDKAppsTests.swift */,
+			);
+			path = SociomileChatSDKAppsTests;
+			sourceTree = "<group>";
+		};
+		000EAEED2721CECB0015A6C7 /* SociomileChatSDKAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				000EAEEE2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.swift */,
+				000EAEF02721CECB0015A6C7 /* SociomileChatSDKAppsUITestsLaunchTests.swift */,
+			);
+			path = SociomileChatSDKAppsUITests;
+			sourceTree = "<group>";
+		};
+		000EAEFB2721CEF80015A6C7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF042721D0550015A6C7 /* Cell */,
+				000EAEFD2721CF370015A6C7 /* Media.xcassets */,
+				000EAEFE2721CF370015A6C7 /* Chat.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		000EAEFC2721CF040015A6C7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF162721D1CC0015A6C7 /* Router */,
+				000EAF032721D04C0015A6C7 /* Form */,
+				000EAF022721D0460015A6C7 /* Exit */,
+				000EAF012721D0410015A6C7 /* Chat */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		000EAF012721D0410015A6C7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF072721D0650015A6C7 /* Cell */,
+				000EAF102721D0BD0015A6C7 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		000EAF022721D0460015A6C7 /* Exit */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF122721D0CB0015A6C7 /* ExitViewController.swift */,
+			);
+			path = Exit;
+			sourceTree = "<group>";
+		};
+		000EAF032721D04C0015A6C7 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF142721D0D90015A6C7 /* FormViewController.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		000EAF042721D0550015A6C7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF092721D0870015A6C7 /* ImageChatCell.xib */,
+				000EAF0D2721D09F0015A6C7 /* MessageChatCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		000EAF072721D0650015A6C7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF082721D0870015A6C7 /* ImageChatCell.swift */,
+				000EAF0C2721D09F0015A6C7 /* MessageChatCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		000EAF162721D1CC0015A6C7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				000EAF172721D1E10015A6C7 /* SociomileRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		543C623242F3C2A0D45F00F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA3AC29F34B084D05966CDC0 /* Pods_SociomileChatSDK.framework */,
+				83345B19FA8B466073E5F62E /* Pods_SociomileChatSDK_SociomileChatSDKTests.framework */,
+				63C8D4FD89DA09B048CE81E4 /* Pods_SociomileChatSDKApps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AC98E8873B9F4FA3AE5F926 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A90ED03A6B928DDC88255B05 /* Pods-SociomileChatSDK.debug.xcconfig */,
+				A91DC25C7257B0A98BCB0C30 /* Pods-SociomileChatSDK.release.xcconfig */,
+				7ABF4A34D05B81D17BA2FF53 /* Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig */,
+				E8EB8A7F41BBF74617C7D84D /* Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig */,
+				60E2054FB6B7E403AD1CE401 /* Pods-SociomileChatSDKApps.debug.xcconfig */,
+				670F3DB011A4665D485430AB /* Pods-SociomileChatSDKApps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000EAEA52721CE940015A6C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAEBB2721CE940015A6C7 /* SociomileChatSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		000EAEA92721CE940015A6C7 /* SociomileChatSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EAEBE2721CE940015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */;
+			buildPhases = (
+				C544CA467BC72F9E8B6FE36C /* [CP] Check Pods Manifest.lock */,
+				000EAEA52721CE940015A6C7 /* Headers */,
+				000EAEA62721CE940015A6C7 /* Sources */,
+				000EAEA72721CE940015A6C7 /* Frameworks */,
+				000EAEA82721CE940015A6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SociomileChatSDK;
+			productName = SociomileChatSDK;
+			productReference = 000EAEAA2721CE940015A6C7 /* SociomileChatSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		000EAEB32721CE940015A6C7 /* SociomileChatSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EAEC12721CE940015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKTests" */;
+			buildPhases = (
+				DF29F14D5B5A634C141E9DBC /* [CP] Check Pods Manifest.lock */,
+				000EAEB02721CE940015A6C7 /* Sources */,
+				000EAEB12721CE940015A6C7 /* Frameworks */,
+				000EAEB22721CE940015A6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000EAEB72721CE940015A6C7 /* PBXTargetDependency */,
+			);
+			name = SociomileChatSDKTests;
+			productName = SociomileChatSDKTests;
+			productReference = 000EAEB42721CE940015A6C7 /* SociomileChatSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000EAEC72721CEC90015A6C7 /* SociomileChatSDKApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EAEF82721CECB0015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKApps" */;
+			buildPhases = (
+				A7A22B6DCFB93A35231B1444 /* [CP] Check Pods Manifest.lock */,
+				000EAEC42721CEC90015A6C7 /* Sources */,
+				000EAEC52721CEC90015A6C7 /* Frameworks */,
+				000EAEC62721CEC90015A6C7 /* Resources */,
+				C044AED62A7E059410988D87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SociomileChatSDKApps;
+			productName = SociomileChatSDKApps;
+			productReference = 000EAEC82721CEC90015A6C7 /* SociomileChatSDKApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000EAEDF2721CECB0015A6C7 /* SociomileChatSDKAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EAEF92721CECB0015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKAppsTests" */;
+			buildPhases = (
+				000EAEDC2721CECB0015A6C7 /* Sources */,
+				000EAEDD2721CECB0015A6C7 /* Frameworks */,
+				000EAEDE2721CECB0015A6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000EAEE22721CECB0015A6C7 /* PBXTargetDependency */,
+			);
+			name = SociomileChatSDKAppsTests;
+			productName = SociomileChatSDKAppsTests;
+			productReference = 000EAEE02721CECB0015A6C7 /* SociomileChatSDKAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000EAEE92721CECB0015A6C7 /* SociomileChatSDKAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EAEFA2721CECB0015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKAppsUITests" */;
+			buildPhases = (
+				000EAEE62721CECB0015A6C7 /* Sources */,
+				000EAEE72721CECB0015A6C7 /* Frameworks */,
+				000EAEE82721CECB0015A6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000EAEEC2721CECB0015A6C7 /* PBXTargetDependency */,
+			);
+			name = SociomileChatSDKAppsUITests;
+			productName = SociomileChatSDKAppsUITests;
+			productReference = 000EAEEA2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000EAEA12721CE940015A6C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					000EAEA92721CE940015A6C7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					000EAEB32721CE940015A6C7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					000EAEC72721CEC90015A6C7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					000EAEDF2721CECB0015A6C7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 000EAEC72721CEC90015A6C7;
+					};
+					000EAEE92721CECB0015A6C7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 000EAEC72721CEC90015A6C7;
+					};
+				};
+			};
+			buildConfigurationList = 000EAEA42721CE940015A6C7 /* Build configuration list for PBXProject "SociomileChatSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000EAEA02721CE940015A6C7;
+			productRefGroup = 000EAEAB2721CE940015A6C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000EAEA92721CE940015A6C7 /* SociomileChatSDK */,
+				000EAEB32721CE940015A6C7 /* SociomileChatSDKTests */,
+				000EAEC72721CEC90015A6C7 /* SociomileChatSDKApps */,
+				000EAEDF2721CECB0015A6C7 /* SociomileChatSDKAppsTests */,
+				000EAEE92721CECB0015A6C7 /* SociomileChatSDKAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000EAEA82721CE940015A6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAF002721CF370015A6C7 /* Chat.storyboard in Resources */,
+				000EAF0F2721D09F0015A6C7 /* MessageChatCell.xib in Resources */,
+				000EAF0B2721D0870015A6C7 /* ImageChatCell.xib in Resources */,
+				000EAEFF2721CF370015A6C7 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEB22721CE940015A6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEC62721CEC90015A6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAEDA2721CECA0015A6C7 /* LaunchScreen.storyboard in Resources */,
+				000EAED72721CECA0015A6C7 /* Assets.xcassets in Resources */,
+				000EAED22721CEC90015A6C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEDE2721CECB0015A6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEE82721CECB0015A6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7A22B6DCFB93A35231B1444 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SociomileChatSDKApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C044AED62A7E059410988D87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C544CA467BC72F9E8B6FE36C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SociomileChatSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF29F14D5B5A634C141E9DBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SociomileChatSDK-SociomileChatSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000EAEA62721CE940015A6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAF182721D1E10015A6C7 /* SociomileRouter.swift in Sources */,
+				000EAF152721D0D90015A6C7 /* FormViewController.swift in Sources */,
+				000EAEAF2721CE940015A6C7 /* SociomileChatSDK.docc in Sources */,
+				000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */,
+				000EAF0E2721D09F0015A6C7 /* MessageChatCell.swift in Sources */,
+				000EAF112721D0BD0015A6C7 /* ChatViewController.swift in Sources */,
+				000EAF0A2721D0870015A6C7 /* ImageChatCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEB02721CE940015A6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAEBA2721CE940015A6C7 /* SociomileChatSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEC42721CEC90015A6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAECF2721CEC90015A6C7 /* ViewController.swift in Sources */,
+				000EAED52721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodeld in Sources */,
+				000EAECB2721CEC90015A6C7 /* AppDelegate.swift in Sources */,
+				000EAECD2721CEC90015A6C7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEDC2721CECB0015A6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAEE52721CECB0015A6C7 /* SociomileChatSDKAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EAEE62721CECB0015A6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000EAEF12721CECB0015A6C7 /* SociomileChatSDKAppsUITestsLaunchTests.swift in Sources */,
+				000EAEEF2721CECB0015A6C7 /* SociomileChatSDKAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000EAEB72721CE940015A6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000EAEA92721CE940015A6C7 /* SociomileChatSDK */;
+			targetProxy = 000EAEB62721CE940015A6C7 /* PBXContainerItemProxy */;
+		};
+		000EAEE22721CECB0015A6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000EAEC72721CEC90015A6C7 /* SociomileChatSDKApps */;
+			targetProxy = 000EAEE12721CECB0015A6C7 /* PBXContainerItemProxy */;
+		};
+		000EAEEC2721CECB0015A6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000EAEC72721CEC90015A6C7 /* SociomileChatSDKApps */;
+			targetProxy = 000EAEEB2721CECB0015A6C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		000EAED02721CEC90015A6C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000EAED12721CEC90015A6C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		000EAED82721CECA0015A6C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000EAED92721CECA0015A6C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000EAEBC2721CE940015A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		000EAEBD2721CE940015A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		000EAEBF2721CE940015A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90ED03A6B928DDC88255B05 /* Pods-SociomileChatSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000EAEC02721CE940015A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91DC25C7257B0A98BCB0C30 /* Pods-SociomileChatSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000EAEC22721CE940015A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABF4A34D05B81D17BA2FF53 /* Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000EAEC32721CE940015A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EB8A7F41BBF74617C7D84D /* Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000EAEF22721CECB0015A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E2054FB6B7E403AD1CE401 /* Pods-SociomileChatSDKApps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SociomileChatSDKApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000EAEF32721CECB0015A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670F3DB011A4665D485430AB /* Pods-SociomileChatSDKApps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SociomileChatSDKApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000EAEF42721CECB0015A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SociomileChatSDKApps.app/SociomileChatSDKApps";
+			};
+			name = Debug;
+		};
+		000EAEF52721CECB0015A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SociomileChatSDKApps.app/SociomileChatSDKApps";
+			};
+			name = Release;
+		};
+		000EAEF62721CECB0015A6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SociomileChatSDKApps;
+			};
+			name = Debug;
+		};
+		000EAEF72721CECB0015A6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JR64WUA79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hariobudiharjo.SociomileChatSDKAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SociomileChatSDKApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000EAEA42721CE940015A6C7 /* Build configuration list for PBXProject "SociomileChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EAEBC2721CE940015A6C7 /* Debug */,
+				000EAEBD2721CE940015A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EAEBE2721CE940015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EAEBF2721CE940015A6C7 /* Debug */,
+				000EAEC02721CE940015A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EAEC12721CE940015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EAEC22721CE940015A6C7 /* Debug */,
+				000EAEC32721CE940015A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EAEF82721CECB0015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EAEF22721CECB0015A6C7 /* Debug */,
+				000EAEF32721CECB0015A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EAEF92721CECB0015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EAEF42721CECB0015A6C7 /* Debug */,
+				000EAEF52721CECB0015A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EAEFA2721CECB0015A6C7 /* Build configuration list for PBXNativeTarget "SociomileChatSDKAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EAEF62721CECB0015A6C7 /* Debug */,
+				000EAEF72721CECB0015A6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		000EAED32721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				000EAED42721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodel */,
+			);
+			currentVersion = 000EAED42721CEC90015A6C7 /* SociomileChatSDKApps.xcdatamodel */;
+			path = SociomileChatSDKApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 000EAEA12721CE940015A6C7 /* Project object */;
+}
