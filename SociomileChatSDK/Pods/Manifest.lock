@@ -1,16 +1,35 @@
 PODS:
+  - Alamofire (5.4.3)
+  - Kingfisher (7.1.1)
   - SociomileChatSDK (1.0.0)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - Kingfisher (~> 7.0)
   - SociomileChatSDK (from `./`)
+  - Socket.IO-Client-Swift (~> 15.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Socket.IO-Client-Swift
+    - Starscream
 
 EXTERNAL SOURCES:
   SociomileChatSDK:
     :path: "./"
 
 SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
   SociomileChatSDK: 3fea3efed90a8cd197f7c5830945d4d1d0448334
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: 9d583d07e8b50b95447ea2b79e9d081949e919de
+PODFILE CHECKSUM: 646121a857d19e0329d1d9414a75fd44970c7572
 
 COCOAPODS: 1.10.0

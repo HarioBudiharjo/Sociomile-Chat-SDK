@@ -357,6 +357,7 @@
 				000EAEB02721CE940015A6C7 /* Sources */,
 				000EAEB12721CE940015A6C7 /* Frameworks */,
 				000EAEB22721CE940015A6C7 /* Resources */,
+				6722281AB2F76C6F11219876 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -520,6 +521,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6722281AB2F76C6F11219876 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SociomileChatSDK-SociomileChatSDKTests/Pods-SociomileChatSDK-SociomileChatSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A7A22B6DCFB93A35231B1444 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
