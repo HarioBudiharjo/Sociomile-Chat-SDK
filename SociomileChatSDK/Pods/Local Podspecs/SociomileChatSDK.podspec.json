@@ -20,5 +20,16 @@
     "SociomileChatSDK": [
       "SociomileChatSDK/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,plist}"
     ]
+  },
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.4"
+    ],
+    "Kingfisher": [
+      "~> 7.0"
+    ],
+    "Socket.IO-Client-Swift": [
+      "~> 15.2.0"
+    ]
   }
 }
