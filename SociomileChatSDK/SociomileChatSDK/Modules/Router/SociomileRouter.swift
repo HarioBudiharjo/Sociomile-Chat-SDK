@@ -11,6 +11,7 @@ import UIKit
 public class SociomileRouter {
     
     public static func goToForm(_ caller: UIViewController) {
+        Preferences.saveString(key: Constant.CLIENT_ID, value: "57c6e0e722c054db65f99267")
         let storyboard = UIStoryboard(name: "Chat", bundle: SociomileRouter.bundle())
         let vc = storyboard.instantiateViewController(withIdentifier: String(describing: FormViewController.self)) as! FormViewController
         vc.modalPresentationStyle = .fullScreen

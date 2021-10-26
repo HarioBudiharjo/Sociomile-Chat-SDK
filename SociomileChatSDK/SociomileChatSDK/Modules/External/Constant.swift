@@ -8,12 +8,13 @@
 import Foundation
 
 struct Constant {
-    let BASEURL_CHECK = "https://chat.sociomile.com/"
-    let BASEURL_LOGIN = "https://superchat.sociomile.net/"
-    let URL_SOCKET = "https://socket-chat.sociomile.com"
-    let EVENT_DATA = "hello"
-    let CONTENT_TYPE_FILE: Byte = 1
-    let SHARED_PREFERENCES = "SHARED_PREFERENCES"
-    let TAG_TOKEN = "TOKEN"
-    let TAG_USER = "USER"
+    static let BASEURL_CHECK = "https://chat.sociomile.com/"
+    static let BASEURL_LOGIN = "https://superchat.sociomile.net/"
+    static let URL_SOCKET = "https://socket-chat.sociomile.com"
+    static let EVENT_DATA = "hello"
+    static let CLIENT_ID = "client_id"
+    static let CONTENT_TYPE_FILE = 1
+    static let SHARED_PREFERENCES = "SHARED_PREFERENCES"
+    static let TAG_TOKEN = "TOKEN"
+    static let TAG_USER = "USER"
 }

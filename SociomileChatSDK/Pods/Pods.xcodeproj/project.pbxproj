@@ -8,298 +8,303 @@
 
 /* Begin PBXBuildFile section */
 		00BEA6029C428FEE644AC3D42AD83282 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FC3D3CE55F4826EB53D2DF9FDA72D0 /* ImagePrefetcher.swift */; };
+		017EBE836208771E0E4BB88BAE442FF2 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA512EE5CBDDAD030DDD2189A86F24AE /* SocketPacket.swift */; };
 		02621C4B82398D0657F474E21493A3A2 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FE48124017C7081423D15A6772493C /* HTTPMethod.swift */; };
 		0285857A24F66E925987A5876F0BE63B /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4F4467B4EC84AD1386CBFF9E0B1AD4 /* ImageDataProvider.swift */; };
 		02DB462B121245593CE653B9B377F970 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F298223C223EE1AEAC1798CF1C39532 /* Protected.swift */; };
 		0510E8EA51914CB2176AD0F173937FAB /* KFImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BC847EAE82E9542DBA64C40EF002D /* KFImageRenderer.swift */; };
 		05228565AAA7FCED4BAFB2B7EF71D53D /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A5B8422F5701B0DE9BAF047A5B03CF /* KingfisherOptionsInfo.swift */; };
 		059639E700DEFAEF08F56484E5F67BE7 /* NSButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1800659E1F5C8C73FF32CA624715F2A /* NSButton+Kingfisher.swift */; };
-		07814A3A0FD56A0A4852FA0BF71820EA /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B60BBB574C998A20B968E70CE641F /* SocketEventHandler.swift */; };
-		0818022B74CE8C7FAB45E3C32641134F /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D148C8EC1D9F0C917C4320378C01AEC /* SocketTypes.swift */; };
 		082EDC820D76DF95C71A5018112DE512 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB7AEBDBB469EE84764C9089D0E58E3 /* UIButton+Kingfisher.swift */; };
+		0AB56B465D3CCDF3F4A5E2C6F31F32BC /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05583BF5090BFFD24EDA083BAE8E9F7 /* Compression.swift */; };
 		0B399DCF32F8FE4F09B03B6E7B65E0D1 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2348D38BDA65D6C246FD8F73A90928E3 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D5E48E8DB1414D341A673251E76E24B /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E351AD0916FF35932B5678CE6C93F0C /* SocketManager.swift */; };
 		0ED8FBFD9A86D21BF69137EC9350E575 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17295F0E8F39F79AB063601B7A4037CC /* SessionDelegate.swift */; };
+		1042F9946BFCE7370E537E3E750566B6 /* SociomileChatSDK-SociomileChatSDK in Resources */ = {isa = PBXBuildFile; fileRef = EEC931B84BF453B1FA22A23E495FD0C9 /* SociomileChatSDK-SociomileChatSDK */; };
 		1185A2B40E14F2FCBC761FC99777CAD8 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7ED75DF3591FC3BDC872C6896636B6 /* ExtensionHelpers.swift */; };
 		122980E44B15C64CF0B14DC94D7EB5C9 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B29B47F5B0F78B830F1E49E6DA51543 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13E62623092B680C6A5C349D48B8A4FD /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8367B273028F0DE5D5063A9B5D987A38 /* CachedResponseHandler.swift */; };
 		1773084DECF68CADD45567FBEC56036D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFF43F9CDE6AEE807E0745C192F8A2 /* Alamofire-dummy.m */; };
+		178F6EE80E41750DB6256CF304D24280 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8589A53AD812282E08AAC709F398150 /* SSLClientCertificate.swift */; };
+		181523C81E012A3B5BA7448DA7F7F7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		1952485AFF7A1BCCA4D4B142E82FE627 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE9970331192D230A602530BEB07CB /* AnimatedImageView.swift */; };
 		1AA89F327105C026976BF6E831B193A2 /* ImageBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8F44BA02AAF8DFBE869AC2A7A736B9 /* ImageBinder.swift */; };
 		1D17B83410DC98911D539F2BD5254C05 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E7A8F31238B8AF91A46E7DAB6664FD /* RequestTaskMap.swift */; };
 		1FD2928BC156D990D68B105F518C60B6 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D232E1512C3C8A7B00218564D6DCAB9E /* MemoryStorage.swift */; };
 		1FE693B5ACC6AD7320CEFC20B64546E4 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E3B3501AEA8CBE9E688FE6342FC20 /* KingfisherManager.swift */; };
 		1FEE89BF952BE7ACA46E642DA2E48CA2 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA03BB32FC0B3BEDADAA2C39DF2F540 /* DiskStorage.swift */; };
+		20096404E22A0B98AFA1461FCF31D63B /* SocketManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD4250004ECAB6A0C9FF709BFCF39D /* SocketManagerSpec.swift */; };
+		2220B5CEF9680F218962603B74F7B4D7 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A97D12DA469C1A8C9B5E0E865758B9 /* SocketEngine.swift */; };
 		22216C300C763044344B9DBF97317E63 /* RetryStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB728E4CEE8E78FFCE8C4778D36708F9 /* RetryStrategy.swift */; };
 		22BD1346F66BFCB129AAA44EEF322AC9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2B2C1CFEC77BCAC0AC080264A17F42 /* Resource.swift */; };
 		22D7AE454BC25DE866234D478B25D31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
-		23970C58250CB18BF3CFF25A5E348500 /* MessageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5382EC43F0A7E3C1C4ADA48C3D6AB6 /* MessageChatCell.swift */; };
 		243D7CFE1D56ED80ACB2B3E71B4CB603 /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058AFB8EDAD0C892CC56A633FA6C13E /* AuthenticationChallengeResponsable.swift */; };
+		24E4759786D48CFC08C7AA0A67AB7B68 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E1DB955DF2E9B445744B443A728BB /* ChatViewController.swift */; };
 		2550F0D474DE846FEC5C76CBE85F927E /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F291309BE4247864BF3D15E8299BA4CE /* OperationQueue+Alamofire.swift */; };
-		25B1D3334AF3AFC9F2C9F5E10EA1DF10 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EBC44D99C7AC3B1C52AB314A726901 /* SocketIOClient.swift */; };
 		25FC036BEA33CAB5D80F5A41644535D3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC80EC566092243A7BF0E608461E0990 /* Storage.swift */; };
-		289BB2D2FBD351590E06D625A0395BB7 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0B853CBB53365C9F18D733FB39562 /* SocketAckEmitter.swift */; };
+		277BFB2591A8AFE1D9E5C3577C2E909E /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479D2A6417C148DCF53D3435175B9A7 /* SocketStringReader.swift */; };
 		29FF13E23FD52E46D30530549410AD7C /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014324F321BC70067BF405A13978CDC4 /* ImageTransition.swift */; };
-		2AD2CB9E6F102A227FC4E6CAFA03E284 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8589A53AD812282E08AAC709F398150 /* SSLClientCertificate.swift */; };
 		2BE89C24BFD3FB663E37C607C289B3B6 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437D5E0A58B27403F8B217BDA37CD06 /* RedirectHandler.swift */; };
+		2EEF1EF36AB5EEA362878AD6A77E3B52 /* SociomileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9F3E7CF8EF258F3097761FED84D6 /* SociomileRouter.swift */; };
 		30A331CD9286145E92DB11D671664C63 /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E386FD1F9CA14AC9D12C12B162150E88 /* MultipartUpload.swift */; };
 		31C1F4D5A67D80D8ED43DC5FD35B13D3 /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8259FD299F8C95EF4E6B7C661EE597B /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3300947195F5B777D9FE188092ADC3FB /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB033C771033DA8A7F46A939105F62 /* ExitViewController.swift */; };
 		33F86FAB918B148A63A1575667F9B570 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */; };
-		3537FC7E4124A8E030A72491763A1D35 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A3834A5AF88761C334071CAC767095 /* SocketIOClientConfiguration.swift */; };
-		39B04235CF7A35EFB9B88D59DA28C3DB /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7039FE27A7EE439B59D03BBF3AE87C1A /* SocketEngineWebsocket.swift */; };
+		38DBECA853090545DAC629B3AC3CF55D /* ImageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F7A2BC443CD0DC7C90988A9C70B486 /* ImageChatCell.swift */; };
 		39BCE28F77AFB2131B042C4284DEFADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		3AD5DBB915C2623991F7DBACD173BBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		3AF7DB9AEFF47F1F7F91AF28440E4AC6 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40F4AEF949C411FFAEB20B3B35610FD /* Filter.swift */; };
-		3C21F6E13DFD8894FBE453479051D2A4 /* MessageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3C8FFF4C40B129280172B5162B5987 /* MessageChatCell.xib */; };
+		40900460D11F84BB70FF9A5ADE2D99C7 /* FormDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB20066E816EA4C7100F925025724F /* FormDao.swift */; };
 		420C200A05BB29E1D299D1BADE9139D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */; };
 		457BE444ED617FA7D6851D6DAA9D7234 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9784AA6EC4B7CEB982B48944E0240 /* Delegate.swift */; };
 		4634BA717BFCE522E5B42304C6A78B5D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4D850216D28462F41018A948DDEC0 /* ParameterEncoding.swift */; };
 		471611F482CDC15BF464E3BA9CB83968 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F59269FE82D46278A531D36D13103 /* Notifications.swift */; };
-		490451E891C47391F9D34E6CCD98296F /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AC0495490337DB9DFCF75549ABEA71 /* Starscream-dummy.m */; };
-		4C3D33266949CA51F9B6DC4B4B39B51B /* FormNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E262C3BAE8EFB6DAA379E49A9E795 /* FormNetwork.swift */; };
+		4CCFC8AF1A0630F05D0E1CCC786B49D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		4DCA9775E5CCF599460BDB46E77F6FA4 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAA1A371B3F01AA5E78B6D03B4D36F /* Kingfisher-dummy.m */; };
 		4F37E521D341C47CE73DDCF21BA95A52 /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9BEA2EAA67C19CC86346663BC7F8E /* KingfisherError.swift */; };
-		4FBFBAF09162D9ACF6C36C0E2FA7A514 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA35D83B288B3B2C16F99114DA76E7 /* SocketEngineClient.swift */; };
-		4FF0EE1CF4A74A32A45372E8D5CD96CE /* ImageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0662A88052EB8A27AA44084F0A43CBF9 /* ImageChatCell.swift */; };
 		506128E1CC424E40E2691546D9547549 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7778C83EA7A185A924D793298EE32B /* Placeholder.swift */; };
 		509490FB1D30FEC59AE4BC21AEEBB7BB /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E19A39BFEE7483660C9E38E2C19F26 /* RequestModifier.swift */; };
 		512FAFBD71830F126224C033B6C45F4E /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F8DC1172ECCD8EE36A898ED7A0CBD3 /* RetryPolicy.swift */; };
 		52BE6F747C26DF2A24532458E55DC10F /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8898AB783A396718BDD59E7DEE72B /* HTTPHeaders.swift */; };
-		57D994AC0D542C22F0ABF20237ABCF17 /* SociomileChatSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1BBC90DD6CE1666D3D938B1C14E3AB /* SociomileChatSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5650E96AD4EC805FFA9E89679CCB109C /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DCD65255D3E9D7C98649B66074A45E /* Socket.IO-Client-Swift-dummy.m */; };
+		56884DD971A7DDB8AB6A5B3D622DA3F1 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BBA4EB558BDA1EF74AB0D86E49A09 /* SSLSecurity.swift */; };
 		57FC31B14C753B5C63CEF00560F8A6EF /* SizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28CA5FA24D96BDEA6D0430F693AD1A3 /* SizeExtensions.swift */; };
 		582D59E0D2EF62E0575933C99B393704 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B406C3379B548B05EBE69F1422786A /* GraphicsContext.swift */; };
 		59BC9047F4BEBBC06235608D974E230D /* NSTextAttachment+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B338EF6B20878F06F702D017A4140E /* NSTextAttachment+Kingfisher.swift */; };
-		5A52F30CF2E097B116304F95D00C9DCB /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96C616243698B7D6D81F56FAC192AE /* SocketParsable.swift */; };
 		5ADB30DD9A03859018550A999ACB0652 /* KFImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B88026254EE7D4EF980ADECF1D6C59 /* KFImageOptions.swift */; };
 		5E27DD292D3A55657712DD7AFA7B8FCA /* KFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ED57193B9DB73433FA4E2B338EBF3C /* KFImage.swift */; };
 		5E594FA3290D3D70F500572D0AC100DB /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3392D2696D8E5490BE6A6E6A1C20D /* URLConvertible+URLRequestConvertible.swift */; };
 		5F852F38CBC282496CCBE37C51324B2F /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C64AF839DE3B9EF7C7D3E9FDAABA6 /* ImageProgressive.swift */; };
+		6838C2454C594EE9AC12AD44DD4AC67C /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F87C82C851FBBCFBB941080B5ED97 /* Socket.swift */; };
 		688337B18659C4BF722F87AFC4FEEF81 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CC2EF0308A99A84A43A00FEBA5BC1C /* SessionDelegate.swift */; };
-		6E20F193D1D5EC7B8CF6D1A8FB60B445 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C64F2F2ADBC0C492F12EC79708B84 /* SocketAckManager.swift */; };
-		6E6DA035EE96ED63E7BB8E2B35EE820C /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889A352162990FAAD123F0FAD96C730 /* SocketEnginePacketType.swift */; };
-		70B723F6A01D12BEA564AAA1562B0149 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A5F144756486F1A16C14B748D058D /* ChatViewController.swift */; };
+		6A32BA064CC44D7CA63567B5A8D507E1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B85A1679598673CECBD4AC1882A45B8 /* Media.xcassets */; };
+		6FD2912414A2D8C646F6A4DF7DDA8D79 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C64F2F2ADBC0C492F12EC79708B84 /* SocketAckManager.swift */; };
 		70FEC06F54286257E1BA1ECA0C99198D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F953DEFC677FEADA62EE1D1833219 /* Image.swift */; };
-		74C36099D37F45272F9E698809A3138D /* SociomileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3BCB52854591B1DFC275D6BD6F388D /* SociomileRouter.swift */; };
+		73C78710F0300B055EDF0B54EDAABF60 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45786A72790B99DD6E591884608D05A2 /* Constant.swift */; };
 		75E2F5F0ED93A346EDEAEE6507A8CA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
-		79FFAF9DE49DB886387BA10032FA0A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
-		7AA2AFCFD5D3A461543210D0FCE93149 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B3C13818C07C8B4EE3416FC9E12EC9 /* SocketAnyEvent.swift */; };
+		7BEC40591F21B11E3B4EB58B79F02B57 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E351AD0916FF35932B5678CE6C93F0C /* SocketManager.swift */; };
 		7C7418FF01DD7BB909719682B634A8A5 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8242E92695E8D5C8342BD494256363D /* SessionDataTask.swift */; };
-		7F5381A4DF9F54925441756461D79D7C /* SociomileChatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2183E229882D25ED34C93805CBA9B /* SociomileChatSDK-dummy.m */; };
+		7CAEBA2BECCA2025C3F47DF277B43CF4 /* SociomileChatSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A8E1629B8AC3AA25F43FEE98460AA8 /* SociomileChatSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FFE4021A4F14124342AD41CE1117B3E /* KFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878040D7B0B6055E172723E5A4A370F /* KFAnimatedImage.swift */; };
 		80738D8956C9987CCCEDF551961E5069 /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3A12CC049957DB2E37D820B5266FB /* ImageDataProcessor.swift */; };
 		8458A0A6306D4BF4525116B6E61CE9D1 /* Pods-SociomileChatSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 330C550F7DA624AB9F6E0FDB9153B754 /* Pods-SociomileChatSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8575CBF9E078C6FDEBC92737E805CA15 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D148C8EC1D9F0C917C4320378C01AEC /* SocketTypes.swift */; };
+		876945E73EF2FF3D2216E3D7542645F2 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAAE50B9C991363DA81896A91C6D12 /* SocketIOClientSpec.swift */; };
 		881A35B28D93C56E46E305F6138B1A76 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A3345ED3ACC5FE48F315204D40250F /* ImageDownloaderDelegate.swift */; };
+		8866121FEEA606D94592A3714298A2B9 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E137D50484B42ED06836D9B76E9AF6D /* SocketEngineSpec.swift */; };
 		88CA9BC42B11D010DD081A6565304099 /* Pods-SociomileChatSDKApps-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5A9918DE486DC7FD3162506635BC24 /* Pods-SociomileChatSDKApps-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AD9D7834913E0537519C009F672AA1F /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB3B0FF521355B464C44D17A3B204 /* SSLSecurity.swift */; };
 		8B9CDBE3FFD712120CD66DD8B06C44E4 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22DE74600201C470E1100B0FCCF2D3 /* ParameterEncoder.swift */; };
+		8D260637E86CDAB1D77D126B87A97F26 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7039FE27A7EE439B59D03BBF3AE87C1A /* SocketEngineWebsocket.swift */; };
 		8F9E1EEF2FE52E3231A769722D5C4148 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF05DE6203FF1FBAB0903CD74FB56B /* ServerTrustEvaluation.swift */; };
-		92E5472A871CF97C48B108BC7793EB22 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45958F3114099881BDA37946AA2A069 /* SocketEnginePollable.swift */; };
+		917F09587BFD6A64EFFC742DBA7198F8 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B60BBB574C998A20B968E70CE641F /* SocketEventHandler.swift */; };
+		91F87776BD0180F32B63564261F0DD48 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C6791E1D6BC552986433BD41FA998 /* SocketIOClientOption.swift */; };
 		941822CDF68EB8F4D49F150457A82616 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A41BDA1A7F71E29743873EC95AE9A4 /* ResponseSerialization.swift */; };
-		94C8B29CBF694DCE883515BBBD767273 /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0A4F23CC0B0BBACD8ECABEADE5A88 /* ExitViewController.swift */; };
-		9667759BFD6F43BC24AAB548B555ABD6 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C2A3C437ADDC14E18D3828B677046 /* WebSocket.swift */; };
-		96952B8AC39DB77A0425A0C356817791 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824C6791E1D6BC552986433BD41FA998 /* SocketIOClientOption.swift */; };
+		972530EA64E0D6EB6A3332DEEDA86FA6 /* FormNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8335C68EFF21F46D98635B3B121F52 /* FormNetwork.swift */; };
 		97584BC08D2B494417BDEE268CFF38C9 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F06F37DEC232C53E172DCD16C604F1 /* Combine.swift */; };
+		988474D81D814FB769D018A4695CF1F2 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABF9D535F56A15393A076AEAEB0A21 /* Preferences.swift */; };
+		994F310F657765B8219D7E2E7DAD5EA8 /* MessageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92391679202EA539A153D2E1D8C3D10F /* MessageChatCell.swift */; };
+		99E80E09FF86C9566301878D6EA84825 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DACB0A31C247EA9DAD716928DF43D /* SocketLogger.swift */; };
 		9B0A78AC22E7EDA755F51D86527E2D9C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90FF1A48E1F8C6A630FB3058CB9F81 /* Source.swift */; };
+		9BC146C9156F760704F7305EC40A2716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		9C0BE8FA0030B2BC1DF7C159FA059389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
-		9C1C554396957A84CAE89D2E57B464B8 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05583BF5090BFFD24EDA083BAE8E9F7 /* Compression.swift */; };
 		9CFDA7C92E0EEA31F709663B0E727ABA /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58770310DC3B5A8D88BF1549E7286694 /* EventMonitor.swift */; };
 		9F5FE22DA95B66B8DC21CB13BE25EC9B /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA98367C336ACC09367B23A0893F52E /* WKInterfaceImage+Kingfisher.swift */; };
-		A2C4D774CF037DF2394096ECED9CB4F8 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAAE50B9C991363DA81896A91C6D12 /* SocketIOClientSpec.swift */; };
+		9F8C4996DA338EDDB83436077EC24EE4 /* ImageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7635EF9C856A67B6D4A12C798CDFB62 /* ImageChatCell.xib */; };
+		9FFF4178823235823025C7036683D50A /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA35D83B288B3B2C16F99114DA76E7 /* SocketEngineClient.swift */; };
+		A1E6685A42BA97CBEB48108C8DE7AB0B /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 268BB2CD49B07553AF823223DC11902B /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3153333FC136836B0028E6AB2A56BEE /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C975329A37D261B2825C424A157E602 /* AlamofireExtended.swift */; };
 		A316388A35648CB2987E761771456087 /* KFOptionsSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F2A6DC56728DA3327C9B9322DB874F /* KFOptionsSetter.swift */; };
-		A328149F3AA7EA874CE94648505E3E76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		A39D3555EC8B45B7D6B9505DDAF0F117 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DC36A6FA4027A1A4FD3D9AFFFC0E0 /* Kingfisher.swift */; };
 		A4F1202CE5BBE79F3BBCAE3D2B16BC03 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA88BDF373C04DFA0E2B906193C33980 /* Result+Alamofire.swift */; };
-		A5EB1066DC63A71184446700CA3A7047 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BBA4EB558BDA1EF74AB0D86E49A09 /* SSLSecurity.swift */; };
 		A664924D6CCE2922A3F81EC932F4D476 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C46C330FE512DF3D51ED274A5FBC7D6 /* AFError.swift */; };
 		A88A844D5356E1690E445024CB796E09 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC22FD04F1451CAE7F34B094125D60 /* Result.swift */; };
-		B0CEBA26C79BBB3C7EFA891C944EEA6C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE51045EDC5A5809BDD237604B5E9A0 /* Media.xcassets */; };
+		AD0C9A7F3C4B6FFA872D3323867B97E1 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB3B0FF521355B464C44D17A3B204 /* SSLSecurity.swift */; };
 		B25E07EA645911443A38DA1E68166156 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE12D50662A1B5CB0B9D74948EA479 /* Box.swift */; };
+		B2A6D7DB0DC8F499A2B84C4E653A867B /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64820556671C18E73421173E890AD49D /* SocketIOStatus.swift */; };
 		B6473B8E8353317F75D6800D4F7054CB /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BB265B11E0AB0BAD64EA905B52A1F7 /* NetworkReachabilityManager.swift */; };
 		B89D1C69742F61878115334A1D2DFFE7 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DEB5754F106D8C9113E6EA1F7FD166 /* URLRequest+Alamofire.swift */; };
-		B91F84CA94E39E92A375CB3163FD6C32 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA512EE5CBDDAD030DDD2189A86F24AE /* SocketPacket.swift */; };
+		B95E645FB071ECC04D2347573980B02C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A235B136B174130A4FB85CB16A5B6 /* FormViewController.swift */; };
+		BC4BA560BB36C729001702BBA26F3B68 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939BCA7347821182289691DE70875054 /* Chat.storyboard */; };
+		BCDE488658414287F16DCD1CD8FAB3FF /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C2A3C437ADDC14E18D3828B677046 /* WebSocket.swift */; };
 		BD382E78580D295D10100678D4F66A76 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24790AD224BE17FD3DB7C7F34F90F761 /* String+MD5.swift */; };
-		BFD104DE3F9805C6F2EEEEAD8EC0C7AE /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F68280CD2104AE19565E34872EA39A /* Chat.storyboard */; };
+		BD3E050C154AFF561EA6F999E73C8BF9 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B3C13818C07C8B4EE3416FC9E12EC9 /* SocketAnyEvent.swift */; };
 		C16A047C4E8D856309A486182A490993 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175988D8BBFA67022D9377DD23D712A9 /* MultipartFormData.swift */; };
-		C1CCD3AD97506F3CEEAD689333DF3AA2 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479D2A6417C148DCF53D3435175B9A7 /* SocketStringReader.swift */; };
 		C3D622589DAED7BC6396D70E9FFEFB91 /* Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB019B3616EBFEEA372278A3FD0FA6E /* Pods-SociomileChatSDK-SociomileChatSDKTests-dummy.m */; };
-		C55C5026435428445F30B6E23F59814B /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DACB0A31C247EA9DAD716928DF43D /* SocketLogger.swift */; };
-		C5FAEE64194A5D1E7BAFEDAF60D515DF /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 268BB2CD49B07553AF823223DC11902B /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6E9A58DE8344B67BF9D8616C1AB1B49 /* FormEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0E02F76253A544955AE6831EECDF0 /* FormEntity.swift */; };
-		C71B2F42EBB615C791476B8E3FAD9E95 /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3FD3CD1ED36C1D0EAAF1D965C4B3E /* SocketRawView.swift */; };
+		C3DF3BAD82711D1929798E8442779CCA /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F53BB249A4D3C43898EF7FFC20A7F /* SocketExtensions.swift */; };
 		C7F66519CE6148F21D7DB11423F1D34D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5FD17C0B58CCA051F85FE301595911 /* Response.swift */; };
-		CD1A01ED44995F7CE73FFB98DF294E53 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A97D12DA469C1A8C9B5E0E865758B9 /* SocketEngine.swift */; };
 		CD7AC3E1C98EA54F7C05C36C52805220 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D0C231134ABDAB2A35CBD171C7057 /* CacheSerializer.swift */; };
-		D02F97FE2E93E373236E02054901E2C6 /* ImageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBB2645B66CB1358E1623605EA6376 /* ImageChatCell.xib */; };
 		D15FEA31AA9625BBF041FB91E48A9995 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6451A1919B51D75EC2EEB5B6AC0A0D /* Validation.swift */; };
+		D2C991C04A4418700BBE4E74C2CC7A45 /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E3FD3CD1ED36C1D0EAAF1D965C4B3E /* SocketRawView.swift */; };
 		D4A265563C4EA2517F14343F54114AE9 /* Pods-SociomileChatSDKApps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77EDD8667CC2BFB510140852CFA8AF /* Pods-SociomileChatSDKApps-dummy.m */; };
 		D603AA58EF97D461A57B2B1BCB883868 /* AVAssetImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A06DA41250D35A5A3B9F4F6E8EF33 /* AVAssetImageDataProvider.swift */; };
-		D83E3EA3D4B1ADFC6C55416BA8737C7C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACA4F27CE5641BA2CAA0F96598CBEF8 /* FormViewController.swift */; };
+		DAD4EA41BA3DF0CB0F526B2FC3F0694C /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AC0495490337DB9DFCF75549ABEA71 /* Starscream-dummy.m */; };
 		DAFC6CE6321395CF4523DD66DADBB9BA /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6055BABBCE39869A6D215589A3A044B /* ImageDrawing.swift */; };
 		DBB8088E14A2ADEDB1CD840BAC835267 /* CPListItem+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCFD28EDC631CC113B9462195B0F263 /* CPListItem+Kingfisher.swift */; };
 		DCD0C33A2B50811D53CF68F021284B47 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C3E2DCF542CF1B31B354BC1A702E8 /* DispatchQueue+Alamofire.swift */; };
-		DD56AF15C65A51A2F4781EA55081AAD2 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1224D8BA84E0B3F796A7507F909823 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD58A00EACBEE274C381B491519C6B8C /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23902CF440E90A62F918D7757EC987E8 /* RedirectHandler.swift */; };
 		DD72DC30CF19FFC81AB19CD0B074000D /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4211D04C00803F4CD9FA42A964D0A1CA /* ImageDownloader.swift */; };
 		DE532EF7D50A9CF68587DAD4C1A02BD7 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F130C6EA4F746BAEAEE8F0EFAB9C52D /* FormatIndicatedCacheSerializer.swift */; };
+		DE7564ABC9611A6B9775B4E98DBE5464 /* SociomileChatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8CA3753A5C7240CBC6BFACEA503DF6 /* SociomileChatSDK-dummy.m */; };
 		DF4563832C19B8582C810BF502A5CA29 /* KF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE02DA0C295136415C9033E94F01F8 /* KF.swift */; };
-		DF50C53437DA539D403C43975D7D9900 /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DCD65255D3E9D7C98649B66074A45E /* Socket.IO-Client-Swift-dummy.m */; };
-		DF51756282DF9D6B24828288AB5DD7BD /* SociomileChatSDK-SociomileChatSDK in Resources */ = {isa = PBXBuildFile; fileRef = EEC931B84BF453B1FA22A23E495FD0C9 /* SociomileChatSDK-SociomileChatSDK */; };
 		DFCDE4638265B4CCD494ECA5D560DBEE /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8C6F29D7C6486B105B68684286759D /* Indicator.swift */; };
 		E0C65E16219718869CD2AFCA2C5465CB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86887AAAC4D027BDEDB639EC5BD7A2A0 /* Request.swift */; };
 		E1769C267E82B0C24FE0FFBF949F0A6E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188356B3F0D421C5415DE244809FB91 /* StringEncoding+Alamofire.swift */; };
+		E3BD4651385042766ACA71C111E29251 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1224D8BA84E0B3F796A7507F909823 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5B664771063F1A9A372519A8466860B /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE384397EE9D008C169CC81120DB012 /* ImageView+Kingfisher.swift */; };
 		E6D6C7D5E458A05CC736C340F853E9F6 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7A53A3833FD9B10DEAE64E98EC93B4 /* ImageFormat.swift */; };
 		E719A3B025B9DACE693130120BD9B927 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52554E1C9731D5352FDE9E63F8C5466B /* Accelerate.framework */; };
 		E857ADCAD7B647883D5B2AEC3F16D1D5 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17783BD23C76A5717BA7CBF0A18BE86 /* URLSessionConfiguration+Alamofire.swift */; };
-		EA5AE1469C0CF3A2D4F8726C647FF1C4 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E137D50484B42ED06836D9B76E9AF6D /* SocketEngineSpec.swift */; };
+		E9A8F02F9AC6DC30E700EFFDFCF2698A /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A3834A5AF88761C334071CAC767095 /* SocketIOClientConfiguration.swift */; };
 		EABBE27F23B24DA04F627B1E1D454B74 /* Pods-SociomileChatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E443BF2D528834A97F0DAC8714A0F3 /* Pods-SociomileChatSDK-dummy.m */; };
-		EAE621AEB679F4BB7146FB011503E051 /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64820556671C18E73421173E890AD49D /* SocketIOStatus.swift */; };
 		EBB32304E8DD4BA115454E0050D47DED /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CB44AE242321227C6CE74BA958E13 /* Runtime.swift */; };
 		EC11B17DA78F7EEBEBC3EFAF68C6DF9F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126608A15AD5503FA6F81EEE47D35456 /* Session.swift */; };
+		ECE9CEF824AAFB4BBF55E391D557C1E2 /* FormEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E818A016630F42679A843A804B1DA716 /* FormEntity.swift */; };
 		ED0C8BA7560D7324587B353E0960479F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A96C690E39CB8796A17DD7D267139 /* ImageCache.swift */; };
-		ED683E932A19F9DA554DABCB7FC86D39 /* SocketManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD4250004ECAB6A0C9FF709BFCF39D /* SocketManagerSpec.swift */; };
+		EE8CDAACE6ABCD02D6A2499C93B7B261 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96C616243698B7D6D81F56FAC192AE /* SocketParsable.swift */; };
+		EEBFC924E9BC32F45D60023B1C4A1CBA /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0B853CBB53365C9F18D733FB39562 /* SocketAckEmitter.swift */; };
 		EF9C4588CDA85AED8BBCF77451B2A35B /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFDEC1475B526E4D76E1DD9B0E41D3 /* ImageProcessor.swift */; };
 		F17B1F8F2B6580343025237455A29D61 /* TVMonogramView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4C3FEEFBAF19A56BB6CE4C3DEE5E3 /* TVMonogramView+Kingfisher.swift */; };
+		F18362F65172E0F51B351B9BA7EA3ADE /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45958F3114099881BDA37946AA2A069 /* SocketEnginePollable.swift */; };
+		F1B90A42EE0CE20D108AB369E42CAF07 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA17010BFB1C42F278B44C72CFDC6A8A /* Error.swift */; };
 		F24021BDE9B42D604E3341CAD8E34759 /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53F9F04E8A24D91F42F208FDD3EB4B /* GIFAnimatedImage.swift */; };
 		F36D96A4346C90A2D11CB3B6A2ECF4CF /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA42F42B0A07C7CDDF8E9DC87EA2FB /* AuthenticationInterceptor.swift */; };
 		F5414F8A5B40521D0E4AEEB28378CB49 /* ImageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D2C8F44973DC65EDCD34923343658 /* ImageContext.swift */; };
 		F54DE563418B1783D6EC491A0C3A05DB /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9133BBFB9CC9C944F7B1B28C6901812 /* ImageModifier.swift */; };
 		F5D2A31C7EB1DE010771140B6E7ABAD8 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6987ADA71CA0A79616CC0EFEBE802B /* URLEncodedFormEncoder.swift */; };
+		F6361A2D903839360A18D6393DADE076 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EBC44D99C7AC3B1C52AB314A726901 /* SocketIOClient.swift */; };
 		F63BE0585331CAA3482EF736803F8243 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1DC7E76DAB43E5002F542E63A610A8 /* RequestInterceptor.swift */; };
+		F80AE4D375155BAE37356F23869BFF12 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6889A352162990FAAD123F0FAD96C730 /* SocketEnginePacketType.swift */; };
 		F9537B023E24AC4A724E301F7E372491 /* KFImageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46501CFD9E8B6060134A0FC3DA7802A0 /* KFImageProtocol.swift */; };
-		FC7C7583DE052D6DB6A744BC9A4E8068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
+		FDEFE61CCA8949E18F8C015A13DCF9DA /* MessageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5D4C31796B90A0BF35348FAF1AB400 /* MessageChatCell.xib */; };
 		FEDBAD32E2EDA85AD6E362B82892A74A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB736B6F9AE619824D79875301EF04 /* Alamofire.swift */; };
 		FF09824309346665E2F1F7F5A45FB10F /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C5E74D03B776889E5956A3B511E6EC /* CallbackQueue.swift */; };
-		FF45613425F94C9CE4664DF15B786BB0 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F53BB249A4D3C43898EF7FFC20A7F /* SocketExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DAEDD708D2AE299262282E7695BB89B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
-			remoteInfo = Starscream;
-		};
-		12C63CA845F5EBB5E6D084AAA6822912 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
-			remoteInfo = Starscream;
-		};
-		2E778A4988024D3F93A61CED7BEBAA2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
-			remoteInfo = Starscream;
-		};
-		4AD2D7E417F018F54F89F47208A73CAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		5B47B238413F2489D58C8036A6D72DBF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		6A054559A9C507BF645A6B978490DEB5 /* PBXContainerItemProxy */ = {
+		05C5F71C90B814DDAADEC17175B842B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
 		};
-		6E084E23602969E58F7A24F2A50D51F8 /* PBXContainerItemProxy */ = {
+		11E7C0403489B289130D09A147ACD6F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42A042896AB58C201F6A768BA9AA3663;
-			remoteInfo = "SociomileChatSDK-SociomileChatSDK";
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
 		};
-		74B91675BAC6F3EC60E16383871908EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A44D85440C5D58BC5C4D70A539C5EEF0;
-			remoteInfo = "Socket.IO-Client-Swift";
-		};
-		7D8F2B480A421FB314B0338E571A2401 /* PBXContainerItemProxy */ = {
+		29B16D234657778A92C33AC5BDFE0A81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		7DBD04DE539871F66034D61B81B1FF39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
-			remoteInfo = Kingfisher;
-		};
-		A0BDCEDF3D39720461CD457DE1DB4D86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A44D85440C5D58BC5C4D70A539C5EEF0;
-			remoteInfo = "Socket.IO-Client-Swift";
-		};
-		AB31C36F55F89335322EBE4239ACF9F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
-			remoteInfo = Kingfisher;
-		};
-		ADE34E02E9B2EFA5960A372506EC85CB /* PBXContainerItemProxy */ = {
+		3A3B327D29EA6409B9F01BFA3695AC81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37B7E94E5CCA43B1A40B1A42236367B9;
 			remoteInfo = SociomileChatSDK;
 		};
-		B24A52C276DAEEAAC3A994520134A9DD /* PBXContainerItemProxy */ = {
+		4B07AC5D4064D8ADCC8E20F9DE6A9B45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A44D85440C5D58BC5C4D70A539C5EEF0;
 			remoteInfo = "Socket.IO-Client-Swift";
 		};
-		B406865A18E2242CF70BF8691494DC3D /* PBXContainerItemProxy */ = {
+		5AC9097AD1CB804FA5EDB53960860328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44D85440C5D58BC5C4D70A539C5EEF0;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+		674604870F8003E37385A679455D9551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
+		};
+		74E30BF11F1326A9BDA67E43C3250C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44D85440C5D58BC5C4D70A539C5EEF0;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+		77D44C26AE56EC0B69D74F35EF2D8354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
+		};
+		A9967E487D79E73CC02FDE1AB88D7E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44D85440C5D58BC5C4D70A539C5EEF0;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+		AF6876C1CDA42663B41B24273F856D4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		B84E9B61DC1CC5DAB3E1B4DF11151BD5 /* PBXContainerItemProxy */ = {
+		B2EC7CA1279E32258DD0B7BB81E638AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A44D85440C5D58BC5C4D70A539C5EEF0;
-			remoteInfo = "Socket.IO-Client-Swift";
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
-		C63652D6F26D2B67871CAA5276D5E56C /* PBXContainerItemProxy */ = {
+		CA07734F1DBCCCFDAB1841B6B00F420D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
 			remoteInfo = Starscream;
 		};
-		D8AD359C7979F5C9142D9EB49AA719BA /* PBXContainerItemProxy */ = {
+		CF0F2950B378BB0C40342C3B3BEB0C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		D4778BBA191AE8BC3F281BEF4D36606E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
+		};
+		EDE7A234779316F6500521335E309DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		F93C10FFBE731F772F7891B7C5C46A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A042896AB58C201F6A768BA9AA3663;
+			remoteInfo = "SociomileChatSDK-SociomileChatSDK";
+		};
+		FBAD7CF79EBEE5D3C6DDAFD254D62E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -309,16 +314,17 @@
 		014324F321BC70067BF405A13978CDC4 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
 		02FE48124017C7081423D15A6772493C /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		06273CBDD71ADE84FFE662C0DCA1CA5F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		0662A88052EB8A27AA44084F0A43CBF9 /* ImageChatCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageChatCell.swift; sourceTree = "<group>"; };
+		07EB033C771033DA8A7F46A939105F62 /* ExitViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
 		08AE9970331192D230A602530BEB07CB /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
 		08B17090A1F53AF27F4C1B146F2803D0 /* Pods-SociomileChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDK.release.xcconfig"; sourceTree = "<group>"; };
-		0D5E5A1BA1208D40A5C452357B65A753 /* SociomileChatSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SociomileChatSDK-prefix.pch"; sourceTree = "<group>"; };
 		0E137D50484B42ED06836D9B76E9AF6D /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketIO/Engine/SocketEngineSpec.swift; sourceTree = "<group>"; };
 		0E351AD0916FF35932B5678CE6C93F0C /* SocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketManager.swift; path = Source/SocketIO/Manager/SocketManager.swift; sourceTree = "<group>"; };
 		0EEFDEC1475B526E4D76E1DD9B0E41D3 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		0F90FF1A48E1F8C6A630FB3058CB9F81 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		126608A15AD5503FA6F81EEE47D35456 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		130E7FA1574EDBB8F8F8C4F5BB8C4A22 /* SociomileChatSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SociomileChatSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		148C64AF839DE3B9EF7C7D3E9FDAABA6 /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
+		14AB20066E816EA4C7100F925025724F /* FormDao.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormDao.swift; sourceTree = "<group>"; };
 		17295F0E8F39F79AB063601B7A4037CC /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
 		175988D8BBFA67022D9377DD23D712A9 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		17D8DD4633D001F0C139A779CA4DA801 /* Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -336,17 +342,17 @@
 		268BB2CD49B07553AF823223DC11902B /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
 		27FC3D3CE55F4826EB53D2DF9FDA72D0 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
 		28BB265B11E0AB0BAD64EA905B52A1F7 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		2A5382EC43F0A7E3C1C4ADA48C3D6AB6 /* MessageChatCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageChatCell.swift; sourceTree = "<group>"; };
 		2C4BC847EAE82E9542DBA64C40EF002D /* KFImageRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageRenderer.swift; path = Sources/SwiftUI/KFImageRenderer.swift; sourceTree = "<group>"; };
 		2D9CB44AE242321227C6CE74BA958E13 /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		2DAFF43F9CDE6AEE807E0745C192F8A2 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		30D9992B01819B7FEB90C5604A32AB7B /* Pods-SociomileChatSDK-SociomileChatSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-Info.plist"; sourceTree = "<group>"; };
+		31F7A2BC443CD0DC7C90988A9C70B486 /* ImageChatCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageChatCell.swift; sourceTree = "<group>"; };
 		32C0B6E7F802582226C463416E27794B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		330C550F7DA624AB9F6E0FDB9153B754 /* Pods-SociomileChatSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SociomileChatSDK-umbrella.h"; sourceTree = "<group>"; };
-		337E262C3BAE8EFB6DAA379E49A9E795 /* FormNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormNetwork.swift; sourceTree = "<group>"; };
 		3775379D11A6B0356D27E174526B48D0 /* Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDK-SociomileChatSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		37B0B853CBB53365C9F18D733FB39562 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketIO/Ack/SocketAckEmitter.swift; sourceTree = "<group>"; };
 		38EB5E6C17115273AF3336876C8B5F97 /* Socket.IO-Client-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		39ACDB8292BEB9A14F917C711042A1E9 /* SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
 		39B3C13818C07C8B4EE3416FC9E12EC9 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketIO/Client/SocketAnyEvent.swift; sourceTree = "<group>"; };
 		39CFE943E10F0BA8025BFE569DCF96FC /* Pods-SociomileChatSDKApps-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDKApps-acknowledgements.plist"; sourceTree = "<group>"; };
 		39E569B47D859B32BA5E58C74E362654 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
@@ -354,22 +360,24 @@
 		3B29B47F5B0F78B830F1E49E6DA51543 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		3C0DC36A6FA4027A1A4FD3D9AFFFC0E0 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
 		3C46C330FE512DF3D51ED274A5FBC7D6 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		40A8E1629B8AC3AA25F43FEE98460AA8 /* SociomileChatSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SociomileChatSDK-umbrella.h"; sourceTree = "<group>"; };
 		40DCD65255D3E9D7C98649B66074A45E /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
 		40F06F37DEC232C53E172DCD16C604F1 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
-		41E2CB9C17D433C8353B7836BC6460D7 /* SociomileChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SociomileChatSDK.release.xcconfig; sourceTree = "<group>"; };
 		4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4211D04C00803F4CD9FA42A964D0A1CA /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
+		424F87C82C851FBBCFBB941080B5ED97 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		42771BDFD062436A81E3C266DFBF9066 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
 		435B67917E735A2F2F89F56616DDE0DD /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		45786A72790B99DD6E591884608D05A2 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		46501CFD9E8B6060134A0FC3DA7802A0 /* KFImageProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageProtocol.swift; path = Sources/SwiftUI/KFImageProtocol.swift; sourceTree = "<group>"; };
 		49CC2EF0308A99A84A43A00FEBA5BC1C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		4A2B2C1CFEC77BCAC0AC080264A17F42 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		4AC4D850216D28462F41018A948DDEC0 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		4B77EDD8667CC2BFB510140852CFA8AF /* Pods-SociomileChatSDKApps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SociomileChatSDKApps-dummy.m"; sourceTree = "<group>"; };
+		4B85A1679598673CECBD4AC1882A45B8 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = SociomileChatSDK/Assets/Media.xcassets; sourceTree = "<group>"; };
 		4BE384397EE9D008C169CC81120DB012 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		4D2D2C8F44973DC65EDCD34923343658 /* ImageContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContext.swift; path = Sources/SwiftUI/ImageContext.swift; sourceTree = "<group>"; };
 		4F298223C223EE1AEAC1798CF1C39532 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
-		4F4AC2036D420D30B590E3BBCEB86201 /* SociomileChatSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SociomileChatSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F5FD17C0B58CCA051F85FE301595911 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		50C0B0879B7086918A819F704BF40B4B /* Socket.IO-Client-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Socket.IO-Client-Swift"; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52554E1C9731D5352FDE9E63F8C5466B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
@@ -377,12 +385,13 @@
 		539F99310823C89C75AF4A50762C33C4 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
 		53B88026254EE7D4EF980ADECF1D6C59 /* KFImageOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageOptions.swift; path = Sources/SwiftUI/KFImageOptions.swift; sourceTree = "<group>"; };
 		56D9BEA2EAA67C19CC86346663BC7F8E /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
+		579E1DB955DF2E9B445744B443A728BB /* ChatViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		58770310DC3B5A8D88BF1549E7286694 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		5D6878C6DF8E480479D013689D21F286 /* Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.debug.xcconfig; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6DACB0A31C247EA9DAD716928DF43D /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketIO/Util/SocketLogger.swift; sourceTree = "<group>"; };
+		5E7A235B136B174130A4FB85CB16A5B6 /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		5F130C6EA4F746BAEAEE8F0EFAB9C52D /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
-		5F3A5F144756486F1A16C14B748D058D /* ChatViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		5FB7AEBDBB469EE84764C9089D0E58E3 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		6028EEFA31A8B541C236119A27279089 /* Socket.IO-Client-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		637A96C690E39CB8796A17DD7D267139 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/Cache/ImageCache.swift; sourceTree = "<group>"; };
@@ -392,20 +401,20 @@
 		6878040D7B0B6055E172723E5A4A370F /* KFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFAnimatedImage.swift; path = Sources/SwiftUI/KFAnimatedImage.swift; sourceTree = "<group>"; };
 		6889A352162990FAAD123F0FAD96C730 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketIO/Engine/SocketEnginePacketType.swift; sourceTree = "<group>"; };
 		68A5B8422F5701B0DE9BAF047A5B03CF /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		6A1BBC90DD6CE1666D3D938B1C14E3AB /* SociomileChatSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SociomileChatSDK-umbrella.h"; sourceTree = "<group>"; };
+		693F052EAFDB6F828BD59D813752F2CA /* ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
 		6A24376C84626EB8BE468E9491DDDE77 /* Pods-SociomileChatSDKApps.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SociomileChatSDKApps.modulemap"; sourceTree = "<group>"; };
 		6AF75237EB8FD512B85DCCC804B7CCF8 /* Pods-SociomileChatSDKApps-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDKApps-Info.plist"; sourceTree = "<group>"; };
-		6C3BCB52854591B1DFC275D6BD6F388D /* SociomileRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SociomileRouter.swift; sourceTree = "<group>"; };
 		6C5B60BBB574C998A20B968E70CE641F /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketIO/Client/SocketEventHandler.swift; sourceTree = "<group>"; };
+		6E8CA3753A5C7240CBC6BFACEA503DF6 /* SociomileChatSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SociomileChatSDK-dummy.m"; sourceTree = "<group>"; };
 		6FA98367C336ACC09367B23A0893F52E /* WKInterfaceImage+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKInterfaceImage+Kingfisher.swift"; path = "Sources/Extensions/WKInterfaceImage+Kingfisher.swift"; sourceTree = "<group>"; };
 		7039FE27A7EE439B59D03BBF3AE87C1A /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketIO/Engine/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
 		72A3834A5AF88761C334071CAC767095 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = Source/SocketIO/Client/SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
 		75A955BC417A755CCB65D65F8EEC8C9A /* Pods-SociomileChatSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SociomileChatSDK.modulemap"; sourceTree = "<group>"; };
 		78AA517D367C7E9A0A7BBD530FBCB30F /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		78BC22FD04F1451CAE7F34B094125D60 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
-		79187946306F4A1E655E7BB584C06D50 /* SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
 		7A376F8CC07C4C1B9D50B742BED1BFEF /* Pods-SociomileChatSDKApps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SociomileChatSDKApps-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F4F953DEFC677FEADA62EE1D1833219 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image/Image.swift; sourceTree = "<group>"; };
+		7F51F04271E82B6594AD24B52814AE21 /* SociomileChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SociomileChatSDK.release.xcconfig; sourceTree = "<group>"; };
 		7FB3392D2696D8E5490BE6A6E6A1C20D /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		80DF05DE6203FF1FBAB0903CD74FB56B /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		824C6791E1D6BC552986433BD41FA998 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIO/Client/SocketIOClientOption.swift; sourceTree = "<group>"; };
@@ -413,6 +422,7 @@
 		835F59269FE82D46278A531D36D13103 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		8367B273028F0DE5D5063A9B5D987A38 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		84F8DC1172ECCD8EE36A898ED7A0CBD3 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		866BE0D9808B55D2E313C7CBA05E9082 /* SociomileChatSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SociomileChatSDK.modulemap; sourceTree = "<group>"; };
 		86887AAAC4D027BDEDB639EC5BD7A2A0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		88C9278E91F02988BD51A4E831231F03 /* Pods-SociomileChatSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SociomileChatSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -420,26 +430,28 @@
 		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EBC44D99C7AC3B1C52AB314A726901 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIO/Client/SocketIOClient.swift; sourceTree = "<group>"; };
 		8A2B06E1554F32239B67BD3A5695AD2D /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		8B4324C74CF1733E7181C2A39BB51E92 /* SociomileChatSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SociomileChatSDK.modulemap; sourceTree = "<group>"; };
 		8C3A06DA41250D35A5A3B9F4F6E8EF33 /* AVAssetImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetImageDataProvider.swift; path = Sources/General/ImageSource/AVAssetImageDataProvider.swift; sourceTree = "<group>"; };
 		8C975329A37D261B2825C424A157E602 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		8CA3A12CC049957DB2E37D820B5266FB /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
-		8CDBB2645B66CB1358E1623605EA6376 /* ImageChatCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ImageChatCell.xib; sourceTree = "<group>"; };
+		8D8335C68EFF21F46D98635B3B121F52 /* FormNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormNetwork.swift; sourceTree = "<group>"; };
 		9058AFB8EDAD0C892CC56A633FA6C13E /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
 		91204872B4A270628441EA57B6981C18 /* SociomileChatSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SociomileChatSDK; path = SociomileChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		915C1F59C9ADA8E5D5B86969B3D13A00 /* Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92391679202EA539A153D2E1D8C3D10F /* MessageChatCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageChatCell.swift; sourceTree = "<group>"; };
+		939BCA7347821182289691DE70875054 /* Chat.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Chat.storyboard; path = SociomileChatSDK/Assets/Chat.storyboard; sourceTree = "<group>"; };
 		94EA42F42B0A07C7CDDF8E9DC87EA2FB /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		97C5E74D03B776889E5956A3B511E6EC /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
 		98A3345ED3ACC5FE48F315204D40250F /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
 		98D8898AB783A396718BDD59E7DEE72B /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		9A103837317F025C028DD6A3E46B7768 /* SociomileChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SociomileChatSDK.debug.xcconfig; sourceTree = "<group>"; };
 		9ABD4250004ECAB6A0C9FF709BFCF39D /* SocketManagerSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketManagerSpec.swift; path = Source/SocketIO/Manager/SocketManagerSpec.swift; sourceTree = "<group>"; };
-		9BE51045EDC5A5809BDD237604B5E9A0 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = SociomileChatSDK/Assets/Media.xcassets; sourceTree = "<group>"; };
 		9D1D91C8944D2821BA06729F0F53C4E1 /* Socket.IO-Client-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Socket.IO-Client-Swift-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F7ED75DF3591FC3BDC872C6896636B6 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
 		A05583BF5090BFFD24EDA083BAE8E9F7 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
 		A45958F3114099881BDA37946AA2A069 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketIO/Engine/SocketEnginePollable.swift; sourceTree = "<group>"; };
 		A52AFFAFDAE2CD5858143FAA401A1640 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		A5ABF9D535F56A15393A076AEAEB0A21 /* Preferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		A8242E92695E8D5C8342BD494256363D /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
 		A8259FD299F8C95EF4E6B7C661EE597B /* Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SociomileChatSDK-SociomileChatSDKTests-umbrella.h"; sourceTree = "<group>"; };
 		A8B406C3379B548B05EBE69F1422786A /* GraphicsContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphicsContext.swift; path = Sources/Image/GraphicsContext.swift; sourceTree = "<group>"; };
@@ -456,25 +468,22 @@
 		AFDE02DA0C295136415C9033E94F01F8 /* KF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KF.swift; path = Sources/General/KF.swift; sourceTree = "<group>"; };
 		B0A97D12DA469C1A8C9B5E0E865758B9 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketIO/Engine/SocketEngine.swift; sourceTree = "<group>"; };
 		B19D0C231134ABDAB2A35CBD171C7057 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
+		B37D9F3E7CF8EF258F3097761FED84D6 /* SociomileRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SociomileRouter.swift; sourceTree = "<group>"; };
 		B392B6193C6BF84AD264B63A6C19EA2E /* Pods-SociomileChatSDKApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDKApps.debug.xcconfig"; sourceTree = "<group>"; };
 		B4E19A39BFEE7483660C9E38E2C19F26 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
-		B5C2183E229882D25ED34C93805CBA9B /* SociomileChatSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SociomileChatSDK-dummy.m"; sourceTree = "<group>"; };
 		B6055BABBCE39869A6D215589A3A044B /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
-		BACA4F27CE5641BA2CAA0F96598CBEF8 /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		B7635EF9C856A67B6D4A12C798CDFB62 /* ImageChatCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ImageChatCell.xib; sourceTree = "<group>"; };
+		BA17010BFB1C42F278B44C72CFDC6A8A /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		BCA03BB32FC0B3BEDADAA2C39DF2F540 /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
 		BD7D77F57F58E51DC3E221480AD10BFD /* Pods-SociomileChatSDKApps-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SociomileChatSDKApps-frameworks.sh"; sourceTree = "<group>"; };
 		BF7A53A3833FD9B10DEAE64E98EC93B4 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		BFA847F39DCA7E33D4A2FBD473B6DB39 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
 		C1C3D8919EEC8A3F80BFEA32E953B192 /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
-		C2B0E02F76253A544955AE6831EECDF0 /* FormEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormEntity.swift; sourceTree = "<group>"; };
 		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40F4AEF949C411FFAEB20B3B35610FD /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
 		C4E443BF2D528834A97F0DAC8714A0F3 /* Pods-SociomileChatSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SociomileChatSDK-dummy.m"; sourceTree = "<group>"; };
-		C84FB6E7282F2C443664CF90FD72954D /* ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
 		CB728E4CEE8E78FFCE8C4778D36708F9 /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Networking/RetryStrategy.swift; sourceTree = "<group>"; };
 		CC80EC566092243A7BF0E608461E0990 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
-		CDEB20AA9123F0BDE72295226702C782 /* SociomileChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SociomileChatSDK.debug.xcconfig; sourceTree = "<group>"; };
-		CFB0A4F23CC0B0BBACD8ECABEADE5A88 /* ExitViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
 		D1BAA1A371B3F01AA5E78B6D03B4D36F /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
 		D1E7A8F31238B8AF91A46E7DAB6664FD /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		D232E1512C3C8A7B00218564D6DCAB9E /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
@@ -486,25 +495,26 @@
 		DA88BDF373C04DFA0E2B906193C33980 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		DB8C6F29D7C6486B105B68684286759D /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
 		DBD841AAE6916D377216E8A4FD306CB8 /* Pods-SociomileChatSDKApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SociomileChatSDKApps.release.xcconfig"; sourceTree = "<group>"; };
-		DD3C8FFF4C40B129280172B5162B5987 /* MessageChatCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MessageChatCell.xib; sourceTree = "<group>"; };
 		DF29C9C90DAA4B1C64F8140F9433CBF2 /* Pods-SociomileChatSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SociomileChatSDK-Info.plist"; sourceTree = "<group>"; };
+		DF5D4C31796B90A0BF35348FAF1AB400 /* MessageChatCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MessageChatCell.xib; sourceTree = "<group>"; };
 		DFF4C3FEEFBAF19A56BB6CE4C3DEE5E3 /* TVMonogramView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TVMonogramView+Kingfisher.swift"; path = "Sources/Extensions/TVMonogramView+Kingfisher.swift"; sourceTree = "<group>"; };
 		E00F0CBB77C74B72E90E18937D61ADF0 /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
 		E17783BD23C76A5717BA7CBF0A18BE86 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		E188356B3F0D421C5415DE244809FB91 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		E1A41BDA1A7F71E29743873EC95AE9A4 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		E2F68280CD2104AE19565E34872EA39A /* Chat.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Chat.storyboard; path = SociomileChatSDK/Assets/Chat.storyboard; sourceTree = "<group>"; };
 		E386FD1F9CA14AC9D12C12B162150E88 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		E3E3FD3CD1ED36C1D0EAAF1D965C4B3E /* SocketRawView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketRawView.swift; path = Source/SocketIO/Client/SocketRawView.swift; sourceTree = "<group>"; };
 		E3ED57193B9DB73433FA4E2B338EBF3C /* KFImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImage.swift; path = Sources/SwiftUI/KFImage.swift; sourceTree = "<group>"; };
 		E4367D650B4C3714353D240F3B9FAE04 /* Pods-SociomileChatSDKApps */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SociomileChatSDKApps"; path = Pods_SociomileChatSDKApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E9784AA6EC4B7CEB982B48944E0240 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/Utility/Delegate.swift; sourceTree = "<group>"; };
 		E5954F9026B5A70CD66D1864B3F5C12A /* Pods-SociomileChatSDK-SociomileChatSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SociomileChatSDK-SociomileChatSDKTests.modulemap"; sourceTree = "<group>"; };
+		E818A016630F42679A843A804B1DA716 /* FormEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormEntity.swift; sourceTree = "<group>"; };
 		EB4F4467B4EC84AD1386CBFF9E0B1AD4 /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
 		EC3E3B3501AEA8CBE9E688FE6342FC20 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
 		EE2C24B7D884421C58ADC57F75083711 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
 		EE6987ADA71CA0A79616CC0EFEBE802B /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		EEC931B84BF453B1FA22A23E495FD0C9 /* SociomileChatSDK-SociomileChatSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SociomileChatSDK-SociomileChatSDK"; path = SociomileChatSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF30DB8E46E6DD6E443D56D8BCAC273A /* SociomileChatSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SociomileChatSDK-prefix.pch"; sourceTree = "<group>"; };
 		EFCFD28EDC631CC113B9462195B0F263 /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPListItem+Kingfisher.swift"; path = "Sources/Extensions/CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
 		F09C2A3C437ADDC14E18D3828B677046 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
 		F1800659E1F5C8C73FF32CA624715F2A /* NSButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSButton+Kingfisher.swift"; path = "Sources/Extensions/NSButton+Kingfisher.swift"; sourceTree = "<group>"; };
@@ -520,14 +530,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02580764CB2FCC6BD021A71D11001532 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A328149F3AA7EA874CE94648505E3E76 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2AE63FD68B6BADF58CEA333367A046F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,19 +555,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BD48E199D062CA6329C1F6CF326A9AA /* Frameworks */ = {
+		75570B5045A281FE7E9B8DDCF53D2CED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7C7583DE052D6DB6A744BC9A4E8068 /* Foundation.framework in Frameworks */,
+				181523C81E012A3B5BA7448DA7F7F7F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FCCDF7CCEA062C8AEF5ECE0B4C488DD /* Frameworks */ = {
+		79DEF9ACDA4A9F7101D195642DB46C56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79FFAF9DE49DB886387BA10032FA0A5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,16 +588,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F94C9175B1B6AC88593D3F2D84EE27EE /* Frameworks */ = {
+		A173CE2F0D18B27D4B69D4F71FBF6382 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC146C9156F760704F7305EC40A2716 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82D9C5E5E8CA526C80529DE5BCCCA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFC8AF1A0630F05D0E1CCC786B49D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		008E83DC9CD90461DC867FDD3C36D649 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43DB2F3EDE274B1E71D50254E8B480AF /* SociomileChatSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		039EF79ED69812B5C34033503E0B0877 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -732,57 +750,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2CF45827663DC9DF13DE439DD8B1A582 /* Support Files */ = {
+		43DB2F3EDE274B1E71D50254E8B480AF /* SociomileChatSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C84FB6E7282F2C443664CF90FD72954D /* ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist */,
-				8B4324C74CF1733E7181C2A39BB51E92 /* SociomileChatSDK.modulemap */,
-				B5C2183E229882D25ED34C93805CBA9B /* SociomileChatSDK-dummy.m */,
-				79187946306F4A1E655E7BB584C06D50 /* SociomileChatSDK-Info.plist */,
-				0D5E5A1BA1208D40A5C452357B65A753 /* SociomileChatSDK-prefix.pch */,
-				6A1BBC90DD6CE1666D3D938B1C14E3AB /* SociomileChatSDK-umbrella.h */,
-				CDEB20AA9123F0BDE72295226702C782 /* SociomileChatSDK.debug.xcconfig */,
-				41E2CB9C17D433C8353B7836BC6460D7 /* SociomileChatSDK.release.xcconfig */,
+				939BCA7347821182289691DE70875054 /* Chat.storyboard */,
+				4B85A1679598673CECBD4AC1882A45B8 /* Media.xcassets */,
+				5504E97E34D6432E7620AA42D55BB2C2 /* Cell */,
+				4F4427CC28C38A91C8AF7F3E579E97FD /* Chat */,
+				5BAE21B211C3FAC9E9D660D3EE6E4C9A /* Exit */,
+				DF06C99496D8A5E1AC3EFA7E1DB868FF /* External */,
+				D7B0D2738BF93D81501EDEA81AA0F59E /* Form */,
+				B16CFCA67942F06D057380F1681481F9 /* Pod */,
+				C10D86204C2DA8AB0EC14707FB11E3C2 /* Router */,
+				BE3BA6806843B9364A5FF0A9C0304E7A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/SociomileChatSDK";
+			name = SociomileChatSDK;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		33F772E63084BCD15FC3B1752FE1FBF4 /* Router */ = {
+		4F4427CC28C38A91C8AF7F3E579E97FD /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				6C3BCB52854591B1DFC275D6BD6F388D /* SociomileRouter.swift */,
-			);
-			name = Router;
-			path = SociomileChatSDK/Modules/Router;
-			sourceTree = "<group>";
-		};
-		40FCE73B2520FD10580C36277DD33C64 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-				5F3A5F144756486F1A16C14B748D058D /* ChatViewController.swift */,
-				4D2F8A5912A1443ADFEAF235D14BCA70 /* Cell */,
+				579E1DB955DF2E9B445744B443A728BB /* ChatViewController.swift */,
+				70898EC3C8AE2618BE8AC88E823A3C67 /* Cell */,
 			);
 			name = Chat;
 			path = SociomileChatSDK/Modules/Chat;
 			sourceTree = "<group>";
 		};
-		4AB63959C1F0AF66021AD7C83ACFD6E6 /* Development Pods */ = {
+		5504E97E34D6432E7620AA42D55BB2C2 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				DEE61855FEE61C9CA80FE9F2C67DCE01 /* SociomileChatSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4D2F8A5912A1443ADFEAF235D14BCA70 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				0662A88052EB8A27AA44084F0A43CBF9 /* ImageChatCell.swift */,
-				2A5382EC43F0A7E3C1C4ADA48C3D6AB6 /* MessageChatCell.swift */,
+				B7635EF9C856A67B6D4A12C798CDFB62 /* ImageChatCell.xib */,
+				DF5D4C31796B90A0BF35348FAF1AB400 /* MessageChatCell.xib */,
 			);
 			name = Cell;
-			path = Cell;
+			path = SociomileChatSDK/Assets/Cell;
+			sourceTree = "<group>";
+		};
+		5BAE21B211C3FAC9E9D660D3EE6E4C9A /* Exit */ = {
+			isa = PBXGroup;
+			children = (
+				07EB033C771033DA8A7F46A939105F62 /* ExitViewController.swift */,
+			);
+			name = Exit;
+			path = SociomileChatSDK/Modules/Exit;
 			sourceTree = "<group>";
 		};
 		5EE21CBB8EFB615AB450D209E054FAE6 /* iOS */ = {
@@ -809,6 +821,16 @@
 				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		70898EC3C8AE2618BE8AC88E823A3C67 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				31F7A2BC443CD0DC7C90988A9C70B486 /* ImageChatCell.swift */,
+				92391679202EA539A153D2E1D8C3D10F /* MessageChatCell.swift */,
+			);
+			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		7F0938D603A69B83BC7488D40528A799 /* Support Files */ = {
@@ -898,13 +920,37 @@
 			path = "../Target Support Files/Kingfisher";
 			sourceTree = "<group>";
 		};
-		C08DDEDE54250647F23A5616D11C7FF5 /* Exit */ = {
+		B16CFCA67942F06D057380F1681481F9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CFB0A4F23CC0B0BBACD8ECABEADE5A88 /* ExitViewController.swift */,
+				130E7FA1574EDBB8F8F8C4F5BB8C4A22 /* SociomileChatSDK.podspec */,
 			);
-			name = Exit;
-			path = SociomileChatSDK/Modules/Exit;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE3BA6806843B9364A5FF0A9C0304E7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				693F052EAFDB6F828BD59D813752F2CA /* ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist */,
+				866BE0D9808B55D2E313C7CBA05E9082 /* SociomileChatSDK.modulemap */,
+				6E8CA3753A5C7240CBC6BFACEA503DF6 /* SociomileChatSDK-dummy.m */,
+				39ACDB8292BEB9A14F917C711042A1E9 /* SociomileChatSDK-Info.plist */,
+				EF30DB8E46E6DD6E443D56D8BCAC273A /* SociomileChatSDK-prefix.pch */,
+				40A8E1629B8AC3AA25F43FEE98460AA8 /* SociomileChatSDK-umbrella.h */,
+				9A103837317F025C028DD6A3E46B7768 /* SociomileChatSDK.debug.xcconfig */,
+				7F51F04271E82B6594AD24B52814AE21 /* SociomileChatSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/SociomileChatSDK";
+			sourceTree = "<group>";
+		};
+		C10D86204C2DA8AB0EC14707FB11E3C2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B37D9F3E7CF8EF258F3097761FED84D6 /* SociomileRouter.swift */,
+			);
+			name = Router;
+			path = SociomileChatSDK/Modules/Router;
 			sourceTree = "<group>";
 		};
 		CC18F318A8BBA6BDEE693BF2695D7015 /* Pods-SociomileChatSDKApps */ = {
@@ -928,7 +974,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4AB63959C1F0AF66021AD7C83ACFD6E6 /* Development Pods */,
+				008E83DC9CD90461DC867FDD3C36D649 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				F51C1B3E94F23CAA7CC4C7364AC86B4A /* Pods */,
 				5F2319CF33F6E835EF911F3E98EB6116 /* Products */,
@@ -936,40 +982,28 @@
 			);
 			sourceTree = "<group>";
 		};
-		DEE61855FEE61C9CA80FE9F2C67DCE01 /* SociomileChatSDK */ = {
+		D7B0D2738BF93D81501EDEA81AA0F59E /* Form */ = {
 			isa = PBXGroup;
 			children = (
-				E2F68280CD2104AE19565E34872EA39A /* Chat.storyboard */,
-				9BE51045EDC5A5809BDD237604B5E9A0 /* Media.xcassets */,
-				F9CCEC03DD384A0C315B0888EEDDEEA4 /* Cell */,
-				40FCE73B2520FD10580C36277DD33C64 /* Chat */,
-				C08DDEDE54250647F23A5616D11C7FF5 /* Exit */,
-				E1CD8420AAF69A248855DCFFF37E10C7 /* Form */,
-				EEE80CBBA06458E49AE434AAC2B6E054 /* Pod */,
-				33F772E63084BCD15FC3B1752FE1FBF4 /* Router */,
-				2CF45827663DC9DF13DE439DD8B1A582 /* Support Files */,
-			);
-			name = SociomileChatSDK;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		E1CD8420AAF69A248855DCFFF37E10C7 /* Form */ = {
-			isa = PBXGroup;
-			children = (
-				C2B0E02F76253A544955AE6831EECDF0 /* FormEntity.swift */,
-				337E262C3BAE8EFB6DAA379E49A9E795 /* FormNetwork.swift */,
-				BACA4F27CE5641BA2CAA0F96598CBEF8 /* FormViewController.swift */,
+				14AB20066E816EA4C7100F925025724F /* FormDao.swift */,
+				E818A016630F42679A843A804B1DA716 /* FormEntity.swift */,
+				8D8335C68EFF21F46D98635B3B121F52 /* FormNetwork.swift */,
+				5E7A235B136B174130A4FB85CB16A5B6 /* FormViewController.swift */,
 			);
 			name = Form;
 			path = SociomileChatSDK/Modules/Form;
 			sourceTree = "<group>";
 		};
-		EEE80CBBA06458E49AE434AAC2B6E054 /* Pod */ = {
+		DF06C99496D8A5E1AC3EFA7E1DB868FF /* External */ = {
 			isa = PBXGroup;
 			children = (
-				4F4AC2036D420D30B590E3BBCEB86201 /* SociomileChatSDK.podspec */,
+				45786A72790B99DD6E591884608D05A2 /* Constant.swift */,
+				BA17010BFB1C42F278B44C72CFDC6A8A /* Error.swift */,
+				A5ABF9D535F56A15393A076AEAEB0A21 /* Preferences.swift */,
+				424F87C82C851FBBCFBB941080B5ED97 /* Socket.swift */,
 			);
-			name = Pod;
+			name = External;
+			path = SociomileChatSDK/Modules/External;
 			sourceTree = "<group>";
 		};
 		F26FE10BEA50A0CBB264A039812CB196 /* Socket.IO-Client-Swift */ = {
@@ -1033,16 +1067,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F9CCEC03DD384A0C315B0888EEDDEEA4 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				8CDBB2645B66CB1358E1623605EA6376 /* ImageChatCell.xib */,
-				DD3C8FFF4C40B129280172B5162B5987 /* MessageChatCell.xib */,
-			);
-			name = Cell;
-			path = SociomileChatSDK/Assets/Cell;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1062,11 +1086,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		442FA37F0BD2D1A7D88F3245C5BCEC06 /* Headers */ = {
+		1E020C7D1C1CBCCDF6858E90957AAA1C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FAEE64194A5D1E7BAFEDAF60D515DF /* Socket.IO-Client-Swift-umbrella.h in Headers */,
+				7CAEBA2BECCA2025C3F47DF277B43CF4 /* SociomileChatSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5629226570910F715462EC6894FFB29B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BD4651385042766ACA71C111E29251 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661466CDC3CA47B256F82029EBBA5AF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E6685A42BA97CBEB48108C8DE7AB0B /* Socket.IO-Client-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,27 +1118,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9A3114D07DF77C98EC8883DDA4C72F9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57D994AC0D542C22F0ABF20237ABCF17 /* SociomileChatSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B2A0A26888A3E4AF8DAA760CE30D2D94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8458A0A6306D4BF4525116B6E61CE9D1 /* Pods-SociomileChatSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7763FA184A36BE7D5432C5F8A1F52EC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD56AF15C65A51A2F4781EA55081AAD2 /* Starscream-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1125,10 +1149,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				DB83AA2EB5465DD5706ECFB87DFB25D5 /* PBXTargetDependency */,
-				60D5665B01746A5C16B7FD29F7CDB0F7 /* PBXTargetDependency */,
-				DCCE747F02A9ED2819E9EEFC310776F7 /* PBXTargetDependency */,
-				DF182346B2CE4B0F3CB6D8DC4DA6BF6F /* PBXTargetDependency */,
+				194982822EE8A5B85E333D570C6E9BD0 /* PBXTargetDependency */,
+				8739A2AEF1405F8DD02B95AECB8E7CD4 /* PBXTargetDependency */,
+				84B448844C6C16BCD440665CA004647A /* PBXTargetDependency */,
+				74AC1D351A5A168FD4440C0EDCA5AFC8 /* PBXTargetDependency */,
 			);
 			name = "Pods-SociomileChatSDK-SociomileChatSDKTests";
 			productName = Pods_SociomileChatSDK_SociomileChatSDKTests;
@@ -1147,11 +1171,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				347908D4ECD85BD452CC65C4A06079F9 /* PBXTargetDependency */,
-				3060F83CD612957B20AF4EE26463DA7F /* PBXTargetDependency */,
-				F614C0FCE35B71D0E1C2090C2843CB26 /* PBXTargetDependency */,
-				B56F547D9EF92B4C8084A94E40B36B30 /* PBXTargetDependency */,
-				0DCA3E2E63ABDE30D3C5C9442AFE41A8 /* PBXTargetDependency */,
+				79719520430770B524991C2B23C32118 /* PBXTargetDependency */,
+				B3D13384223E654863490CD824BD7CB4 /* PBXTargetDependency */,
+				5F4AB7084A1E01C3C9FD164D90EFC408 /* PBXTargetDependency */,
+				559EA0F752AFDAB3FD0A92DD75A4013F /* PBXTargetDependency */,
+				1A4291DB7D060D9533A683801EEE5580 /* PBXTargetDependency */,
 			);
 			name = "Pods-SociomileChatSDKApps";
 			productName = Pods_SociomileChatSDKApps;
@@ -1160,20 +1184,20 @@
 		};
 		37B7E94E5CCA43B1A40B1A42236367B9 /* SociomileChatSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDD1311D3997B930AC4BE7A947650D82 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */;
+			buildConfigurationList = 33636314136D3F59622A1622938B9D14 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */;
 			buildPhases = (
-				A9A3114D07DF77C98EC8883DDA4C72F9 /* Headers */,
-				84D7B67AA9DD9AE0DBDF06882DB03CF0 /* Sources */,
-				02580764CB2FCC6BD021A71D11001532 /* Frameworks */,
-				875F36D9757E267794B7047334E935B5 /* Resources */,
+				1E020C7D1C1CBCCDF6858E90957AAA1C /* Headers */,
+				783ED2F8641B27473E6BFADD9FB9409F /* Sources */,
+				C82D9C5E5E8CA526C80529DE5BCCCA14 /* Frameworks */,
+				FD27E572E03E6A284F64A085325ED74B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78813D5416E8DC3A7D9636E48A87BF86 /* PBXTargetDependency */,
-				2C1EDF095C246D0D5C1023295E11B4FB /* PBXTargetDependency */,
-				72835A7759607B868AC924D51411B44C /* PBXTargetDependency */,
-				D8ED31133A8918505C23092075EAF145 /* PBXTargetDependency */,
+				FBB2DD8D544616D77566B7AD94677EA7 /* PBXTargetDependency */,
+				0A4EFE0E5CE02046818D8CEDFC5C1B43 /* PBXTargetDependency */,
+				16E790FB18928A0DF9B6EE75F715C1EE /* PBXTargetDependency */,
+				8E3FF67A308C84C59A2CF62A57CB6E4B /* PBXTargetDependency */,
 			);
 			name = SociomileChatSDK;
 			productName = SociomileChatSDK;
@@ -1182,11 +1206,11 @@
 		};
 		42A042896AB58C201F6A768BA9AA3663 /* SociomileChatSDK-SociomileChatSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79FD6CE6688A770CD131320593C41727 /* Build configuration list for PBXNativeTarget "SociomileChatSDK-SociomileChatSDK" */;
+			buildConfigurationList = 0218537C0499490E879F67B0AA19C078 /* Build configuration list for PBXNativeTarget "SociomileChatSDK-SociomileChatSDK" */;
 			buildPhases = (
-				61AF4E0D1BB28B4554C980811F11F8B6 /* Sources */,
-				F94C9175B1B6AC88593D3F2D84EE27EE /* Frameworks */,
-				AACF65AAF733FBB9CA9CF5E03510BF64 /* Resources */,
+				C65F03737975F2559C5D8708BEA036DE /* Sources */,
+				79DEF9ACDA4A9F7101D195642DB46C56 /* Frameworks */,
+				81E465B7489017EA361774BB629719EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1209,10 +1233,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				7E48D0415DF5074E30ECE5887418C1B0 /* PBXTargetDependency */,
-				7C624B7039C06C3515A0D912E87722B2 /* PBXTargetDependency */,
-				11B1FF8D9FC9E8AFD38ABBF6A4EC94BC /* PBXTargetDependency */,
-				4591D3709C21BB5A761CC69FA4B56D05 /* PBXTargetDependency */,
+				67437715DCF9A824F23E29CFE7F2CEBC /* PBXTargetDependency */,
+				842B8416FE5A121616944A88E3796C4A /* PBXTargetDependency */,
+				A568A459A78E6DDC6CCD2C7AE5C22BCE /* PBXTargetDependency */,
+				A6D6C874C6A0ABDABA77CFC58BC4B8D8 /* PBXTargetDependency */,
 			);
 			name = "Pods-SociomileChatSDK";
 			productName = Pods_SociomileChatSDK;
@@ -1221,12 +1245,12 @@
 		};
 		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13E333378C1304A35B9713C2F160B1B2 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildConfigurationList = 21460CF40BB047855DFFB416BD633A9F /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				C7763FA184A36BE7D5432C5F8A1F52EC /* Headers */,
-				E173C82AEAE4502555396A43FA1F064D /* Sources */,
-				5FCCDF7CCEA062C8AEF5ECE0B4C488DD /* Frameworks */,
-				F89E40A66E2C2CD928CB7DA362001438 /* Resources */,
+				5629226570910F715462EC6894FFB29B /* Headers */,
+				7FFE9E010A277948B19DDEDB119EC633 /* Sources */,
+				75570B5045A281FE7E9B8DDCF53D2CED /* Frameworks */,
+				0BAE1640BD07AD59B9BBC7A55DEC1670 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1239,17 +1263,17 @@
 		};
 		A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA7368EAF7E472C588FD85B48146D8CD /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildConfigurationList = 4EEC10DDC67CF314FF2EA6CACD54D810 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
 			buildPhases = (
-				442FA37F0BD2D1A7D88F3245C5BCEC06 /* Headers */,
-				EBB858495A6310028AE5080B8595BF9A /* Sources */,
-				5BD48E199D062CA6329C1F6CF326A9AA /* Frameworks */,
-				C2467EAE187A718B7D447BB9D2C8D4B9 /* Resources */,
+				661466CDC3CA47B256F82029EBBA5AF3 /* Headers */,
+				46E078F1F34950D37D825115528CBC59 /* Sources */,
+				A173CE2F0D18B27D4B69D4F71FBF6382 /* Frameworks */,
+				18E28FFC51AAF2AEECE8E8B53038CABA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9CD7667618FA19B8F2E600B9ADA002A5 /* PBXTargetDependency */,
+				5B895F434BB1E290C27C30BBD8867970 /* PBXTargetDependency */,
 			);
 			name = "Socket.IO-Client-Swift";
 			productName = SocketIO;
@@ -1328,6 +1352,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0BAE1640BD07AD59B9BBC7A55DEC1670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E28FFC51AAF2AEECE8E8B53038CABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46AB2D966284CA4D1F580107349D6B06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1342,11 +1380,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		875F36D9757E267794B7047334E935B5 /* Resources */ = {
+		81E465B7489017EA361774BB629719EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF51756282DF9D6B24828288AB5DD7BD /* SociomileChatSDK-SociomileChatSDK in Resources */,
+				BC4BA560BB36C729001702BBA26F3B68 /* Chat.storyboard in Resources */,
+				9F8C4996DA338EDDB83436077EC24EE4 /* ImageChatCell.xib in Resources */,
+				6A32BA064CC44D7CA63567B5A8D507E1 /* Media.xcassets in Resources */,
+				FDEFE61CCA8949E18F8C015A13DCF9DA /* MessageChatCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1364,24 +1405,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AACF65AAF733FBB9CA9CF5E03510BF64 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFD104DE3F9805C6F2EEEEAD8EC0C7AE /* Chat.storyboard in Resources */,
-				D02F97FE2E93E373236E02054901E2C6 /* ImageChatCell.xib in Resources */,
-				B0CEBA26C79BBB3C7EFA891C944EEA6C /* Media.xcassets in Resources */,
-				3C21F6E13DFD8894FBE453479051D2A4 /* MessageChatCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2467EAE187A718B7D447BB9D2C8D4B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CFEB3E9FD20A01120B40D65B82D8F26F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1389,10 +1412,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F89E40A66E2C2CD928CB7DA362001438 /* Resources */ = {
+		FD27E572E03E6A284F64A085325ED74B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1042F9946BFCE7370E537E3E750566B6 /* SociomileChatSDK-SociomileChatSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1468,6 +1492,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46E078F1F34950D37D825115528CBC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5650E96AD4EC805FFA9E89679CCB109C /* Socket.IO-Client-Swift-dummy.m in Sources */,
+				EEBFC924E9BC32F45D60023B1C4A1CBA /* SocketAckEmitter.swift in Sources */,
+				6FD2912414A2D8C646F6A4DF7DDA8D79 /* SocketAckManager.swift in Sources */,
+				BD3E050C154AFF561EA6F999E73C8BF9 /* SocketAnyEvent.swift in Sources */,
+				2220B5CEF9680F218962603B74F7B4D7 /* SocketEngine.swift in Sources */,
+				9FFF4178823235823025C7036683D50A /* SocketEngineClient.swift in Sources */,
+				F80AE4D375155BAE37356F23869BFF12 /* SocketEnginePacketType.swift in Sources */,
+				F18362F65172E0F51B351B9BA7EA3ADE /* SocketEnginePollable.swift in Sources */,
+				8866121FEEA606D94592A3714298A2B9 /* SocketEngineSpec.swift in Sources */,
+				8D260637E86CDAB1D77D126B87A97F26 /* SocketEngineWebsocket.swift in Sources */,
+				917F09587BFD6A64EFFC742DBA7198F8 /* SocketEventHandler.swift in Sources */,
+				C3DF3BAD82711D1929798E8442779CCA /* SocketExtensions.swift in Sources */,
+				F6361A2D903839360A18D6393DADE076 /* SocketIOClient.swift in Sources */,
+				E9A8F02F9AC6DC30E700EFFDFCF2698A /* SocketIOClientConfiguration.swift in Sources */,
+				91F87776BD0180F32B63564261F0DD48 /* SocketIOClientOption.swift in Sources */,
+				876945E73EF2FF3D2216E3D7542645F2 /* SocketIOClientSpec.swift in Sources */,
+				B2A6D7DB0DC8F499A2B84C4E653A867B /* SocketIOStatus.swift in Sources */,
+				99E80E09FF86C9566301878D6EA84825 /* SocketLogger.swift in Sources */,
+				7BEC40591F21B11E3B4EB58B79F02B57 /* SocketManager.swift in Sources */,
+				20096404E22A0B98AFA1461FCF31D63B /* SocketManagerSpec.swift in Sources */,
+				017EBE836208771E0E4BB88BAE442FF2 /* SocketPacket.swift in Sources */,
+				EE8CDAACE6ABCD02D6A2499C93B7B261 /* SocketParsable.swift in Sources */,
+				D2C991C04A4418700BBE4E74C2CC7A45 /* SocketRawView.swift in Sources */,
+				277BFB2591A8AFE1D9E5C3577C2E909E /* SocketStringReader.swift in Sources */,
+				8575CBF9E078C6FDEBC92737E805CA15 /* SocketTypes.swift in Sources */,
+				AD0C9A7F3C4B6FFA872D3323867B97E1 /* SSLSecurity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FE9836A67EA3E51CA889A1AB95BC874 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1511,18 +1568,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61AF4E0D1BB28B4554C980811F11F8B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6850F41EC3CB4794477D5E7F93AC31AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EABBE27F23B24DA04F627B1E1D454B74 /* Pods-SociomileChatSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783ED2F8641B27473E6BFADD9FB9409F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E4759786D48CFC08C7AA0A67AB7B68 /* ChatViewController.swift in Sources */,
+				73C78710F0300B055EDF0B54EDAABF60 /* Constant.swift in Sources */,
+				F1B90A42EE0CE20D108AB369E42CAF07 /* Error.swift in Sources */,
+				3300947195F5B777D9FE188092ADC3FB /* ExitViewController.swift in Sources */,
+				40900460D11F84BB70FF9A5ADE2D99C7 /* FormDao.swift in Sources */,
+				ECE9CEF824AAFB4BBF55E391D557C1E2 /* FormEntity.swift in Sources */,
+				972530EA64E0D6EB6A3332DEEDA86FA6 /* FormNetwork.swift in Sources */,
+				B95E645FB071ECC04D2347573980B02C /* FormViewController.swift in Sources */,
+				38DBECA853090545DAC629B3AC3CF55D /* ImageChatCell.swift in Sources */,
+				994F310F657765B8219D7E2E7DAD5EA8 /* MessageChatCell.swift in Sources */,
+				988474D81D814FB769D018A4695CF1F2 /* Preferences.swift in Sources */,
+				DE7564ABC9611A6B9775B4E98DBE5464 /* SociomileChatSDK-dummy.m in Sources */,
+				2EEF1EF36AB5EEA362878AD6A77E3B52 /* SociomileRouter.swift in Sources */,
+				6838C2454C594EE9AC12AD44DD4AC67C /* Socket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFE9E010A277948B19DDEDB119EC633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB56B465D3CCDF3F4A5E2C6F31F32BC /* Compression.swift in Sources */,
+				178F6EE80E41750DB6256CF304D24280 /* SSLClientCertificate.swift in Sources */,
+				56884DD971A7DDB8AB6A5B3D622DA3F1 /* SSLSecurity.swift in Sources */,
+				DAD4EA41BA3DF0CB0F526B2FC3F0694C /* Starscream-dummy.m in Sources */,
+				BCDE488658414287F16DCD1CD8FAB3FF /* WebSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1534,22 +1617,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84D7B67AA9DD9AE0DBDF06882DB03CF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70B723F6A01D12BEA564AAA1562B0149 /* ChatViewController.swift in Sources */,
-				94C8B29CBF694DCE883515BBBD767273 /* ExitViewController.swift in Sources */,
-				C6E9A58DE8344B67BF9D8616C1AB1B49 /* FormEntity.swift in Sources */,
-				4C3D33266949CA51F9B6DC4B4B39B51B /* FormNetwork.swift in Sources */,
-				D83E3EA3D4B1ADFC6C55416BA8737C7C /* FormViewController.swift in Sources */,
-				4FF0EE1CF4A74A32A45372E8D5CD96CE /* ImageChatCell.swift in Sources */,
-				23970C58250CB18BF3CFF25A5E348500 /* MessageChatCell.swift in Sources */,
-				7F5381A4DF9F54925441756461D79D7C /* SociomileChatSDK-dummy.m in Sources */,
-				74C36099D37F45272F9E698809A3138D /* SociomileRouter.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85C86F6030CDC7C32A61C867E81DB46F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1558,166 +1625,128 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E173C82AEAE4502555396A43FA1F064D /* Sources */ = {
+		C65F03737975F2559C5D8708BEA036DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1C554396957A84CAE89D2E57B464B8 /* Compression.swift in Sources */,
-				2AD2CB9E6F102A227FC4E6CAFA03E284 /* SSLClientCertificate.swift in Sources */,
-				A5EB1066DC63A71184446700CA3A7047 /* SSLSecurity.swift in Sources */,
-				490451E891C47391F9D34E6CCD98296F /* Starscream-dummy.m in Sources */,
-				9667759BFD6F43BC24AAB548B555ABD6 /* WebSocket.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBB858495A6310028AE5080B8595BF9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF50C53437DA539D403C43975D7D9900 /* Socket.IO-Client-Swift-dummy.m in Sources */,
-				289BB2D2FBD351590E06D625A0395BB7 /* SocketAckEmitter.swift in Sources */,
-				6E20F193D1D5EC7B8CF6D1A8FB60B445 /* SocketAckManager.swift in Sources */,
-				7AA2AFCFD5D3A461543210D0FCE93149 /* SocketAnyEvent.swift in Sources */,
-				CD1A01ED44995F7CE73FFB98DF294E53 /* SocketEngine.swift in Sources */,
-				4FBFBAF09162D9ACF6C36C0E2FA7A514 /* SocketEngineClient.swift in Sources */,
-				6E6DA035EE96ED63E7BB8E2B35EE820C /* SocketEnginePacketType.swift in Sources */,
-				92E5472A871CF97C48B108BC7793EB22 /* SocketEnginePollable.swift in Sources */,
-				EA5AE1469C0CF3A2D4F8726C647FF1C4 /* SocketEngineSpec.swift in Sources */,
-				39B04235CF7A35EFB9B88D59DA28C3DB /* SocketEngineWebsocket.swift in Sources */,
-				07814A3A0FD56A0A4852FA0BF71820EA /* SocketEventHandler.swift in Sources */,
-				FF45613425F94C9CE4664DF15B786BB0 /* SocketExtensions.swift in Sources */,
-				25B1D3334AF3AFC9F2C9F5E10EA1DF10 /* SocketIOClient.swift in Sources */,
-				3537FC7E4124A8E030A72491763A1D35 /* SocketIOClientConfiguration.swift in Sources */,
-				96952B8AC39DB77A0425A0C356817791 /* SocketIOClientOption.swift in Sources */,
-				A2C4D774CF037DF2394096ECED9CB4F8 /* SocketIOClientSpec.swift in Sources */,
-				EAE621AEB679F4BB7146FB011503E051 /* SocketIOStatus.swift in Sources */,
-				C55C5026435428445F30B6E23F59814B /* SocketLogger.swift in Sources */,
-				0D5E48E8DB1414D341A673251E76E24B /* SocketManager.swift in Sources */,
-				ED683E932A19F9DA554DABCB7FC86D39 /* SocketManagerSpec.swift in Sources */,
-				B91F84CA94E39E92A375CB3163FD6C32 /* SocketPacket.swift in Sources */,
-				5A52F30CF2E097B116304F95D00C9DCB /* SocketParsable.swift in Sources */,
-				C71B2F42EBB615C791476B8E3FAD9E95 /* SocketRawView.swift in Sources */,
-				C1CCD3AD97506F3CEEAD689333DF3AA2 /* SocketStringReader.swift in Sources */,
-				0818022B74CE8C7FAB45E3C32641134F /* SocketTypes.swift in Sources */,
-				8AD9D7834913E0537519C009F672AA1F /* SSLSecurity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DCA3E2E63ABDE30D3C5C9442AFE41A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Starscream;
-			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
-			targetProxy = 12C63CA845F5EBB5E6D084AAA6822912 /* PBXContainerItemProxy */;
-		};
-		11B1FF8D9FC9E8AFD38ABBF6A4EC94BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Socket.IO-Client-Swift";
-			target = A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */;
-			targetProxy = 74B91675BAC6F3EC60E16383871908EA /* PBXContainerItemProxy */;
-		};
-		2C1EDF095C246D0D5C1023295E11B4FB /* PBXTargetDependency */ = {
+		0A4EFE0E5CE02046818D8CEDFC5C1B43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = 7DBD04DE539871F66034D61B81B1FF39 /* PBXContainerItemProxy */;
+			targetProxy = 77D44C26AE56EC0B69D74F35EF2D8354 /* PBXContainerItemProxy */;
 		};
-		3060F83CD612957B20AF4EE26463DA7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = D8AD359C7979F5C9142D9EB49AA719BA /* PBXContainerItemProxy */;
-		};
-		347908D4ECD85BD452CC65C4A06079F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 5B47B238413F2489D58C8036A6D72DBF /* PBXContainerItemProxy */;
-		};
-		4591D3709C21BB5A761CC69FA4B56D05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Starscream;
-			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
-			targetProxy = C63652D6F26D2B67871CAA5276D5E56C /* PBXContainerItemProxy */;
-		};
-		60D5665B01746A5C16B7FD29F7CDB0F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = 6A054559A9C507BF645A6B978490DEB5 /* PBXContainerItemProxy */;
-		};
-		72835A7759607B868AC924D51411B44C /* PBXTargetDependency */ = {
+		16E790FB18928A0DF9B6EE75F715C1EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SociomileChatSDK-SociomileChatSDK";
 			target = 42A042896AB58C201F6A768BA9AA3663 /* SociomileChatSDK-SociomileChatSDK */;
-			targetProxy = 6E084E23602969E58F7A24F2A50D51F8 /* PBXContainerItemProxy */;
+			targetProxy = F93C10FFBE731F772F7891B7C5C46A3C /* PBXContainerItemProxy */;
 		};
-		78813D5416E8DC3A7D9636E48A87BF86 /* PBXTargetDependency */ = {
+		194982822EE8A5B85E333D570C6E9BD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 4AD2D7E417F018F54F89F47208A73CAB /* PBXContainerItemProxy */;
+			targetProxy = 29B16D234657778A92C33AC5BDFE0A81 /* PBXContainerItemProxy */;
 		};
-		7C624B7039C06C3515A0D912E87722B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = AB31C36F55F89335322EBE4239ACF9F5 /* PBXContainerItemProxy */;
-		};
-		7E48D0415DF5074E30ECE5887418C1B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = B406865A18E2242CF70BF8691494DC3D /* PBXContainerItemProxy */;
-		};
-		9CD7667618FA19B8F2E600B9ADA002A5 /* PBXTargetDependency */ = {
+		1A4291DB7D060D9533A683801EEE5580 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Starscream;
 			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
-			targetProxy = 2E778A4988024D3F93A61CED7BEBAA2E /* PBXContainerItemProxy */;
+			targetProxy = 11E7C0403489B289130D09A147ACD6F6 /* PBXContainerItemProxy */;
 		};
-		B56F547D9EF92B4C8084A94E40B36B30 /* PBXTargetDependency */ = {
+		559EA0F752AFDAB3FD0A92DD75A4013F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Socket.IO-Client-Swift";
 			target = A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */;
-			targetProxy = A0BDCEDF3D39720461CD457DE1DB4D86 /* PBXContainerItemProxy */;
+			targetProxy = 4B07AC5D4064D8ADCC8E20F9DE6A9B45 /* PBXContainerItemProxy */;
 		};
-		D8ED31133A8918505C23092075EAF145 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Socket.IO-Client-Swift";
-			target = A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */;
-			targetProxy = B24A52C276DAEEAAC3A994520134A9DD /* PBXContainerItemProxy */;
-		};
-		DB83AA2EB5465DD5706ECFB87DFB25D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 7D8F2B480A421FB314B0338E571A2401 /* PBXContainerItemProxy */;
-		};
-		DCCE747F02A9ED2819E9EEFC310776F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Socket.IO-Client-Swift";
-			target = A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */;
-			targetProxy = B84E9B61DC1CC5DAB3E1B4DF11151BD5 /* PBXContainerItemProxy */;
-		};
-		DF182346B2CE4B0F3CB6D8DC4DA6BF6F /* PBXTargetDependency */ = {
+		5B895F434BB1E290C27C30BBD8867970 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Starscream;
 			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
-			targetProxy = 0DAEDD708D2AE299262282E7695BB89B /* PBXContainerItemProxy */;
+			targetProxy = EDE7A234779316F6500521335E309DA0 /* PBXContainerItemProxy */;
 		};
-		F614C0FCE35B71D0E1C2090C2843CB26 /* PBXTargetDependency */ = {
+		5F4AB7084A1E01C3C9FD164D90EFC408 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SociomileChatSDK;
 			target = 37B7E94E5CCA43B1A40B1A42236367B9 /* SociomileChatSDK */;
-			targetProxy = ADE34E02E9B2EFA5960A372506EC85CB /* PBXContainerItemProxy */;
+			targetProxy = 3A3B327D29EA6409B9F01BFA3695AC81 /* PBXContainerItemProxy */;
+		};
+		67437715DCF9A824F23E29CFE7F2CEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = CF0F2950B378BB0C40342C3B3BEB0C3E /* PBXContainerItemProxy */;
+		};
+		74AC1D351A5A168FD4440C0EDCA5AFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = CA07734F1DBCCCFDAB1841B6B00F420D /* PBXContainerItemProxy */;
+		};
+		79719520430770B524991C2B23C32118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = AF6876C1CDA42663B41B24273F856D4D /* PBXContainerItemProxy */;
+		};
+		842B8416FE5A121616944A88E3796C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = 674604870F8003E37385A679455D9551 /* PBXContainerItemProxy */;
+		};
+		84B448844C6C16BCD440665CA004647A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */;
+			targetProxy = A9967E487D79E73CC02FDE1AB88D7E0B /* PBXContainerItemProxy */;
+		};
+		8739A2AEF1405F8DD02B95AECB8E7CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = 05C5F71C90B814DDAADEC17175B842B2 /* PBXContainerItemProxy */;
+		};
+		8E3FF67A308C84C59A2CF62A57CB6E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */;
+			targetProxy = 5AC9097AD1CB804FA5EDB53960860328 /* PBXContainerItemProxy */;
+		};
+		A568A459A78E6DDC6CCD2C7AE5C22BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = A44D85440C5D58BC5C4D70A539C5EEF0 /* Socket.IO-Client-Swift */;
+			targetProxy = 74E30BF11F1326A9BDA67E43C3250C48 /* PBXContainerItemProxy */;
+		};
+		A6D6C874C6A0ABDABA77CFC58BC4B8D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = FBAD7CF79EBEE5D3C6DDAFD254D62E35 /* PBXContainerItemProxy */;
+		};
+		B3D13384223E654863490CD824BD7CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = D4778BBA191AE8BC3F281BEF4D36606E /* PBXContainerItemProxy */;
+		};
+		FBB2DD8D544616D77566B7AD94677EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = B2EC7CA1279E32258DD0B7BB81E638AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E25AD9A76BF35C80FC81180B93AE12C /* Release */ = {
+		05E538E42C4935CBA27732E7CDE8D772 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6028EEFA31A8B541C236119A27279089 /* Socket.IO-Client-Swift.release.xcconfig */;
 			buildSettings = {
@@ -1788,22 +1817,6 @@
 			};
 			name = Debug;
 		};
-		19E878AD45FC60012C22D84D8D3ABDB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEB20AA9123F0BDE72295226702C782 /* SociomileChatSDK.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SociomileChatSDK";
-				IBSC_MODULE = SociomileChatSDK;
-				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				PRODUCT_NAME = SociomileChatSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		280170AF7BADCD849A50868D1156DD5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC9776E223583DA3DEF66F5C0BD9CCDC /* Pods-SociomileChatSDK-SociomileChatSDKTests.debug.xcconfig */;
@@ -1841,6 +1854,56 @@
 			};
 			name = Debug;
 		};
+		2BF707AD5B188574ECB7F1BEE17C4240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42771BDFD062436A81E3C266DFBF9066 /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E645034E42450C8005B0F142360B73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F51F04271E82B6594AD24B52814AE21 /* SociomileChatSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SociomileChatSDK";
+				IBSC_MODULE = SociomileChatSDK;
+				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/ResourceBundle-SociomileChatSDK-SociomileChatSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_NAME = SociomileChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		38B4C0E4C6B9CB918B2B02C42F7D5F84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBD841AAE6916D377216E8A4FD306CB8 /* Pods-SociomileChatSDKApps.release.xcconfig */;
@@ -1872,6 +1935,77 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EA5A984F62EB0CDA64D2B3603CB78A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F51F04271E82B6594AD24B52814AE21 /* SociomileChatSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SociomileChatSDK/SociomileChatSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK.modulemap";
+				PRODUCT_MODULE_NAME = SociomileChatSDK;
+				PRODUCT_NAME = SociomileChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B2F3F4B97B3D07E7F1ED5DB7122641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2C24B7D884421C58ADC57F75083711 /* Starscream.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1917,42 +2051,6 @@
 			};
 			name = Release;
 		};
-		705F7A88A04529BEAB5FDD6621EEC816 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41E2CB9C17D433C8353B7836BC6460D7 /* SociomileChatSDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SociomileChatSDK/SociomileChatSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK.modulemap";
-				PRODUCT_MODULE_NAME = SociomileChatSDK;
-				PRODUCT_NAME = SociomileChatSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		79FDB89F6CA57D6734D528EAF266BD7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39E569B47D859B32BA5E58C74E362654 /* Alamofire.release.xcconfig */;
@@ -1988,6 +2086,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8AB1AAAC18C16643FE347BBEB735AE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EB5E6C17115273AF3336876C8B5F97 /* Socket.IO-Client-Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				PRODUCT_MODULE_NAME = SocketIO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2189,39 +2320,6 @@
 			};
 			name = Debug;
 		};
-		BEA6566E7A2B18AB13C8FAFF9107981C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38EB5E6C17115273AF3336876C8B5F97 /* Socket.IO-Client-Swift.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
-				PRODUCT_MODULE_NAME = SocketIO;
-				PRODUCT_NAME = SocketIO;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BFD9E4B58F44191AF73A3434AAF6831F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D28737890A5E4F86F8D9BDB0011D2B9 /* Kingfisher.release.xcconfig */;
@@ -2258,44 +2356,9 @@
 			};
 			name = Release;
 		};
-		C021698FF2845777430F61D67B266F01 /* Debug */ = {
+		C0AB68FFDC001F69B8E251FB140C20DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEB20AA9123F0BDE72295226702C782 /* SociomileChatSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SociomileChatSDK/SociomileChatSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK.modulemap";
-				PRODUCT_MODULE_NAME = SociomileChatSDK;
-				PRODUCT_NAME = SociomileChatSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA6BE35D46B5F0133ED6E710AC25B527 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41E2CB9C17D433C8353B7836BC6460D7 /* SociomileChatSDK.release.xcconfig */;
+			baseConfigurationReference = 9A103837317F025C028DD6A3E46B7768 /* SociomileChatSDK.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SociomileChatSDK";
 				IBSC_MODULE = SociomileChatSDK;
@@ -2307,42 +2370,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
-		};
-		DC1697FACDF1EC1BB41384C0B1ABFF18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE2C24B7D884421C58ADC57F75083711 /* Starscream.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
-				PRODUCT_MODULE_NAME = Starscream;
-				PRODUCT_NAME = Starscream;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		DDE66E9EF2650949C1F28ED6BFEEEFED /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2373,6 +2401,41 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E14E3EABB109893DC3EEB484A62D96A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A103837317F025C028DD6A3E46B7768 /* SociomileChatSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SociomileChatSDK/SociomileChatSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SociomileChatSDK/SociomileChatSDK.modulemap";
+				PRODUCT_MODULE_NAME = SociomileChatSDK;
+				PRODUCT_NAME = SociomileChatSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2417,48 +2480,14 @@
 			};
 			name = Release;
 		};
-		E4B34E3EDC7DDB8C83EFD176687E2260 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42771BDFD062436A81E3C266DFBF9066 /* Starscream.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
-				PRODUCT_MODULE_NAME = Starscream;
-				PRODUCT_NAME = Starscream;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13E333378C1304A35B9713C2F160B1B2 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+		0218537C0499490E879F67B0AA19C078 /* Build configuration list for PBXNativeTarget "SociomileChatSDK-SociomileChatSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B34E3EDC7DDB8C83EFD176687E2260 /* Debug */,
-				DC1697FACDF1EC1BB41384C0B1ABFF18 /* Release */,
+				C0AB68FFDC001F69B8E251FB140C20DD /* Debug */,
+				2E645034E42450C8005B0F142360B73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2472,11 +2501,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		21460CF40BB047855DFFB416BD633A9F /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF707AD5B188574ECB7F1BEE17C4240 /* Debug */,
+				6B2F3F4B97B3D07E7F1ED5DB7122641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33636314136D3F59622A1622938B9D14 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14E3EABB109893DC3EEB484A62D96A8 /* Debug */,
+				4EA5A984F62EB0CDA64D2B3603CB78A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
 				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEC10DDC67CF314FF2EA6CACD54D810 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB1AAAC18C16643FE347BBEB735AE54 /* Debug */,
+				05E538E42C4935CBA27732E7CDE8D772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2508,38 +2564,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79FD6CE6688A770CD131320593C41727 /* Build configuration list for PBXNativeTarget "SociomileChatSDK-SociomileChatSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19E878AD45FC60012C22D84D8D3ABDB6 /* Debug */,
-				CA6BE35D46B5F0133ED6E710AC25B527 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9C98220D3187BF01A20E296DC128BED4 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDE66E9EF2650949C1F28ED6BFEEEFED /* Debug */,
 				79FDB89F6CA57D6734D528EAF266BD7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA7368EAF7E472C588FD85B48146D8CD /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BEA6566E7A2B18AB13C8FAFF9107981C /* Debug */,
-				0E25AD9A76BF35C80FC81180B93AE12C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DDD1311D3997B930AC4BE7A947650D82 /* Build configuration list for PBXNativeTarget "SociomileChatSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C021698FF2845777430F61D67B266F01 /* Debug */,
-				705F7A88A04529BEAB5FDD6621EEC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

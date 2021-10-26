@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
-  SociomileChatSDK: cf8c0f784246ed6067f4a75f3cbb0b2362ac5478
+  SociomileChatSDK: effef8ed81ce0367382b2f1d0a770a7f79fa3af9
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 

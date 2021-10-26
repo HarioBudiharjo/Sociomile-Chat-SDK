@@ -33,6 +33,10 @@
 		000EAF182721D1E10015A6C7 /* SociomileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF172721D1E10015A6C7 /* SociomileRouter.swift */; };
 		00B1521327270D0B00E65D4D /* FormNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1521227270D0B00E65D4D /* FormNetwork.swift */; };
 		00CC683527284BBC00639BC7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC683427284BBC00639BC7 /* Constant.swift */; };
+		00CC6837272857AB00639BC7 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC6836272857AB00639BC7 /* Preferences.swift */; };
+		00CC683927285BFA00639BC7 /* FormDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC683827285BFA00639BC7 /* FormDao.swift */; };
+		00CC683B27285E4000639BC7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC683A27285E4000639BC7 /* Error.swift */; };
+		00CC683D2728664D00639BC7 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC683C2728664D00639BC7 /* Socket.swift */; };
 		00ED43D82727BA490076D50B /* FormEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED43D72727BA490076D50B /* FormEntity.swift */; };
 		C765155DC56CA00E40176525 /* Pods_SociomileChatSDKApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8D4FD89DA09B048CE81E4 /* Pods_SociomileChatSDKApps.framework */; };
 		F296A67555618AFADF9EDE42 /* Pods_SociomileChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3AC29F34B084D05966CDC0 /* Pods_SociomileChatSDK.framework */; };
@@ -95,6 +99,10 @@
 		000EAF172721D1E10015A6C7 /* SociomileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileRouter.swift; sourceTree = "<group>"; };
 		00B1521227270D0B00E65D4D /* FormNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormNetwork.swift; sourceTree = "<group>"; };
 		00CC683427284BBC00639BC7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		00CC6836272857AB00639BC7 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		00CC683827285BFA00639BC7 /* FormDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDao.swift; sourceTree = "<group>"; };
+		00CC683A27285E4000639BC7 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		00CC683C2728664D00639BC7 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		00ED43D72727BA490076D50B /* FormEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormEntity.swift; sourceTree = "<group>"; };
 		60E2054FB6B7E403AD1CE401 /* Pods-SociomileChatSDKApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SociomileChatSDKApps.debug.xcconfig"; path = "Target Support Files/Pods-SociomileChatSDKApps/Pods-SociomileChatSDKApps.debug.xcconfig"; sourceTree = "<group>"; };
 		63C8D4FD89DA09B048CE81E4 /* Pods_SociomileChatSDKApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SociomileChatSDKApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -272,6 +280,7 @@
 				000EAF142721D0D90015A6C7 /* FormViewController.swift */,
 				00B1521227270D0B00E65D4D /* FormNetwork.swift */,
 				00ED43D72727BA490076D50B /* FormEntity.swift */,
+				00CC683827285BFA00639BC7 /* FormDao.swift */,
 			);
 			path = Form;
 			sourceTree = "<group>";
@@ -306,6 +315,9 @@
 			isa = PBXGroup;
 			children = (
 				00CC683427284BBC00639BC7 /* Constant.swift */,
+				00CC6836272857AB00639BC7 /* Preferences.swift */,
+				00CC683A27285E4000639BC7 /* Error.swift */,
+				00CC683C2728664D00639BC7 /* Socket.swift */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -648,10 +660,14 @@
 				000EAF182721D1E10015A6C7 /* SociomileRouter.swift in Sources */,
 				000EAF152721D0D90015A6C7 /* FormViewController.swift in Sources */,
 				00ED43D82727BA490076D50B /* FormEntity.swift in Sources */,
+				00CC683B27285E4000639BC7 /* Error.swift in Sources */,
 				00B1521327270D0B00E65D4D /* FormNetwork.swift in Sources */,
 				000EAEAF2721CE940015A6C7 /* SociomileChatSDK.docc in Sources */,
 				000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */,
 				000EAF0E2721D09F0015A6C7 /* MessageChatCell.swift in Sources */,
+				00CC683D2728664D00639BC7 /* Socket.swift in Sources */,
+				00CC6837272857AB00639BC7 /* Preferences.swift in Sources */,
+				00CC683927285BFA00639BC7 /* FormDao.swift in Sources */,
 				00CC683527284BBC00639BC7 /* Constant.swift in Sources */,
 				000EAF112721D0BD0015A6C7 /* ChatViewController.swift in Sources */,
 				000EAF0A2721D0870015A6C7 /* ImageChatCell.swift in Sources */,
