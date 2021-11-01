@@ -25,13 +25,7 @@ class FormViewController: UIViewController {
     }
     
     private func setView() {
-        let rectShape = CAShapeLayer()
-        rectShape.bounds = self.helloView.frame
-        rectShape.position = self.helloView.center
-        rectShape.path = UIBezierPath(roundedRect: self.helloView.bounds, byRoundingCorners: [.bottomLeft , .bottomRight], cornerRadii: CGSize(width: 20, height: 20)).cgPath
-
-        self.helloView.layer.backgroundColor = UIColor.red.cgColor
-        self.helloView.layer.mask = rectShape
+        self.helloView.roundCorners(corners: [.bottomLeft, .bottomRight], radius: 10)
     }
     
     @IBAction func exitAction(_ sender: Any) {
@@ -48,7 +42,7 @@ class FormViewController: UIViewController {
         let email = emailTextField.text, !email.isEmpty,
         let phone = phoneNumberTextField.text, !phone.isEmpty,
         let message = messageText.text, !message.isEmpty else {
-            print("Error belum diisi")
+            self.showToast(message: "Data form belum lengkap!")
             return
         }
         
@@ -67,10 +61,10 @@ class FormViewController: UIViewController {
                 if data.status ?? false {
                     self.checkAgent()
                 } else {
-                    print("err")
+                    self.showToast(message: "Data form salah!")
                 }
             case .failure(let err):
-                print("err : \(err)")
+                self.showToast(message: "Error : \(err)")
             }
         }
     }
@@ -84,10 +78,10 @@ class FormViewController: UIViewController {
                 if data.data?.status ?? false {
                     self.login()
                 } else {
-                    print("client gk ada")
+                    self.showToast(message: "Agent tidak tersedia!")
                 }
             case .failure(let err):
-                print("err : \(err)")
+                self.showToast(message: "Error : \(err)")
             }
         }
     }
@@ -97,7 +91,7 @@ class FormViewController: UIViewController {
         let email = emailTextField.text, !email.isEmpty,
         let phone = phoneNumberTextField.text, !phone.isEmpty,
         let message = messageText.text, !message.isEmpty else {
-            print("Error belum diisi")
+            self.showToast(message: "Data form belum lengkap!")
             return
         }
         
@@ -115,9 +109,8 @@ class FormViewController: UIViewController {
             switch result {
             case .success(let data):
                 SociomileRouter.goToChat(self, token: data.data?.token ?? "")
-                print("data : \(data)")
             case .failure(let err):
-                print("err : \(err)")
+                self.showToast(message: "Error : \(err)")
             }
         }
     }
