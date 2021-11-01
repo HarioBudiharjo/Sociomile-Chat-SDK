@@ -9,15 +9,11 @@ import UIKit
 
 class MessageChatCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var messageLabel: UILabel!
     
+    func setView(data: Chat) {
+        self.timeLabel.text = data.date
+        self.messageLabel.text = data.message
+    }
 }

@@ -18,9 +18,10 @@ public class SociomileRouter {
         caller.present(vc, animated: true)
     }
     
-    public static func goToChat(_ caller: UIViewController) {
+    public static func goToChat(_ caller: UIViewController, token: String) {
         let storyboard = UIStoryboard(name: "Chat", bundle: SociomileRouter.bundle())
         let vc = storyboard.instantiateViewController(withIdentifier: String(describing: ChatViewController.self)) as! ChatViewController
+        vc.token = token
         vc.modalPresentationStyle = .fullScreen
         caller.present(vc, animated: true)
     }

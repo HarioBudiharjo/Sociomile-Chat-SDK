@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SocketIO
 
 class FormViewController: UIViewController {
     
@@ -13,19 +14,34 @@ class FormViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var messageText: UITextView!
+    @IBOutlet weak var helloView: UIView!
+    
+    
     let network = FormNetwork()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setView()
+    }
+    
+    private func setView() {
+        let rectShape = CAShapeLayer()
+        rectShape.bounds = self.helloView.frame
+        rectShape.position = self.helloView.center
+        rectShape.path = UIBezierPath(roundedRect: self.helloView.bounds, byRoundingCorners: [.bottomLeft , .bottomRight], cornerRadii: CGSize(width: 20, height: 20)).cgPath
+
+        self.helloView.layer.backgroundColor = UIColor.red.cgColor
+        self.helloView.layer.mask = rectShape
     }
     
     @IBAction func exitAction(_ sender: Any) {
-        
+        print("exit")
     }
+    
     @IBAction func submitAction(_ sender: Any) {
         checkForm()
     }
-    
+        
     private func checkForm() {
         
         guard let name = nameTextField.text, !name.isEmpty,
@@ -93,6 +109,7 @@ class FormViewController: UIViewController {
             
             switch result {
             case .success(let data):
+                SociomileRouter.goToChat(self, token: data.data?.token ?? "")
                 print("data : \(data)")
             case .failure(let err):
                 print("err : \(err)")

@@ -14,3 +14,12 @@ struct Form: Encodable {
     let phone: String
     let message: String
 }
+
+struct Message: Encodable {
+    let id: String
+    let content: String
+    let date: String
+    let is_customer: Bool
+    let is_agent: Bool
+    let is_left: Bool
+}

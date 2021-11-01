@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+//        SociomileRouter.goToChat(self, token: "")
         SociomileRouter.goToForm(self)
     }
 }
