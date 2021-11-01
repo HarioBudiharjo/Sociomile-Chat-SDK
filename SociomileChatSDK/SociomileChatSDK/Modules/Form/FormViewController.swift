@@ -59,7 +59,9 @@ class FormViewController: UIViewController {
             phone: phone,
             message: message
         )
+        Loading.share.show()
         network.checkForm(data: dataForm) { result in
+            Loading.share.hide()
             switch result {
             case .success(let data):
                 if data.status ?? false {
@@ -74,7 +76,9 @@ class FormViewController: UIViewController {
     }
     
     private func checkAgent() {
+        Loading.share.show()
         network.checkAvailable(clientId: Preferences.getString(key: Constant.CLIENT_ID)) { result in
+            Loading.share.hide()
             switch result {
             case .success(let data):
                 if data.data?.status ?? false {
@@ -105,8 +109,9 @@ class FormViewController: UIViewController {
             message: message
         )
         
+        Loading.share.show()
         network.login(data: dataForm) { result in
-            
+            Loading.share.hide()
             switch result {
             case .success(let data):
                 SociomileRouter.goToChat(self, token: data.data?.token ?? "")

@@ -31,6 +31,10 @@
 		000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF122721D0CB0015A6C7 /* ExitViewController.swift */; };
 		000EAF152721D0D90015A6C7 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF142721D0D90015A6C7 /* FormViewController.swift */; };
 		000EAF182721D1E10015A6C7 /* SociomileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF172721D1E10015A6C7 /* SociomileRouter.swift */; };
+		002B52F127300C0700441F7C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F027300C0700441F7C /* LoadingView.swift */; };
+		002B52F327300C1400441F7C /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002B52F227300C1400441F7C /* LoadingView.xib */; };
+		002B52F527300C3800441F7C /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F427300C3800441F7C /* LoadingIndicatorView.swift */; };
+		002B52F727300C4800441F7C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F627300C4800441F7C /* Loading.swift */; };
 		009867BF272F08D5008B0B78 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009867BE272F08D5008B0B78 /* Extension.swift */; };
 		009867C1272F0B5B008B0B78 /* ChatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009867C0272F0B5B008B0B78 /* ChatEntity.swift */; };
 		009867C4272F1FF2008B0B78 /* ReceivedChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009867C2272F1FF2008B0B78 /* ReceivedChatCell.swift */; };
@@ -102,6 +106,10 @@
 		000EAF122721D0CB0015A6C7 /* ExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
 		000EAF142721D0D90015A6C7 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		000EAF172721D1E10015A6C7 /* SociomileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileRouter.swift; sourceTree = "<group>"; };
+		002B52F027300C0700441F7C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		002B52F227300C1400441F7C /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		002B52F427300C3800441F7C /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		002B52F627300C4800441F7C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		009867BE272F08D5008B0B78 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		009867C0272F0B5B008B0B78 /* ChatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEntity.swift; sourceTree = "<group>"; };
 		009867C2272F1FF2008B0B78 /* ReceivedChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedChatCell.swift; sourceTree = "<group>"; };
@@ -324,9 +332,21 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		002B52D727300AB300441F7C /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				002B52F027300C0700441F7C /* LoadingView.swift */,
+				002B52F227300C1400441F7C /* LoadingView.xib */,
+				002B52F427300C3800441F7C /* LoadingIndicatorView.swift */,
+				002B52F627300C4800441F7C /* Loading.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
 		00CC683327284BAB00639BC7 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				002B52D727300AB300441F7C /* LoadingView */,
 				00CC683427284BBC00639BC7 /* Constant.swift */,
 				00CC6836272857AB00639BC7 /* Preferences.swift */,
 				00CC683A27285E4000639BC7 /* Error.swift */,
@@ -527,6 +547,7 @@
 				000EAF002721CF370015A6C7 /* Chat.storyboard in Resources */,
 				000EAF0F2721D09F0015A6C7 /* MessageChatCell.xib in Resources */,
 				000EAF0B2721D0870015A6C7 /* ImageChatCell.xib in Resources */,
+				002B52F327300C1400441F7C /* LoadingView.xib in Resources */,
 				000EAEFF2721CF370015A6C7 /* Media.xcassets in Resources */,
 				009867C5272F1FF2008B0B78 /* ReceivedChatCell.xib in Resources */,
 			);
@@ -677,6 +698,7 @@
 				00AB188A272ACA3A00A8CD77 /* Convert.swift in Sources */,
 				000EAF152721D0D90015A6C7 /* FormViewController.swift in Sources */,
 				00ED43D82727BA490076D50B /* FormEntity.swift in Sources */,
+				002B52F727300C4800441F7C /* Loading.swift in Sources */,
 				00CC683B27285E4000639BC7 /* Error.swift in Sources */,
 				00B1521327270D0B00E65D4D /* FormNetwork.swift in Sources */,
 				000EAEAF2721CE940015A6C7 /* SociomileChatSDK.docc in Sources */,
@@ -684,12 +706,14 @@
 				009867C1272F0B5B008B0B78 /* ChatEntity.swift in Sources */,
 				000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */,
 				000EAF0E2721D09F0015A6C7 /* MessageChatCell.swift in Sources */,
+				002B52F527300C3800441F7C /* LoadingIndicatorView.swift in Sources */,
 				00CC683D2728664D00639BC7 /* Socket.swift in Sources */,
 				00CC6837272857AB00639BC7 /* Preferences.swift in Sources */,
 				00CC683927285BFA00639BC7 /* FormDao.swift in Sources */,
 				009867C4272F1FF2008B0B78 /* ReceivedChatCell.swift in Sources */,
 				00CC683527284BBC00639BC7 /* Constant.swift in Sources */,
 				000EAF112721D0BD0015A6C7 /* ChatViewController.swift in Sources */,
+				002B52F127300C0700441F7C /* LoadingView.swift in Sources */,
 				000EAF0A2721D0870015A6C7 /* ImageChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
