@@ -31,5 +31,17 @@ struct Preferences {
             return ""
         }
     }
-
+    
+    public static func saveBool(key:String,value:Bool){
+        pref.set(value, forKey: key)
+        commit()
+    }
+    
+    public static func getBool(key:String) -> Bool {
+        if pref.bool(forKey: key) {
+            return pref.bool(forKey: key)
+        }else {
+            return false
+        }
+    }
 }

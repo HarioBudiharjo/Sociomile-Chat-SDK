@@ -14,8 +14,10 @@ class FormViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var messageText: UITextView!
-    @IBOutlet weak var helloView: UIView!
     
+    @IBOutlet weak var helloView: UIView!
+    @IBOutlet weak var numberView: UIView!
+    @IBOutlet weak var submitButton: UIButton!
     
     let network = FormNetwork()
     
@@ -24,12 +26,21 @@ class FormViewController: UIViewController {
         self.setView()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        if Preferences.getBool(key: Constant.CLOSE) {
+            Preferences.remove(key: Constant.CLOSE)
+            self.dismiss(animated: false, completion: nil)
+        }
+    }
+    
     private func setView() {
         self.helloView.roundCorners(corners: [.bottomLeft, .bottomRight], radius: 10)
+        self.messageText.layer.borderWidth = 1
+        self.messageText.layer.borderColor = UIColor.gray.cgColor
     }
     
     @IBAction func exitAction(_ sender: Any) {
-        print("exit")
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func submitAction(_ sender: Any) {

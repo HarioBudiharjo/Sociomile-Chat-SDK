@@ -59,8 +59,12 @@ class ChatViewController: UIViewController {
                 self.isTyping = false
             }
         }
-
-
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if Preferences.getBool(key: Constant.CLOSE) {
+            self.dismiss(animated: false, completion: nil)
+        }
     }
     
     private func registerTableView() {
@@ -77,6 +81,10 @@ class ChatViewController: UIViewController {
             let indexPath = IndexPath(row: self.chats.count-1, section: 0)
             self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
         }
+    }
+    
+    @IBAction func backAction(_ sender: Any) {
+        SociomileRouter.goToExit(self)
     }
     
     @IBAction func uploadImageAction(_ sender: Any) {

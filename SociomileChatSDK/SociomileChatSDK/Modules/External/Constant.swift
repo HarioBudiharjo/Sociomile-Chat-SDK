@@ -17,4 +17,6 @@ struct Constant {
     static let SHARED_PREFERENCES = "SHARED_PREFERENCES"
     static let TAG_TOKEN = "TOKEN"
     static let TAG_USER = "USER"
+    static let THEME = "theme"
+    static let CLOSE = "close"
 }

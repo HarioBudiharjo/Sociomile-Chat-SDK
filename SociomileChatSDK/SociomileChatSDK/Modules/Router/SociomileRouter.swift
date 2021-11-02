@@ -8,10 +8,14 @@
 import Foundation
 import UIKit
 
+public enum Theme: String {
+    case blue = "blue"
+    case red = "red"
+}
+
 public class SociomileRouter {
     
     public static func goToForm(_ caller: UIViewController) {
-        Preferences.saveString(key: Constant.CLIENT_ID, value: "57c6e0e722c054db65f99267")
         let storyboard = UIStoryboard(name: "Chat", bundle: SociomileRouter.bundle())
         let vc = storyboard.instantiateViewController(withIdentifier: String(describing: FormViewController.self)) as! FormViewController
         vc.modalPresentationStyle = .fullScreen
@@ -31,6 +35,23 @@ public class SociomileRouter {
         let vc = storyboard.instantiateViewController(withIdentifier: String(describing: ExitViewController.self)) as! ExitViewController
         vc.modalPresentationStyle = .fullScreen
         caller.present(vc, animated: true)
+    }
+    
+    public static func setFloatingButton(_ caller: UIViewController,_ callerView: UIView, theme: Theme, clientId: String) {
+        let viewFloating: FloatingButtonView = UIView.fromNib()
+        viewFloating.setData(theme: theme, clientId: clientId, caller: caller)
+        let borderWidth = 2.0
+        viewFloating.layer.borderColor = #colorLiteral(red: 0.9466721416, green: 0.9410444498, blue: 0.950997889, alpha: 1)
+        viewFloating.layer.borderWidth = CGFloat(borderWidth)
+        viewFloating.layer.cornerRadius = 5
+
+        callerView.addSubview( viewFloating)
+        viewFloating.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            viewFloating.trailingAnchor.constraint(equalTo: callerView.trailingAnchor, constant: -16.0),
+            viewFloating.bottomAnchor.constraint(equalTo: callerView.bottomAnchor, constant: -16.0)
+        ])
+        callerView.setNeedsLayout()
     }
     
     public static func bundle() -> Bundle {
