@@ -31,6 +31,8 @@
 		000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF122721D0CB0015A6C7 /* ExitViewController.swift */; };
 		000EAF152721D0D90015A6C7 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF142721D0D90015A6C7 /* FormViewController.swift */; };
 		000EAF182721D1E10015A6C7 /* SociomileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EAF172721D1E10015A6C7 /* SociomileRouter.swift */; };
+		001ADE8D27305EA400FB4A46 /* ChatNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001ADE8C27305EA400FB4A46 /* ChatNetwork.swift */; };
+		001ADE8F2730640300FB4A46 /* ChatDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001ADE8E2730640300FB4A46 /* ChatDao.swift */; };
 		002B52F127300C0700441F7C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F027300C0700441F7C /* LoadingView.swift */; };
 		002B52F327300C1400441F7C /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002B52F227300C1400441F7C /* LoadingView.xib */; };
 		002B52F527300C3800441F7C /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F427300C3800441F7C /* LoadingIndicatorView.swift */; };
@@ -107,6 +109,8 @@
 		000EAF122721D0CB0015A6C7 /* ExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
 		000EAF142721D0D90015A6C7 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		000EAF172721D1E10015A6C7 /* SociomileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SociomileRouter.swift; sourceTree = "<group>"; };
+		001ADE8C27305EA400FB4A46 /* ChatNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNetwork.swift; sourceTree = "<group>"; };
+		001ADE8E2730640300FB4A46 /* ChatDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDao.swift; sourceTree = "<group>"; };
 		002B52F027300C0700441F7C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		002B52F227300C1400441F7C /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		002B52F427300C3800441F7C /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
@@ -283,6 +287,8 @@
 				000EAF072721D0650015A6C7 /* Cell */,
 				000EAF102721D0BD0015A6C7 /* ChatViewController.swift */,
 				009867C0272F0B5B008B0B78 /* ChatEntity.swift */,
+				001ADE8C27305EA400FB4A46 /* ChatNetwork.swift */,
+				001ADE8E2730640300FB4A46 /* ChatDao.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -709,6 +715,7 @@
 				009867C1272F0B5B008B0B78 /* ChatEntity.swift in Sources */,
 				000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */,
 				000EAF0E2721D09F0015A6C7 /* MessageChatCell.swift in Sources */,
+				001ADE8F2730640300FB4A46 /* ChatDao.swift in Sources */,
 				002B52F527300C3800441F7C /* LoadingIndicatorView.swift in Sources */,
 				00CC683D2728664D00639BC7 /* Socket.swift in Sources */,
 				00CC6837272857AB00639BC7 /* Preferences.swift in Sources */,
@@ -716,6 +723,7 @@
 				009867C4272F1FF2008B0B78 /* ReceivedChatCell.swift in Sources */,
 				00CC683527284BBC00639BC7 /* Constant.swift in Sources */,
 				000EAF112721D0BD0015A6C7 /* ChatViewController.swift in Sources */,
+				001ADE8D27305EA400FB4A46 /* ChatNetwork.swift in Sources */,
 				002B52F927300F1400441F7C /* Toast.swift in Sources */,
 				002B52F127300C0700441F7C /* LoadingView.swift in Sources */,
 				000EAF0A2721D0870015A6C7 /* ImageChatCell.swift in Sources */,

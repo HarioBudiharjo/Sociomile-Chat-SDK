@@ -52,4 +52,23 @@ class FormNetwork {
             completionHandler(.success(objectDecode))
         }
     }
+    
+    func uploadPhoto(file: Data, token: String) {
+        let headers: HTTPHeaders = [
+            "Content-type": "multipart/form-data",
+            "Authorization": token
+        ]
+        
+        AF.upload(
+            multipartFormData: { multipartFormData in
+                multipartFormData.append(file, withName: "image" , fileName: "image.jpg", mimeType: "application/jpeg")
+            },
+            to: Constant.BASEURL_CHECK, method: .post , headers: headers)
+            .response { response in
+                if let data = response.data{
+                    //handle the response however you like
+                }
+                
+            }
+    }
 }
