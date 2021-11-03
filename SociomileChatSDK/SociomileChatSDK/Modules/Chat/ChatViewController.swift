@@ -15,6 +15,7 @@ class ChatViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var chatTextField: UITextField!
+    @IBOutlet weak var headerView: UIView!
     
     var imagePicker = UIImagePickerController()
     var imageChat = UIImage()
@@ -45,6 +46,7 @@ class ChatViewController: UIViewController {
         chatTextField.delegate = self
         self.imagePicker.delegate = self
         
+        self.setView()
         self.registerTableView()
         SocketHelper.shared.configureSocketClient(token: self.token)
         SocketHelper.shared.establishConnection()
@@ -64,6 +66,19 @@ class ChatViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         if Preferences.getBool(key: Constant.CLOSE) {
             self.dismiss(animated: false, completion: nil)
+        }
+    }
+    
+    private func setView() {
+        self.tableView.roundCorners(corners: [.topLeft, .topRight], radius: 10.0)
+        self.setTheme()
+    }
+    
+    public func setTheme() {
+        if Preferences.getString(key: Constant.THEME) == Theme.red.rawValue {
+            self.headerView.backgroundColor = Color.red
+        } else {
+            self.headerView.backgroundColor = Color.blue
         }
     }
     
@@ -316,6 +331,7 @@ extension ChatViewController: UIDocumentPickerDelegate{
         guard let documentURL = urls.first else {
                return
         }
+        print("document : \(documentURL)")
 
     }
 }

@@ -15,6 +15,7 @@ class ExitViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setTheme()
     }
     
     @IBAction func dismissAction(_ sender: Any) {
@@ -26,5 +27,13 @@ class ExitViewController: UIViewController {
     @IBAction func closeAction(_ sender: Any) {
         Preferences.saveBool(key: Constant.CLOSE, value: true)
         self.dismiss(animated: false, completion: nil)
+    }
+    
+    public func setTheme() {
+        if Preferences.getString(key: Constant.THEME) == Theme.red.rawValue {
+            self.mainView.backgroundColor = Color.red
+        } else {
+            self.mainView.backgroundColor = Color.blue
+        }
     }
 }

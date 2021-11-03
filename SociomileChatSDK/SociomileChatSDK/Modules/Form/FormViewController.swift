@@ -34,9 +34,26 @@ class FormViewController: UIViewController {
     }
     
     private func setView() {
-        self.helloView.roundCorners(corners: [.bottomLeft, .bottomRight], radius: 10)
+        self.helloView.roundCorners(corners: [.bottomLeft, .bottomRight], radius: 15)
+        self.numberView.roundCorners(corners: [.bottomLeft, .topLeft], radius: 10)
+        
         self.messageText.layer.borderWidth = 1
         self.messageText.layer.borderColor = UIColor.gray.cgColor
+        self.submitButton.layer.cornerRadius = 10
+        
+        self.setTheme()
+    }
+    
+    public func setTheme() {
+        if Preferences.getString(key: Constant.THEME) == Theme.red.rawValue {
+            self.numberView.backgroundColor = Color.redYoung
+            self.helloView.backgroundColor = Color.red
+            self.submitButton.backgroundColor = Color.red
+        } else {
+            self.numberView.backgroundColor = Color.blueYoung
+            self.helloView.backgroundColor = Color.blue
+            self.submitButton.backgroundColor = Color.blue
+        }
     }
     
     @IBAction func exitAction(_ sender: Any) {
