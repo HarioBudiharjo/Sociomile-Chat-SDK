@@ -26,6 +26,14 @@ class FloatingButtonView: UIView {
         self.theme = theme
         self.caller = caller
         
+//        self.mainView.roundCorners(corners: [.topRight, .topLeft, .bottomLeft, .bottomRight], radius: 20)
+//        self.layer.cornerRadius = self.frame.size.width/2
+//        self.clipsToBounds = true
+//
+//
+//        self.layer.borderColor = UIColor.gray.cgColor
+//        self.layer.borderWidth = 5.0
+        
         if theme == .red {
             floatingImage.image = UIImage(named: "red", in: SociomileRouter.bundle(), compatibleWith: nil)
         } else {

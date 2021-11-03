@@ -6,18 +6,19 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ImageChatCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    @IBOutlet weak var contentImage: UIImageView!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var messageView: UIView!
     
+    func setView(data: Chat) {
+        dateLabel.text = data.date
+        if let url = URL(string: data.message) {
+            contentImage.kf.setImage(with: url)
+        }
+        messageView.roundCorners(corners: [.bottomRight, .bottomLeft, .topLeft], radius: 20.0)
+    }
 }

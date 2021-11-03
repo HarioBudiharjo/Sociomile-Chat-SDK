@@ -16,9 +16,12 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var chatTextField: UITextField!
     @IBOutlet weak var headerView: UIView!
+    @IBOutlet weak var sendButton: UIButton!
+    @IBOutlet weak var headerRoundedView: UIView!
     
     var imagePicker = UIImagePickerController()
     var imageChat = UIImage()
+    var fileUrlTemp: URL?
 
     let network = ChatNetwork()
     
@@ -32,7 +35,7 @@ class ChatViewController: UIViewController {
     var isTyping: Bool = false {
         didSet {
             if isTyping {
-                let typingCell = Chat(id: 0, name: "", message: "Typing...", date: "")
+                let typingCell = Chat(id: 0, name: "", message: "Typing...", imageUrl: nil, documentUrl: nil, date: "", type: .message)
                 chats.append(typingCell)
             } else {
                 self.removeTypingCell()
@@ -71,14 +74,17 @@ class ChatViewController: UIViewController {
     
     private func setView() {
         self.tableView.roundCorners(corners: [.topLeft, .topRight], radius: 10.0)
+        self.headerRoundedView.roundCorners(corners: [.topLeft, .topRight], radius: 20.0)
         self.setTheme()
     }
     
     public func setTheme() {
         if Preferences.getString(key: Constant.THEME) == Theme.red.rawValue {
             self.headerView.backgroundColor = Color.red
+            self.sendButton.backgroundColor = Color.red
         } else {
             self.headerView.backgroundColor = Color.blue
+            self.sendButton.backgroundColor = Color.blue
         }
     }
     
@@ -86,6 +92,7 @@ class ChatViewController: UIViewController {
         
         tableView.register(UINib(nibName: String(describing: MessageChatCell.self), bundle: SociomileRouter.bundle()), forCellReuseIdentifier: String(describing: MessageChatCell.self))
         tableView.register(UINib(nibName: String(describing: ReceivedChatCell.self), bundle: SociomileRouter.bundle()), forCellReuseIdentifier: String(describing: ReceivedChatCell.self))
+        tableView.register(UINib(nibName: String(describing: ImageChatCell.self), bundle: SociomileRouter.bundle()), forCellReuseIdentifier: String(describing: ImageChatCell.self))
     }
     
     private func scrollToBottom() {
@@ -107,12 +114,13 @@ class ChatViewController: UIViewController {
     }
     
     @IBAction func sendAction(_ sender: Any) {
+//        sendDummyChat()
         sendMessage()
     }
     
     private func sendDummyChat() {
-        let chat = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", date: "123")
-        let chat2 = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", date: "123")
+        let chat = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        let chat2 = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
         chats.append(chat)
         chats.append(chat2)
     }
@@ -194,8 +202,13 @@ class ChatViewController: UIViewController {
             "is_left": true
         ]
         SocketHelper.shared.sendMessage(message: dataMessage) {
-            chats.append(Chat(id: 2, name: "", message: chatTextField.text ?? "", date: date))
-            chatTextField.text = ""
+            if (data.data?.type ?? "") == TypeMessage.image.rawValue {
+                chats.append(Chat(id: 2, name: "", message: "", imageUrl: self.fileUrlTemp, documentUrl: nil, date: date, type: .image))
+                chatTextField.text = ""
+            } else {
+                chats.append(Chat(id: 2, name: "", message: chatTextField.text ?? "", imageUrl: nil, documentUrl: nil, date: date, type: .message))
+                chatTextField.text = ""
+            }
         }
     }
     
@@ -216,7 +229,7 @@ class ChatViewController: UIViewController {
             "is_left": true
         ]
         SocketHelper.shared.sendMessage(message: dataMessage) {
-            chats.append(Chat(id: 2, name: "", message: chatTextField.text ?? "", date: date))
+            chats.append(Chat(id: 2, name: "", message: chatTextField.text ?? "", imageUrl: nil, documentUrl: nil, date: date, type: .message))
             chatTextField.text = ""
         }
     }
@@ -303,11 +316,22 @@ extension ChatViewController: UITableViewDataSource {
             cell.setView(data: chats[indexPath.row])
             return cell
         } else {
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MessageChatCell.self)) as? MessageChatCell else {
+            switch chats[indexPath.row].type {
+            case .document:
                 return UITableView.emptyCell()
+            case .image:
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ImageChatCell.self)) as? ImageChatCell else {
+                    return UITableView.emptyCell()
+                }
+                cell.setView(data: chats[indexPath.row])
+                return cell
+            case .message:
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MessageChatCell.self)) as? MessageChatCell else {
+                    return UITableView.emptyCell()
+                }
+                cell.setView(data: chats[indexPath.row])
+                return cell
             }
-            cell.setView(data: chats[indexPath.row])
-            return cell
         }
     }
 }
@@ -317,9 +341,16 @@ extension ChatViewController: UIImagePickerControllerDelegate, UINavigationContr
         if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             self.imageChat = pickedImage
             self.sendImage()
-//            profileImage.contentMode = .scaleAspectFit
-//            profileImage.image = pickedImage
-//            presenter?.savePhoto(avatar: pickedImage)
+        }
+        
+        if #available(iOS 11.0, *) {
+            if let url = info[UIImagePickerController.InfoKey.imageURL] as? URL {
+                self.fileUrlTemp = url
+            }
+        } else {
+            if let url = info[UIImagePickerController.InfoKey.mediaURL] as? URL {
+                self.fileUrlTemp = url
+            }
         }
         dismiss(animated: true, completion: nil)
     }

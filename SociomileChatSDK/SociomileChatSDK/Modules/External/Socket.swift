@@ -76,7 +76,7 @@ final class SocketHelper: NSObject {
             }
             //MARK: Content
             if let message = dataFirst["content"] as? String, let date = dataFirst["date"] as? String {
-                let chat = Chat(id: 1, name: dataFirst["name"] as? String ?? "", message: message, date: date)
+                let chat = Chat(id: 1, name: dataFirst["name"] as? String ?? "", message: message, imageUrl: nil, documentUrl: nil, date: date, type: .message)
                 chatCompletion(chat)
             }
             
