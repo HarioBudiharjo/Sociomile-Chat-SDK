@@ -8,7 +8,7 @@ target 'SociomileChatSDK' do
   # Pods for SociomileChatSDK
   pod 'Socket.IO-Client-Swift', '~> 15.2.0'
   pod 'Alamofire', '~> 5.4'
-  pod 'Kingfisher', '~> 7.0'
+  pod 'Kingfisher', '~> 6.3.0'
   pod 'NVActivityIndicatorView'
 
   target 'SociomileChatSDKTests' do

@@ -82,7 +82,7 @@ extension KingfisherWrapper where Base: NSTextAttachment {
     @discardableResult
     public func setImage(
         with source: Source?,
-        attributedView: @autoclosure @escaping () -> KFCrossPlatformView,
+        attributedView: KFCrossPlatformView,
         placeholder: KFCrossPlatformImage? = nil,
         options: KingfisherOptionsInfo? = nil,
         progressBlock: DownloadProgressBlock? = nil,
@@ -145,26 +145,24 @@ extension KingfisherWrapper where Base: NSTextAttachment {
     @discardableResult
     public func setImage(
         with resource: Resource?,
-        attributedView: @autoclosure @escaping () -> KFCrossPlatformView,
+        attributedView: KFCrossPlatformView,
         placeholder: KFCrossPlatformImage? = nil,
         options: KingfisherOptionsInfo? = nil,
         progressBlock: DownloadProgressBlock? = nil,
         completionHandler: ((Result<RetrieveImageResult, KingfisherError>) -> Void)? = nil) -> DownloadTask?
     {
-        let options = KingfisherParsedOptionsInfo(KingfisherManager.shared.defaultOptions + (options ?? .empty))
         return setImage(
             with: resource.map { .network($0) },
             attributedView: attributedView,
             placeholder: placeholder,
-            parsedOptions: options,
+            options: options,
             progressBlock: progressBlock,
-            completionHandler: completionHandler
-        )
+            completionHandler: completionHandler)
     }
 
     func setImage(
         with source: Source?,
-        attributedView: @escaping () -> KFCrossPlatformView,
+        attributedView: KFCrossPlatformView,
         placeholder: KFCrossPlatformImage? = nil,
         parsedOptions: KingfisherParsedOptionsInfo,
         progressBlock: DownloadProgressBlock? = nil,
@@ -224,11 +222,10 @@ extension KingfisherWrapper where Base: NSTextAttachment {
                     switch result {
                     case .success(let value):
                         self.base.image = value.image
-                        let view = attributedView()
                         #if canImport(UIKit)
-                        view.setNeedsDisplay()
+                        attributedView.setNeedsDisplay()
                         #else
-                        view.setNeedsDisplay(view.bounds)
+                        attributedView.setNeedsDisplay(attributedView.bounds)
                         #endif
                     case .failure:
                         if let image = options.onFailureImage {

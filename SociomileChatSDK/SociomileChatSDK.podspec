@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
   
   s.dependency 'Alamofire', '~> 5.4'
-  s.dependency 'Kingfisher', '~> 7.0'
+  s.dependency 'Kingfisher', '~> 6.3.0'
   s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency 'NVActivityIndicatorView'
 

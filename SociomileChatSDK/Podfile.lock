@@ -1,12 +1,12 @@
 PODS:
   - Alamofire (5.4.4)
-  - Kingfisher (7.1.1)
+  - Kingfisher (6.3.1)
   - NVActivityIndicatorView (5.1.1):
     - NVActivityIndicatorView/Base (= 5.1.1)
   - NVActivityIndicatorView/Base (5.1.1)
   - SociomileChatSDK (1.0.0):
     - Alamofire (~> 5.4)
-    - Kingfisher (~> 7.0)
+    - Kingfisher (~> 6.3.0)
     - NVActivityIndicatorView
     - Socket.IO-Client-Swift (~> 15.2.0)
   - Socket.IO-Client-Swift (15.2.0):
@@ -15,7 +15,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.4)
-  - Kingfisher (~> 7.0)
+  - Kingfisher (~> 6.3.0)
   - NVActivityIndicatorView
   - SociomileChatSDK (from `./`)
   - Socket.IO-Client-Swift (~> 15.2.0)
@@ -34,12 +34,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
-  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
-  SociomileChatSDK: 724a02894679bd3e4c7a8a8965b8afb071108cd6
+  SociomileChatSDK: 110dadec1d881e71ef9f9d4266d8ec2326754501
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: da3687892a845699141f0050547fec3b970a045b
+PODFILE CHECKSUM: 3a62b73fc78756dabf395bf2c348c01a3d39ba84
 
 COCOAPODS: 1.11.2
