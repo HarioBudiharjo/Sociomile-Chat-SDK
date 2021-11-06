@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -78,7 +79,7 @@
                                             <action selector="sendAction:" destination="5IV-vp-hKA" eventType="touchUpInside" id="yQI-Km-fwK"/>
                                         </connections>
                                     </button>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uxt-f0-qzp">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uxt-f0-qzp">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="684"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </tableView>
@@ -406,6 +407,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1208.6956521739132" y="-559.15178571428567"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="u2Y-vb-S3O">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" id="Gpo-dc-vuY" customClass="WebViewController" customModule="SociomileChatSDK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TY2-Hj-Egu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyw-4i-xpX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wS9-GW-AxX">
+                                <rect key="frame" x="0.0" y="229" width="414" height="448"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X97-cF-212"/>
+                        <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jyw-4i-xpX" firstAttribute="leading" secondItem="X97-cF-212" secondAttribute="leading" id="6S6-MN-CxN"/>
+                            <constraint firstItem="wS9-GW-AxX" firstAttribute="centerY" secondItem="X97-cF-212" secondAttribute="centerY" id="89Z-G0-m4t"/>
+                            <constraint firstItem="X97-cF-212" firstAttribute="trailing" secondItem="wS9-GW-AxX" secondAttribute="trailing" id="Cuv-NH-c0N"/>
+                            <constraint firstItem="jyw-4i-xpX" firstAttribute="trailing" secondItem="X97-cF-212" secondAttribute="trailing" id="EEg-3J-Bhp"/>
+                            <constraint firstItem="jyw-4i-xpX" firstAttribute="top" secondItem="X97-cF-212" secondAttribute="top" id="G2E-xq-Ouc"/>
+                            <constraint firstItem="wS9-GW-AxX" firstAttribute="leading" secondItem="X97-cF-212" secondAttribute="leading" id="JQr-MZ-tdK"/>
+                            <constraint firstItem="X97-cF-212" firstAttribute="bottom" secondItem="jyw-4i-xpX" secondAttribute="bottom" id="hA3-sA-BIK"/>
+                            <constraint firstItem="wS9-GW-AxX" firstAttribute="height" secondItem="TY2-Hj-Egu" secondAttribute="height" multiplier="0.5" id="xuE-Xz-kiJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="wkWebView" destination="wS9-GW-AxX" id="2Iw-9E-qqr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZH-jB-ewd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2571.0144927536235" y="-560.49107142857144"/>
         </scene>
     </scenes>
     <resources>

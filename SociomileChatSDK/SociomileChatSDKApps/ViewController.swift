@@ -21,6 +21,10 @@ class ViewController: UIViewController {
 //        SociomileRouter.goToChat(self, token: "")
 //        SociomileRouter.goToForm(self)
 //        SociomileRouter.goToExit(self)
+//        guard let url = URL(string: "https://api.my.id") else {
+//            return
+//        }
+//        SociomileRouter.goToWebView(self, url: url)
     }
 }
 

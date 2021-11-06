@@ -37,6 +37,14 @@ public class SociomileRouter {
         caller.present(vc, animated: true)
     }
     
+    public static func goToWebView(_ caller: UIViewController, url: URL) {
+        let storyboard = UIStoryboard(name: "Chat", bundle: SociomileRouter.bundle())
+        let vc = storyboard.instantiateViewController(withIdentifier: String(describing: WebViewController.self)) as! WebViewController
+        vc.url = url
+        vc.modalPresentationStyle = .fullScreen
+        caller.present(vc, animated: true)
+    }
+    
     public static func setFloatingButton(_ caller: UIViewController,_ callerView: UIView, theme: Theme, clientId: String) {
         let viewFloating: FloatingButtonView = UIView.fromNib()
         viewFloating.setData(theme: theme, clientId: clientId, caller: caller)

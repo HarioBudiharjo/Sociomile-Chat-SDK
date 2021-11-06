@@ -22,3 +22,8 @@ enum TypeMessage: String {
     case image = "image"
     case message = "message"
 }
+
+enum FileType: String {
+    case document = "document"
+    case image = "image"
+}

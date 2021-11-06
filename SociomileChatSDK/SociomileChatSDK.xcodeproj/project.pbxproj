@@ -38,6 +38,9 @@
 		002B52F527300C3800441F7C /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F427300C3800441F7C /* LoadingIndicatorView.swift */; };
 		002B52F727300C4800441F7C /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F627300C4800441F7C /* Loading.swift */; };
 		002B52F927300F1400441F7C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B52F827300F1400441F7C /* Toast.swift */; };
+		007E8627273597DF0033B7B3 /* ReceivedImageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E8625273597DF0033B7B3 /* ReceivedImageChatCell.swift */; };
+		007E8628273597DF0033B7B3 /* ReceivedImageChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007E8626273597DF0033B7B3 /* ReceivedImageChatCell.xib */; };
+		00850211273307B5002BBF40 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00850210273307B5002BBF40 /* WebViewController.swift */; };
 		009867BF272F08D5008B0B78 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009867BE272F08D5008B0B78 /* Extension.swift */; };
 		009867C1272F0B5B008B0B78 /* ChatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009867C0272F0B5B008B0B78 /* ChatEntity.swift */; };
 		009867C4272F1FF2008B0B78 /* ReceivedChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009867C2272F1FF2008B0B78 /* ReceivedChatCell.swift */; };
@@ -118,6 +121,9 @@
 		002B52F427300C3800441F7C /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
 		002B52F627300C4800441F7C /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		002B52F827300F1400441F7C /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		007E8625273597DF0033B7B3 /* ReceivedImageChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedImageChatCell.swift; sourceTree = "<group>"; };
+		007E8626273597DF0033B7B3 /* ReceivedImageChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceivedImageChatCell.xib; sourceTree = "<group>"; };
+		00850210273307B5002BBF40 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		009867BE272F08D5008B0B78 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		009867C0272F0B5B008B0B78 /* ChatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEntity.swift; sourceTree = "<group>"; };
 		009867C2272F1FF2008B0B78 /* ReceivedChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedChatCell.swift; sourceTree = "<group>"; };
@@ -277,6 +283,7 @@
 		000EAEFC2721CF040015A6C7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				0085020F2733078F002BBF40 /* Webview */,
 				00A2A6902730E340003F9EC9 /* Floating */,
 				00CC683327284BAB00639BC7 /* External */,
 				000EAF162721D1CC0015A6C7 /* Router */,
@@ -324,6 +331,7 @@
 				009867C3272F1FF2008B0B78 /* ReceivedChatCell.xib */,
 				000EAF092721D0870015A6C7 /* ImageChatCell.xib */,
 				000EAF0D2721D09F0015A6C7 /* MessageChatCell.xib */,
+				007E8626273597DF0033B7B3 /* ReceivedImageChatCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -331,6 +339,7 @@
 		000EAF072721D0650015A6C7 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				007E8625273597DF0033B7B3 /* ReceivedImageChatCell.swift */,
 				000EAF082721D0870015A6C7 /* ImageChatCell.swift */,
 				000EAF0C2721D09F0015A6C7 /* MessageChatCell.swift */,
 				009867C2272F1FF2008B0B78 /* ReceivedChatCell.swift */,
@@ -355,6 +364,14 @@
 				002B52F627300C4800441F7C /* Loading.swift */,
 			);
 			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		0085020F2733078F002BBF40 /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				00850210273307B5002BBF40 /* WebViewController.swift */,
+			);
+			path = Webview;
 			sourceTree = "<group>";
 		};
 		00A2A68F2730E335003F9EC9 /* Floating */ = {
@@ -579,6 +596,7 @@
 				000EAF0F2721D09F0015A6C7 /* MessageChatCell.xib in Resources */,
 				000EAF0B2721D0870015A6C7 /* ImageChatCell.xib in Resources */,
 				002B52F327300C1400441F7C /* LoadingView.xib in Resources */,
+				007E8628273597DF0033B7B3 /* ReceivedImageChatCell.xib in Resources */,
 				000EAEFF2721CF370015A6C7 /* Media.xcassets in Resources */,
 				009867C5272F1FF2008B0B78 /* ReceivedChatCell.xib in Resources */,
 				00A2A6922730E361003F9EC9 /* FloatingButtonView.xib in Resources */,
@@ -737,6 +755,7 @@
 				009867BF272F08D5008B0B78 /* Extension.swift in Sources */,
 				009867C1272F0B5B008B0B78 /* ChatEntity.swift in Sources */,
 				000EAF132721D0CB0015A6C7 /* ExitViewController.swift in Sources */,
+				00850211273307B5002BBF40 /* WebViewController.swift in Sources */,
 				000EAF0E2721D09F0015A6C7 /* MessageChatCell.swift in Sources */,
 				001ADE8F2730640300FB4A46 /* ChatDao.swift in Sources */,
 				002B52F527300C3800441F7C /* LoadingIndicatorView.swift in Sources */,
@@ -749,6 +768,7 @@
 				001ADE8D27305EA400FB4A46 /* ChatNetwork.swift in Sources */,
 				002B52F927300F1400441F7C /* Toast.swift in Sources */,
 				002B52F127300C0700441F7C /* LoadingView.swift in Sources */,
+				007E8627273597DF0033B7B3 /* ReceivedImageChatCell.swift in Sources */,
 				00A2A6942730E37D003F9EC9 /* FloatingButtonView.swift in Sources */,
 				000EAF0A2721D0870015A6C7 /* ImageChatCell.swift in Sources */,
 			);
@@ -967,6 +987,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1000,6 +1021,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1080,6 +1102,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1109,6 +1132,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

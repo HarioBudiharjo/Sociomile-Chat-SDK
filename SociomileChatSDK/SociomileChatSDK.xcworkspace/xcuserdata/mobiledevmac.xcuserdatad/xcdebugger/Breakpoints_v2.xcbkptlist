@@ -7,145 +7,65 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A893CC03-3F9D-4B48-A457-E03D1ED8A032"
+            uuid = "624E3D1D-000B-4708-B41B-54418E000336"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SociomileChatSDK/Modules/Chat/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
-            landmarkName = "sendFileSocket(data:)"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
+            landmarkName = "documentPicker(_:didPickDocumentsAt:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A893CC03-3F9D-4B48-A457-E03D1ED8A032 - fca47c649b637bb3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in SociomileChatSDK.ChatViewController.sendFileSocket(data: SociomileChatSDK.ChatDAO) -&gt; ()"
-                  moduleName = "SociomileChatSDK"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac/Development/SIDE%20JOB/Sociomile-Chat-SDK/SociomileChatSDK/SociomileChatSDK/Modules/Chat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "206"
-                  endingLineNumber = "206"
-                  offsetFromSymbolStart = "1073">
-               </Location>
-               <Location
-                  uuid = "A893CC03-3F9D-4B48-A457-E03D1ED8A032 - fca47c649b637bb3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in SociomileChatSDK.ChatViewController.sendFileSocket(data: SociomileChatSDK.ChatDAO) -&gt; ()"
-                  moduleName = "SociomileChatSDK"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac/Development/SIDE%20JOB/Sociomile-Chat-SDK/SociomileChatSDK/SociomileChatSDK/Modules/Chat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "206"
-                  endingLineNumber = "206"
-                  offsetFromSymbolStart = "693">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5E07E8A9-292F-4DDA-B1E9-2C525700F95E"
+            uuid = "86659A76-A07B-431F-A8E7-90C2C1D557A2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SociomileChatSDK/Modules/Chat/ChatViewController.swift"
+            filePath = "SociomileChatSDK/Modules/Chat/Cell/ImageChatCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "324"
-            endingLineNumber = "324"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "setView(data:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "5E07E8A9-292F-4DDA-B1E9-2C525700F95E - f9b33d7423364e65"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SociomileChatSDK.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "SociomileChatSDK"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac/Development/SIDE%20JOB/Sociomile-Chat-SDK/SociomileChatSDK/SociomileChatSDK/Modules/Chat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "325"
-                  endingLineNumber = "325"
-                  offsetFromSymbolStart = "1605">
-               </Location>
-               <Location
-                  uuid = "5E07E8A9-292F-4DDA-B1E9-2C525700F95E - f9b33d7423364e46"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SociomileChatSDK.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "SociomileChatSDK"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac/Development/SIDE%20JOB/Sociomile-Chat-SDK/SociomileChatSDK/SociomileChatSDK/Modules/Chat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "324"
-                  endingLineNumber = "324"
-                  offsetFromSymbolStart = "1820">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F0AE4D4F-DD52-4B98-BD50-34CF2EBE7C1D"
+            uuid = "A39E978A-34BC-4643-A8FC-F9D422EC5FBE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SociomileChatSDK/Modules/Chat/ChatViewController.swift"
+            filePath = "SociomileChatSDK/Modules/Chat/Cell/ImageChatCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "326"
-            endingLineNumber = "326"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "openAction(sender:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F0AE4D4F-DD52-4B98-BD50-34CF2EBE7C1D - f9b33d7423364f84"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SociomileChatSDK.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "SociomileChatSDK"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac/Development/SIDE%20JOB/Sociomile-Chat-SDK/SociomileChatSDK/SociomileChatSDK/Modules/Chat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "326"
-                  endingLineNumber = "326"
-                  offsetFromSymbolStart = "1778">
-               </Location>
-               <Location
-                  uuid = "F0AE4D4F-DD52-4B98-BD50-34CF2EBE7C1D - f9b33d7423364f84"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SociomileChatSDK.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "SociomileChatSDK"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mobiledevmac/Development/SIDE%20JOB/Sociomile-Chat-SDK/SociomileChatSDK/SociomileChatSDK/Modules/Chat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "326"
-                  endingLineNumber = "326"
-                  offsetFromSymbolStart = "1605">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0F9E64E-B3EA-410D-96AD-5C821AB7DAE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SociomileChatSDK/Modules/External/Socket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "getMessage(chatCompletion:typingCompletion:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -21,6 +21,7 @@ class ChatViewController: UIViewController {
     
     var imagePicker = UIImagePickerController()
     var imageChat = UIImage()
+    var docChat = Data()
     var fileUrlTemp: URL?
 
     let network = ChatNetwork()
@@ -93,6 +94,7 @@ class ChatViewController: UIViewController {
         tableView.register(UINib(nibName: String(describing: MessageChatCell.self), bundle: SociomileRouter.bundle()), forCellReuseIdentifier: String(describing: MessageChatCell.self))
         tableView.register(UINib(nibName: String(describing: ReceivedChatCell.self), bundle: SociomileRouter.bundle()), forCellReuseIdentifier: String(describing: ReceivedChatCell.self))
         tableView.register(UINib(nibName: String(describing: ImageChatCell.self), bundle: SociomileRouter.bundle()), forCellReuseIdentifier: String(describing: ImageChatCell.self))
+        tableView.register(UINib(nibName: String(describing: ReceivedImageChatCell.self), bundle: SociomileRouter.bundle()), forCellReuseIdentifier: String(describing: ReceivedImageChatCell.self))
     }
     
     private func scrollToBottom() {
@@ -119,10 +121,24 @@ class ChatViewController: UIViewController {
     }
     
     private func sendDummyChat() {
+        //MARK: Message
         let chat = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
         let chat2 = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        
+        //MARK: Document
+        let chatDoc = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        let chatDoc2 = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        
+        //MARK: Image
+        let chatImage = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        let chatImage2 = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        
         chats.append(chat)
         chats.append(chat2)
+        chats.append(chatDoc)
+        chats.append(chatDoc2)
+        chats.append(chatImage)
+        chats.append(chatImage2)
     }
     
     private func optionGetFile() {
@@ -161,7 +177,7 @@ class ChatViewController: UIViewController {
                 switch result {
                 case .success(let data):
                     if let data = data {
-                        self.sendFileSocket(data: data)
+                        self.sendFileSocket(data: data, file: .image)
                     }
                 case .failure(let error):
                     self.showToast(message: "Error : \(error)")
@@ -170,7 +186,20 @@ class ChatViewController: UIViewController {
         }
     }
     
-    private func sendFileSocket(data: ChatDAO) {
+    private func sendDoc() {
+        network.uploadFile(file: docChat, token: token) { result in
+            switch result {
+            case .success(let data):
+                if let data = data {
+                    self.sendFileSocket(data: data, file: .document)
+                }
+            case .failure(let error):
+                self.showToast(message: "Error : \(error)")
+            }
+        }
+    }
+    
+    private func sendFileSocket(data: ChatDAO, file: FileType) {
 //        {
 //           "id":1635791770317,
 //           "content":"ei_16357917543151431503378.jpg",
@@ -188,10 +217,17 @@ class ChatViewController: UIViewController {
         let formatter1 = DateFormatter()
         formatter1.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
         let date = formatter1.string(from: today)
+        var content = ""
+        if file.rawValue == FileType.document.rawValue {
+            content = "doc.pdf"
+        }
+        if file.rawValue == FileType.image.rawValue {
+            content = "image.jpg"
+        }
         
         let dataMessage: [String:Any] = [
             "id":"\(id)",
-            "content":"image.jpg",
+            "content":content,
             "file": [
                 "extension" : data.data?.dataExtension ?? "",
                 "name": data.data?.name ?? 0,
@@ -310,19 +346,28 @@ extension ChatViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if chats[indexPath.row].id < 2 {
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ReceivedChatCell.self)) as? ReceivedChatCell else {
-                return UITableView.emptyCell()
+            switch chats[indexPath.row].type {
+            case .image,.document:
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ReceivedImageChatCell.self)) as? ReceivedImageChatCell else {
+                    return UITableView.emptyCell()
+                }
+                cell.setView(data: chats[indexPath.row])
+                cell.delegate = self
+                return cell
+            case .message:
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ReceivedChatCell.self)) as? ReceivedChatCell else {
+                    return UITableView.emptyCell()
+                }
+                cell.setView(data: chats[indexPath.row])
+                return cell
             }
-            cell.setView(data: chats[indexPath.row])
-            return cell
         } else {
             switch chats[indexPath.row].type {
-            case .document:
-                return UITableView.emptyCell()
-            case .image:
+            case .image,.document:
                 guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ImageChatCell.self)) as? ImageChatCell else {
                     return UITableView.emptyCell()
                 }
+                cell.delegate = self
                 cell.setView(data: chats[indexPath.row])
                 return cell
             case .message:
@@ -363,6 +408,34 @@ extension ChatViewController: UIDocumentPickerDelegate{
                return
         }
         print("document : \(documentURL)")
+        do {
+            let data = try Data(contentsOf: documentURL)
+            docChat = data
+            self.sendDoc()
+        } catch {
+            print("error data")
+        }
+    }
+}
 
+extension ChatViewController: ImageChatDelegate {
+    func openWebView(url: URL?) {
+        if let url = url {
+            SociomileRouter.goToWebView(self, url: url)
+        }
+    }
+}
+
+extension ChatViewController: ReceivedImageChatDelegate {
+    func download(url: URL?) {
+        if let url = url {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    func open(url: URL?) {
+        if let url = url {
+            SociomileRouter.goToWebView(self, url: url)
+        }
     }
 }
