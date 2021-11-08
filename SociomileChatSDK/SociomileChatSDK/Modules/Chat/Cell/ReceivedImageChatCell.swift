@@ -24,9 +24,10 @@ class ReceivedImageChatCell: UITableViewCell {
     var data: Chat?
     
     func setView(data: Chat) {
+        self.data = data
         if data.type == .document {
             previewImage.image = UIImage(named: "pdf", in: SociomileRouter.bundle(), compatibleWith: nil)
-            nameLabel.text = data.message
+//            nameLabel.text = data.message
         } else {
             if let url = data.imageUrl {
                 previewImage.kf.setImage(with: url)
@@ -59,9 +60,9 @@ class ReceivedImageChatCell: UITableViewCell {
             return
         }
         if data.type == .document {
-            self.delegate?.open(url: data.documentUrl)
+            self.delegate?.download(url: data.documentUrl)
         } else {
-            self.delegate?.open(url: data.imageUrl)
+            self.delegate?.download(url: data.imageUrl)
         }
     }
 }

@@ -74,6 +74,33 @@ final class SocketHelper: NSObject {
             guard let dataFirst = dataArray.first as? [String:Any] else {
                 return
             }
+            //MARK: Document
+            if let attachments = dataFirst["attachments"] as? [[String:Any]] {
+                guard let attachments = attachments.first else {
+                    return
+                }
+                if let contentType = attachments["contentType"] as? String {
+                    guard let name = attachments["name"] as? String, let urlAttch = attachments["url"] as? String, let url = URL(string: urlAttch), let date = dataFirst["date"] as? String else {
+                        print("gagal guard awal")
+                        return
+                    }
+                    print("masuk nih")
+                    if contentType.components(separatedBy: "/").count > 0 {
+                        if contentType.components(separatedBy: "/")[0] == "image" {
+                            //receive image
+                            let chat = Chat(id: 1, name: "", message: name, imageUrl: url, documentUrl: nil, date: date, type: .image)
+                            chatCompletion(chat)
+                        }
+                    }
+                    if contentType == "application/pdf" {
+                            let chat = Chat(id: 1, name: "", message: name, imageUrl: nil, documentUrl: url, date: date, type: .document)
+                        chatCompletion(chat)
+                    }
+                } else {
+                    print("gagal content trpe")
+                }
+            }
+            
             //MARK: Content
             if let message = dataFirst["content"] as? String, let date = dataFirst["date"] as? String {
                 let chat = Chat(id: 1, name: dataFirst["name"] as? String ?? "", message: message, imageUrl: nil, documentUrl: nil, date: date, type: .message)
@@ -113,25 +140,6 @@ final class SocketHelper: NSObject {
 //               ]
 //            }
             
-            if let attachments = dataFirst["attachments"] as? [String:Any] {
-                if let contentType = attachments["contentType"] as? String {
-                    guard let name = attachments["name"] as? String, let urlAttch = attachments["url"] as? String, let url = URL(string: urlAttch), let date = dataFirst["date"] as? String else {
-                        return
-                    }
-                    
-                    if contentType.components(separatedBy: "/").count > 0 {
-                        if contentType.components(separatedBy: "/")[0] == "image" {
-                            //receive image
-                            let chat = Chat(id: 1, name: "", message: name, imageUrl: url, documentUrl: nil, date: date, type: .image)
-                            chatCompletion(chat)
-                        }
-                    }
-                    if contentType == "application/pdf" {
-                            let chat = Chat(id: 1, name: "", message: name, imageUrl: nil, documentUrl: url, date: date, type: .document)
-                        chatCompletion(chat)
-                    }
-                }
-            }
             //MARK: Document image
 //            {
 //               "stream_id":"6185195973bedb19c6251b89",

@@ -54,6 +54,7 @@ class FormViewController: UIViewController {
             self.helloView.backgroundColor = Color.blue
             self.submitButton.backgroundColor = Color.blue
         }
+        self.submitButton.setTitle(" ", for: .application)
     }
     
     @IBAction func exitAction(_ sender: Any) {

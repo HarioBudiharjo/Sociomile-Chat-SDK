@@ -23,6 +23,7 @@ class ChatViewController: UIViewController {
     var imageChat = UIImage()
     var docChat = Data()
     var fileUrlTemp: URL?
+    var docUrlTemp: URL?
 
     let network = ChatNetwork()
     
@@ -87,6 +88,7 @@ class ChatViewController: UIViewController {
             self.headerView.backgroundColor = Color.blue
             self.sendButton.backgroundColor = Color.blue
         }
+        self.sendButton.setTitle("", for: .normal)
     }
     
     private func registerTableView() {
@@ -126,12 +128,12 @@ class ChatViewController: UIViewController {
         let chat2 = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
         
         //MARK: Document
-        let chatDoc = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
-        let chatDoc2 = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        let chatDoc = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .document)
+        let chatDoc2 = Chat(id: 1, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .document)
         
         //MARK: Image
-        let chatImage = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
-        let chatImage2 = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .message)
+        let chatImage = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .image)
+        let chatImage2 = Chat(id: 2, name: "hario", message: "123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai123 ku mulai", imageUrl: nil, documentUrl: nil, date: "123", type: .image)
         
         chats.append(chat)
         chats.append(chat2)
@@ -238,10 +240,14 @@ class ChatViewController: UIViewController {
             "is_left": true
         ]
         SocketHelper.shared.sendMessage(message: dataMessage) {
-            if (data.data?.type ?? "") == TypeMessage.image.rawValue {
+            if file.rawValue == TypeMessage.image.rawValue {
                 chats.append(Chat(id: 2, name: "", message: "", imageUrl: self.fileUrlTemp, documentUrl: nil, date: date, type: .image))
                 chatTextField.text = ""
-            } else {
+            } else if file.rawValue == TypeMessage.document.rawValue {
+                chats.append(Chat(id: 2, name: "", message: "Document", imageUrl: nil, documentUrl: self.docUrlTemp, date: date, type: .document))
+                chatTextField.text = ""
+            }
+            else {
                 chats.append(Chat(id: 2, name: "", message: chatTextField.text ?? "", imageUrl: nil, documentUrl: nil, date: date, type: .message))
                 chatTextField.text = ""
             }
@@ -408,6 +414,7 @@ extension ChatViewController: UIDocumentPickerDelegate{
                return
         }
         print("document : \(documentURL)")
+        self.docUrlTemp = documentURL
         do {
             let data = try Data(contentsOf: documentURL)
             docChat = data
