@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.author           = { 'Hario Budiharjo' => 'hariobudiharjo@gmail.com' }
   s.source           = { :git => 'https://github.com/HarioBudiharjo/Sociomile-Chat-SDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '15.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'SociomileChatSDK/Modules/**/*.{h,m,swift}'
   
@@ -18,9 +19,9 @@ Pod::Spec.new do |s|
      'SociomileChatSDK' => ['SociomileChatSDK/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,plist}']
   }
   
-  s.dependency 'Alamofire', '~> 5.4'
-  s.dependency 'Kingfisher', '~> 6.3.0'
-  s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
+  s.dependency 'Alamofire'
+  s.dependency 'Kingfisher'
+  s.dependency 'Socket.IO-Client-Swift'
   s.dependency 'NVActivityIndicatorView'
 
 end
